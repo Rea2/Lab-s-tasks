@@ -3,14 +3,9 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 public class PO_Form extends PO {
-
-    private String vmClassExpected = "regular";
-    private String instanceTypeExpected = "n1-standard-8";
-    private String regionExpected = "Iowa";
-    private String localSSDExpected = "2x375 GB";
-    private String commitmentTermExpected = "1 Year";
 
     @FindBy(xpath = "//div[contains(text(), 'VM class')]")
     private WebElement vmClass;
@@ -27,15 +22,20 @@ public class PO_Form extends PO {
     @FindBy(xpath = "//div[contains(text(), 'Commitment term')]")
     private WebElement commitmentTerm;
 
+    @FindBy(xpath = "//h2/b[@class = 'ng-binding']")
+    private WebElement totalEstimatedCost;
+
+    @FindBy(xpath = "//button[@aria-label = 'Email Estimate']")
+    private WebElement emailEstimate;
+
+    @FindBy(xpath = "//form[@name =  'emailForm']")
+    private WebElement formEmail;
 
     public PO_Form(WebDriver driver) {
         super(driver);
     }
 
     public String getTextFromVmClass () {
-        System.out.println(isWebElementExist(vmClass));
-        System.out.println(vmClass.getTagName());
-        System.out.println(vmClass.getText());
         return vmClass.getText();
     }
 
@@ -51,9 +51,20 @@ public class PO_Form extends PO {
         return localSSD.getText();
     }
 
-    public String getTextCommitmentTerm () {
+    public String getTextFromTotalEstimatedCost() {
+        return totalEstimatedCost.getText();
+    }
+
+    public String getTextFromCommittedTerm() {
         return commitmentTerm.getText();
     }
+
+    public PO_FormEmail clickEmailEstimate()  {
+        waitUntilElementToBeClickable(emailEstimate);
+        emailEstimate.click();
+        return PageFactory.initElements(driver, PO_FormEmail.class) ;
+    }
+
 }
 
 

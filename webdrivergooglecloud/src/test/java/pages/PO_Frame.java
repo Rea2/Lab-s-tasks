@@ -1,13 +1,11 @@
 package pages;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
@@ -23,9 +21,11 @@ public class PO_Frame extends PO {
     @FindBy(xpath = "//md-select[@id = 'select_58']")
     private WebElement operatingSystem;
 
+    // "Free: Debian, CentOS, CoreOS, Ubuntu, or other User Provided OS"
     @FindBy(xpath = "//md-option[@id = 'select_option_48']/div")
     private WebElement operatingSystemOption1;
 
+    // "Regular"
     @FindBy(xpath = "//md-select[@id = 'select_62']")
     private WebElement vmClass;
 
@@ -76,15 +76,9 @@ public class PO_Frame extends PO {
 
     public PO_Frame(WebDriver driver) {
         super(driver);
-        // Провекрка того факта, что мы на верной странице.
-//        if ((!driver.getTitle().equals("Cloud Pricing Calculator")) ) {
-//            throw new IllegalStateException("Wrong site page!");
-//        }
     }
 
-    public WebElement waitUntilElementToBeClickable(WebElement webElement) {
-        return new WebDriverWait(driver,5).until(ExpectedConditions.elementToBeClickable(webElement));
-    }
+
 
     public boolean isFormPresentForReal() {
         List<WebElement> form =  wait.until(ExpectedConditions.numberOfElementsToBe(By.xpath("//form[@name = 'ComputeEngineForm']"), 1));
@@ -98,15 +92,16 @@ public class PO_Frame extends PO {
         return this;
     }
 
-// "Free: Debian, CentOS, CoreOS, Ubuntu, or other User Provided OS"
     public PO_Frame selectOperatingSystem()  {
+        waitUntilElementToBeClickable(operatingSystem);
         operatingSystem.click();
         waitUntilElementToBeClickable(operatingSystemOption1);
         operatingSystemOption1.click();
         return this;
     }
-//"Regular"
+
     public PO_Frame selectVmClass(){
+        waitUntilElementToBeClickable(vmClass);
         vmClass.click();
         waitUntilElementToBeClickable(vmClassOption1);
         vmClassOption1.click();
@@ -114,6 +109,7 @@ public class PO_Frame extends PO {
     }
 
     public PO_Frame selectInstantType(){
+        waitUntilElementToBeClickable(instanceType);
         instanceType.click();
         waitUntilElementToBeClickable(instanceTypeOptional1);
         instanceTypeOptional1.click();
@@ -134,6 +130,7 @@ public class PO_Frame extends PO {
     }
 
     public PO_Frame selectGPUsType(){
+        waitUntilElementToBeClickable(gPUType);
         gPUType.click();
         waitUntilElementToBeClickable(gPUTypeOption1);
         gPUTypeOption1.click();
@@ -141,6 +138,7 @@ public class PO_Frame extends PO {
     }
 
     public PO_Frame selectLocalSsd(){
+        waitUntilElementToBeClickable(localSSD);
         localSSD.click();
         waitUntilElementToBeClickable(localSSDOption1);
         localSSDOption1.click();
@@ -148,6 +146,7 @@ public class PO_Frame extends PO {
     }
 
     public PO_Frame selectDataCenter(){
+        waitUntilElementToBeClickable(dataCenterLocation);
         dataCenterLocation.click();
         waitUntilElementToBeClickable(dataCenterLocationOption1);
         dataCenterLocationOption1.click();
@@ -161,7 +160,7 @@ public class PO_Frame extends PO {
         return this;
     }
 
-    public PO_Frame clickAddToEstimate() throws InterruptedException {
+    public PO_Frame clickAddToEstimate() {
         new WebDriverWait(driver,10).until(ExpectedConditions.elementToBeClickable(buttonAddToEstimate));
         buttonAddToEstimate.click();
         return this;

@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PO {
@@ -21,5 +22,14 @@ public class PO {
         } catch (NoSuchElementException e) {
             return false;
         }
+    }
+
+    // Универсальный  Explicit wait для ожидания, что веб-элемент webElement кликабельный
+    public WebElement waitUntilElementToBeClickable(WebElement webElement) {
+        return new WebDriverWait(driver,10).until(ExpectedConditions.elementToBeClickable(webElement));
+    }
+
+    public WebElement waitUntilElementToBeVisible(WebElement webElement) {
+        return new WebDriverWait(driver,10).until(ExpectedConditions.visibilityOf(webElement));
     }
 }
