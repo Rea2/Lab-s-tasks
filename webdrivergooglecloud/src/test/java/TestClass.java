@@ -1,3 +1,4 @@
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -5,6 +6,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import pages.*;
+
+import java.util.ArrayList;
 import java.util.Arrays;
 
 
@@ -127,14 +130,32 @@ public class TestClass {
     // совпадает с тем, что отображается в калькуляторе
     @Test(priority = 3)
     public void testGettingCalculationsOnEmail() {
+        String estimatedCostFromGoogleWebSite = form.getTextFromTotalEstimatedCost();
         formEmail  = form.clickEmailEstimate();
+
+        // Переключаемся на новую вкладку и открываем "https://10minutemail.com"
+        ((JavascriptExecutor)driver).executeScript("window.open()");
+        ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+        driver.switchTo().window(tabs.get(1));
+        driver.get("https://10minutemail.com");
         page10MinuteEmail = PageFactory.initElements(driver, PO_10minuteEmail.class);
+
+        // Получаем адрес нового рандомного 10-ти минтуного ящика
         String eMail = page10MinuteEmail.getTextFromInputEmailAddress();
+
+
+        // Переключаемся на первую вкладку
+        driver.switchTo().window(tabs.get(0));
+
+        // Входим во фрейм
+        driver.switchTo().frame("idIframe");
         formEmail.inputEmail(eMail);
         formEmail.submitFormEmail();
+        driver.switchTo().window(tabs.get(1));
+        page10MinuteEmail.openEmailFromGoogleCloud();
         String valueFromEmail = " " + page10MinuteEmail.getTextCostValueFromEmail() + " ";
-        Assert.assertTrue(form.getTextFromTotalEstimatedCost().contains(valueFromEmail),
-                "WebSite: " + form.getTextFromTotalEstimatedCost() + "\n" +
+        Assert.assertTrue(estimatedCostFromGoogleWebSite.contains(valueFromEmail),
+                "WebSite: " + estimatedCostFromGoogleWebSite + "\n" +
                    "Email: " + valueFromEmail);
     }
 

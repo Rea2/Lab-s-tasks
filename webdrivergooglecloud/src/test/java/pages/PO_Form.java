@@ -28,8 +28,7 @@ public class PO_Form extends PO {
     @FindBy(xpath = "//button[@aria-label = 'Email Estimate']")
     private WebElement emailEstimate;
 
-    @FindBy(xpath = "//form[@name =  'emailForm']")
-    private WebElement formEmail;
+
 
     public PO_Form(WebDriver driver) {
         super(driver);

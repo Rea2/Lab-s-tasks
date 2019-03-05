@@ -14,7 +14,7 @@ public class PO_10minuteEmail extends PO {
     @FindBy(xpath = "//span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']")
     private WebElement showEmailContent;
 
-    @FindBy(xpath = "//table[@class = 'quote']//tr[3]/td[2]/h3")
+    @FindBy(xpath = "//table[@class = 'quote']//tr[2]/td[2]/h3")
     private WebElement costValue;
 
 
@@ -23,12 +23,12 @@ public class PO_10minuteEmail extends PO {
     }
 
     public String getTextFromInputEmailAddress() {
-        new WebDriverWait(driver,10).until(ExpectedConditions.textToBePresentInElementValue(inputEmailAddress, "value"));
+        waitUntilElementToBeVisible(waitUntilElementToBeVisible(inputEmailAddress));
         return inputEmailAddress.getAttribute("value");
     }
 
-    public PO_10minuteEmail sd() {
-        waitUntilElementToBeClickable(showEmailContent);
+    public PO_10minuteEmail openEmailFromGoogleCloud() {
+        new WebDriverWait(driver,30).until(ExpectedConditions.elementToBeClickable(showEmailContent));
         showEmailContent.click();
         return this;
     }

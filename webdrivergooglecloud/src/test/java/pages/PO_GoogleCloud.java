@@ -10,8 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.List;
 
-
-
 public class PO_GoogleCloud extends PO {
 
     @FindBy(xpath = "//div[@class = 'cloud-section-header__link']/a[@href = 'https://cloud.google.com/products/']")
@@ -61,7 +59,6 @@ public class PO_GoogleCloud extends PO {
     public PO_Frame clickComputeEngine(){
         waitUntilElementToBeClickable(buttonComputeEngine);
         buttonComputeEngine.click();
- //       new WebDriverWait(driver,10).until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(frame));
         return PageFactory.initElements(driver, PO_Frame.class);
     }
 
@@ -73,28 +70,31 @@ public class PO_GoogleCloud extends PO {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

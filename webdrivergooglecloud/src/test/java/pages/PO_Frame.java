@@ -74,11 +74,34 @@ public class PO_Frame extends PO {
     @FindBy(xpath = "//form[@name = 'ComputeEngineForm']//button[@aria-label = 'Add to Estimate']")
     private WebElement buttonAddToEstimate;
 
+    @FindBy(xpath = "//div[@id='select_container_59']//md-option/div")
+    private List<WebElement> listOptionsOperatingSystem;
+
+    @FindBy(xpath = "//div[@id='select_container_63']//md-option/div[@class = 'md-text' ]")
+    private List<WebElement> listOptionsVmClass;
+
+    @FindBy(xpath = "//md-select-menu[@class='md-overflow']//div[@class = 'md-text']")
+    private List<WebElement> listOptionsInstanceType;
+
+    @FindBy(xpath = "//div[@id = 'select_container_331']//div[@class = 'md-text ng-binding']")
+    private List<WebElement> listOptionsNumberOfGPU;
+
+
+    @FindBy(xpath = "//div[@id = 'select_container_333']//div[@class = 'md-text ng-binding']")
+    private List<WebElement> listOptionsGPUType;
+
+    @FindBy(xpath = "//div[@id = 'select_container_96']//div[@class = 'md-text ng-binding']")
+    private List<WebElement> listOptionsLocalSSD;
+
+    @FindBy(xpath = "//div[@id = 'select_container_113']//div[@class = 'md-text ng-binding']")
+    private List<WebElement> listOptionsDataCenterLocation;
+
+    @FindBy(xpath = "")
+    private List<WebElement> listOptionsCommittedUsage;
+
     public PO_Frame(WebDriver driver) {
         super(driver);
     }
-
-
 
     public boolean isFormPresentForReal() {
         List<WebElement> form =  wait.until(ExpectedConditions.numberOfElementsToBe(By.xpath("//form[@name = 'ComputeEngineForm']"), 1));
@@ -93,55 +116,43 @@ public class PO_Frame extends PO {
     }
 
     public PO_Frame selectOperatingSystem()  {
-        waitUntilElementToBeClickable(operatingSystem);
-        operatingSystem.click();
-        waitUntilElementToBeClickable(operatingSystemOption1);
-        operatingSystemOption1.click();
+        clickMenuAndSelectValue(operatingSystem, listOptionsOperatingSystem,
+                "Free: Debian, CentOS, CoreOS, Ubuntu, or other User Provided OS" );
         return this;
     }
 
     public PO_Frame selectVmClass(){
-        waitUntilElementToBeClickable(vmClass);
-        vmClass.click();
-        waitUntilElementToBeClickable(vmClassOption1);
-        vmClassOption1.click();
+        clickMenuAndSelectValue(vmClass, listOptionsVmClass,
+                "Regular" );
         return this;
     }
 
     public PO_Frame selectInstantType(){
-        waitUntilElementToBeClickable(instanceType);
-        instanceType.click();
-        waitUntilElementToBeClickable(instanceTypeOptional1);
-        instanceTypeOptional1.click();
+        clickMenuAndSelectValue(instanceType, listOptionsInstanceType,
+                "n1-standard-8    (vCPUs: 8, RAM: 30 GB)" );
         return this;
     }
 
     public PO_Frame tickAddGPU(){
-        addGPUs.click();
+        clickButtonWhenClickable(addGPUs);
         return this;
     }
 
     public PO_Frame selectNumberOfGPUs(){
-        waitUntilElementToBeClickable(numberOfGPUs);
-        numberOfGPUs.click();
-        waitUntilElementToBeClickable(numberOfGPUsOption1);
-        numberOfGPUsOption1.click();
+        clickMenuAndSelectValue(numberOfGPUs, listOptionsNumberOfGPU,
+                "1" );
         return this;
     }
 
     public PO_Frame selectGPUsType(){
-        waitUntilElementToBeClickable(gPUType);
-        gPUType.click();
-        waitUntilElementToBeClickable(gPUTypeOption1);
-        gPUTypeOption1.click();
+        clickMenuAndSelectValue(gPUType, listOptionsGPUType,
+                "NVIDIA Tesla V100" );
         return this;
     }
 
     public PO_Frame selectLocalSsd(){
-        waitUntilElementToBeClickable(localSSD);
-        localSSD.click();
-        waitUntilElementToBeClickable(localSSDOption1);
-        localSSDOption1.click();
+        clickMenuAndSelectValue(localSSD, listOptionsLocalSSD,
+                "2x375 GB" );
         return this;
     }
 
@@ -165,6 +176,12 @@ public class PO_Frame extends PO {
         buttonAddToEstimate.click();
         return this;
     }
+
+
+
+
+
+
 
 
 
