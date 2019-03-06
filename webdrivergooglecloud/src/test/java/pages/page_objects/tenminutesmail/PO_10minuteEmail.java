@@ -1,10 +1,11 @@
-package pages;
+package pages.page_objects.tenminutesmail;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import pages.page_objects.PO;
 
 public class PO_10minuteEmail extends PO {
 
@@ -16,7 +17,6 @@ public class PO_10minuteEmail extends PO {
 
     @FindBy(xpath = "//table[@class = 'quote']//tr[2]/td[2]/h3")
     private WebElement costValue;
-
 
     public PO_10minuteEmail(WebDriver driver) {
         super(driver);

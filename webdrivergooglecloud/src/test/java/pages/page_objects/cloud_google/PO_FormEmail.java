@@ -1,8 +1,9 @@
-package pages;
+package pages.page_objects.cloud_google;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import pages.page_objects.PO;
 
 public class PO_FormEmail extends PO {
 
@@ -26,15 +27,7 @@ public class PO_FormEmail extends PO {
     }
 
     public PO_FormEmail submitFormEmail (){
-        waitUntilElementToBeClickable(sendEmail);
-        sendEmail.click();
+        clickButtonWhenClickable(sendEmail);
         return this;
     }
-
-
-
-
-
-
-
 }

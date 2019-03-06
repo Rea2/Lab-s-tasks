@@ -1,9 +1,10 @@
-package pages;
+package pages.page_objects.cloud_google;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import pages.page_objects.PO;
 
 public class PO_Form extends PO {
 
@@ -27,8 +28,6 @@ public class PO_Form extends PO {
 
     @FindBy(xpath = "//button[@aria-label = 'Email Estimate']")
     private WebElement emailEstimate;
-
-
 
     public PO_Form(WebDriver driver) {
         super(driver);
@@ -58,12 +57,10 @@ public class PO_Form extends PO {
         return commitmentTerm.getText();
     }
 
-    public PO_FormEmail clickEmailEstimate()  {
-        waitUntilElementToBeClickable(emailEstimate);
-        emailEstimate.click();
+    public PO_FormEmail clickEmailEstimate() {
+        clickButtonWhenClickable(emailEstimate);
         return PageFactory.initElements(driver, PO_FormEmail.class) ;
     }
-
 }
 
 
