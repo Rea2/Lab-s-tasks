@@ -1,6 +1,7 @@
 package pages.page_objects;
 
 import org.openqa.selenium.NoSuchElementException;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -44,6 +45,11 @@ public abstract class PO {
 
     protected void clickMenuAndSelectValue(WebElement button, List<WebElement> options, String option ) {
         clickButtonWhenClickable(button);
-        selectValueFromDropDownMenu(options,option);
+        try {
+            selectValueFromDropDownMenu(options,option);
+        } catch (TimeoutException e) {
+            clickButtonWhenClickable(button);
+            selectValueFromDropDownMenu(options,option);
+        }
     }
 }

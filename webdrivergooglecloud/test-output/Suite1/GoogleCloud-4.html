@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Mar 07 11:38:08 MSK 2019</td>
+<td>Started on:</td><td>Thu Mar 07 16:52:31 MSK 2019</td>
 </tr>
-<tr><td>Total time:</td><td>74 seconds (74634 ms)</td>
+<tr><td>Total time:</td><td>78 seconds (78080 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,12 +76,13 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='TestClass.testGettingCalculationsOnEmail()'><b>testGettingCalculationsOnEmail</b><br>Test class: TestClass</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@class=&apos;ui-accordion-header-icon ui-icon ui-icon-triangle-1-e&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //input[@id=&apos;mailAddress&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at pages.page_objects.tenminutesmail.PO_10minuteEmail.openEmailFromGoogleCloud(PO_10minuteEmail.java:31)
-	at TestClass.testGettingCalculationsOnEmail(TestClass.java:175)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;ui-accordion-header-icon ui-icon ui-icon-triangle-1-e&apos;]&quot;}
+	at pages.page_objects.PO.waitUntilElementToBeVisible(PO.java:31)
+	at pages.page_objects.tenminutesmail.PO_10minuteEmail.getTextFromInputEmailAddress(PO_10minuteEmail.java:26)
+	at TestClass.testGettingCalculationsOnEmail(TestClass.java:160)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;mailAddress&apos;]&quot;}
   (Session info: chrome=72.0.3626.121)
   (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -89,9 +90,9 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;EPBYMINW7576&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52495}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: 4f0a8d0bc9dac2f2e8c771187de60187
-*** Element info: {Using=xpath, value=//span[@class=&apos;ui-accordion-header-icon ui-icon ui-icon-triangle-1-e&apos;]}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64364}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: a3452f0f00dbc95258cbb01b7c5c57a9
+*** Element info: {Using=xpath, value=//input[@id=&apos;mailAddress&apos;]}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
@@ -111,16 +112,15 @@ Session ID: 4f0a8d0bc9dac2f2e8c771187de60187
 	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 26 more
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace365298301", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace365298301'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.xpath: //span[@class=&apos;ui-accordion-header-icon ui-icon ui-icon-triangle-1-e&apos;]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	... 27 more
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace370356001", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace370356001'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //input[@id=&apos;mailAddress&apos;]&apos; (tried for 10 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at pages.page_objects.tenminutesmail.PO_10minuteEmail.openEmailFromGoogleCloud(PO_10minuteEmail.java:31)
-	at TestClass.testGettingCalculationsOnEmail(TestClass.java:175)
+	at pages.page_objects.PO.waitUntilElementToBeVisible(PO.java:31)
+	at pages.page_objects.tenminutesmail.PO_10minuteEmail.getTextFromInputEmailAddress(PO_10minuteEmail.java:26)
+	at TestClass.testGettingCalculationsOnEmail(TestClass.java:160)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -145,7 +145,7 @@ Session ID: 4f0a8d0bc9dac2f2e8c771187de60187
 	at org.testng.TestNG.run(TestNG.java:1017)
 	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
 	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[@class=&apos;ui-accordion-header-icon ui-icon ui-icon-triangle-1-e&apos;]&quot;}
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;mailAddress&apos;]&quot;}
   (Session info: chrome=72.0.3626.121)
   (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -153,9 +153,9 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;EPBYMINW7576&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52495}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: 4f0a8d0bc9dac2f2e8c771187de60187
-*** Element info: {Using=xpath, value=//span[@class=&apos;ui-accordion-header-icon ui-icon ui-icon-triangle-1-e&apos;]}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64364}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: a3452f0f00dbc95258cbb01b7c5c57a9
+*** Element info: {Using=xpath, value=//input[@id=&apos;mailAddress&apos;]}
 	at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
@@ -178,13 +178,11 @@ Session ID: 4f0a8d0bc9dac2f2e8c771187de60187
 	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 26 more
+	... 27 more
 </pre></div></td>
-<td>36</td>
-<td>TestClass@2133c8f8</td></tr>
+<td>42</td>
+<td>TestClass@3ac3fd8b</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -197,12 +195,12 @@ Session ID: 4f0a8d0bc9dac2f2e8c771187de60187
 <td title='TestClass.testIsFilledFormCorrect()'><b>testIsFilledFormCorrect</b><br>Test class: TestClass</td>
 <td></td>
 <td>0</td>
-<td>TestClass@2133c8f8</td></tr>
+<td>TestClass@3ac3fd8b</td></tr>
 <tr>
 <td title='TestClass.testTotalEstimatedCost()'><b>testTotalEstimatedCost</b><br>Test class: TestClass</td>
 <td></td>
 <td>0</td>
-<td>TestClass@2133c8f8</td></tr>
+<td>TestClass@3ac3fd8b</td></tr>
 </table><p>
 </body>
 </html>

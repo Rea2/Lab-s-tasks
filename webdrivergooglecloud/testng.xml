@@ -26,4 +26,29 @@
             <class name="TestClass"/>
         </classes>
     </test>
+    <test name="GoogleCloud-6">
+        <classes>
+            <class name="TestClass"/>
+        </classes>
+    </test>
+    <test name="GoogleCloud-7">
+        <classes>
+            <class name="TestClass"/>
+        </classes>
+    </test>
+    <test name="GoogleCloud-8">
+        <classes>
+            <class name="TestClass"/>
+        </classes>
+    </test>
+    <test name="GoogleCloud-9">
+        <classes>
+            <class name="TestClass"/>
+        </classes>
+    </test>
+    <test name="GoogleCloud-10">
+        <classes>
+            <class name="TestClass"/>
+        </classes>
+    </test>
 </suite>

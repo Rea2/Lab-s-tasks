@@ -18,7 +18,9 @@
     <classes>
       <class name="TestClass">
         <methods>
+          <include name="testTotalEstimatedCost"/>
           <include name="beforeClass"/>
+          <include name="testIsFilledFormCorrect"/>
           <include name="afterTest"/>
           <include name="afterClass"/>
           <include name="beforeTest"/>
@@ -66,4 +68,73 @@
       </class> <!-- TestClass -->
     </classes>
   </test> <!-- GoogleCloud-5(failed) -->
+  <test thread-count="5" name="GoogleCloud-6(failed)">
+    <classes>
+      <class name="TestClass">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="testGettingCalculationsOnEmail"/>
+        </methods>
+      </class> <!-- TestClass -->
+    </classes>
+  </test> <!-- GoogleCloud-6(failed) -->
+  <test thread-count="5" name="GoogleCloud-7(failed)">
+    <classes>
+      <class name="TestClass">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="testGettingCalculationsOnEmail"/>
+        </methods>
+      </class> <!-- TestClass -->
+    </classes>
+  </test> <!-- GoogleCloud-7(failed) -->
+  <test thread-count="5" name="GoogleCloud-8(failed)">
+    <classes>
+      <class name="TestClass">
+        <methods>
+          <include name="testTotalEstimatedCost"/>
+          <include name="beforeClass"/>
+          <include name="testIsFilledFormCorrect"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="testGettingCalculationsOnEmail"/>
+        </methods>
+      </class> <!-- TestClass -->
+    </classes>
+  </test> <!-- GoogleCloud-8(failed) -->
+  <test thread-count="5" name="GoogleCloud-9(failed)">
+    <classes>
+      <class name="TestClass">
+        <methods>
+          <include name="testTotalEstimatedCost"/>
+          <include name="beforeClass"/>
+          <include name="testIsFilledFormCorrect"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="testGettingCalculationsOnEmail"/>
+        </methods>
+      </class> <!-- TestClass -->
+    </classes>
+  </test> <!-- GoogleCloud-9(failed) -->
+  <test thread-count="5" name="GoogleCloud-10(failed)">
+    <classes>
+      <class name="TestClass">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="testGettingCalculationsOnEmail"/>
+        </methods>
+      </class> <!-- TestClass -->
+    </classes>
+  </test> <!-- GoogleCloud-10(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

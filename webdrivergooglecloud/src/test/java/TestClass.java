@@ -138,6 +138,7 @@ public class TestClass {
 
     //  Дождаться письма с рассчетом стоимости и проверить, что Total Estimated Monthly Cost в письме
     // совпадает с тем, что отображается в калькуляторе
+
     @Test (priority = 3)
     public void testGettingCalculationsOnEmail() {
         form = PageFactory.initElements(driver, PO_Form.class);

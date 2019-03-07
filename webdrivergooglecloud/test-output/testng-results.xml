@@ -1,45 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="5" ignored="0" total="15" passed="10">
+<testng-results skipped="9" failed="7" ignored="0" total="30" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="378683" started-at="2019-03-07T08:34:13Z" finished-at="2019-03-07T08:40:32Z">
+  <suite name="Suite1" duration-ms="797509" started-at="2019-03-07T13:48:17Z" finished-at="2019-03-07T14:01:35Z">
     <groups>
     </groups>
-    <test name="GoogleCloud-1" duration-ms="92585" started-at="2019-03-07T08:34:13Z" finished-at="2019-03-07T08:35:46Z">
+    <test name="GoogleCloud-1" duration-ms="74042" started-at="2019-03-07T13:48:17Z" finished-at="2019-03-07T13:49:31Z">
       <class name="TestClass">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@4ec6a292]" name="beforeClass" is-config="true" duration-ms="53044" started-at="2019-03-07T08:34:13Z" finished-at="2019-03-07T08:35:06Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@ea4a92b]" name="beforeClass" is-config="true" duration-ms="34541" started-at="2019-03-07T13:48:17Z" finished-at="2019-03-07T13:48:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@4ec6a292]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-07T08:35:06Z" finished-at="2019-03-07T08:35:06Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@ea4a92b]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-07T13:48:52Z" finished-at="2019-03-07T13:48:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@4ec6a292]" name="testIsFilledFormCorrect" duration-ms="983" started-at="2019-03-07T08:35:06Z" finished-at="2019-03-07T08:35:07Z">
+        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@ea4a92b]" name="testIsFilledFormCorrect" duration-ms="699" started-at="2019-03-07T13:48:52Z" finished-at="2019-03-07T13:48:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsFilledFormCorrect -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@4ec6a292]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-07T08:35:07Z" finished-at="2019-03-07T08:35:07Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@ea4a92b]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:48:53Z" finished-at="2019-03-07T13:48:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@4ec6a292]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-07T08:35:07Z" finished-at="2019-03-07T08:35:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@4ec6a292]" name="testTotalEstimatedCost" duration-ms="97" started-at="2019-03-07T08:35:07Z" finished-at="2019-03-07T08:35:07Z">
+        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@ea4a92b]" name="testTotalEstimatedCost" duration-ms="82" started-at="2019-03-07T13:48:53Z" finished-at="2019-03-07T13:48:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTotalEstimatedCost -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@4ec6a292]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-07T08:35:07Z" finished-at="2019-03-07T08:35:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@4ec6a292]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:35:07Z" finished-at="2019-03-07T08:35:07Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@ea4a92b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:48:53Z" finished-at="2019-03-07T13:48:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="testGettingCalculationsOnEmail()[pri:3, instance:TestClass@4ec6a292]" name="testGettingCalculationsOnEmail" duration-ms="37277" started-at="2019-03-07T08:35:07Z" finished-at="2019-03-07T08:35:45Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@ea4a92b]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:48:53Z" finished-at="2019-03-07T13:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testGettingCalculationsOnEmail()[pri:3, instance:TestClass@ea4a92b]" name="testGettingCalculationsOnEmail" duration-ms="36855" started-at="2019-03-07T13:48:53Z" finished-at="2019-03-07T13:49:30Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']' (tried for 30 second(s) with 500 milliseconds interval)]]>
@@ -49,7 +45,7 @@
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 at pages.page_objects.tenminutesmail.PO_10minuteEmail.openEmailFromGoogleCloud(PO_10minuteEmail.java:31)
-at TestClass.testGettingCalculationsOnEmail(TestClass.java:175)
+at TestClass.testGettingCalculationsOnEmail(TestClass.java:172)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -82,8 +78,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:51826}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: 2d71f872ea196875934d45868a24cd89
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:63868}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 74b800756fbc413a6f8963a9ca7a52f0
 *** Element info: {Using=xpath, value=//span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']}
 at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -117,67 +113,56 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGettingCalculationsOnEmail -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@4ec6a292]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:35:45Z" finished-at="2019-03-07T08:35:45Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@ea4a92b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:48:53Z" finished-at="2019-03-07T13:48:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@ea4a92b]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:49:30Z" finished-at="2019-03-07T13:49:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@4ec6a292]" name="afterClass" is-config="true" duration-ms="1031" started-at="2019-03-07T08:35:45Z" finished-at="2019-03-07T08:35:46Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@ea4a92b]" name="afterClass" is-config="true" duration-ms="1795" started-at="2019-03-07T13:49:30Z" finished-at="2019-03-07T13:49:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestClass -->
     </test> <!-- GoogleCloud-1 -->
-    <test name="GoogleCloud-2" duration-ms="72634" started-at="2019-03-07T08:35:46Z" finished-at="2019-03-07T08:36:59Z">
+    <test name="GoogleCloud-2" duration-ms="88016" started-at="2019-03-07T13:49:31Z" finished-at="2019-03-07T13:51:00Z">
       <class name="TestClass">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@6b71769e]" name="beforeClass" is-config="true" duration-ms="33533" started-at="2019-03-07T08:35:46Z" finished-at="2019-03-07T08:36:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@6b71769e]" name="testIsFilledFormCorrect" duration-ms="751" started-at="2019-03-07T08:36:20Z" finished-at="2019-03-07T08:36:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsFilledFormCorrect -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@6b71769e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:36:20Z" finished-at="2019-03-07T08:36:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@6b71769e]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-07T08:36:20Z" finished-at="2019-03-07T08:36:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@6b71769e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:36:20Z" finished-at="2019-03-07T08:36:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@6b71769e]" name="testTotalEstimatedCost" duration-ms="85" started-at="2019-03-07T08:36:20Z" finished-at="2019-03-07T08:36:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTotalEstimatedCost -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@6b71769e]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-07T08:36:20Z" finished-at="2019-03-07T08:36:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="FAIL" signature="testGettingCalculationsOnEmail()[pri:3, instance:TestClass@6b71769e]" name="testGettingCalculationsOnEmail" duration-ms="37262" started-at="2019-03-07T08:36:20Z" finished-at="2019-03-07T08:36:58Z">
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:TestClass@e580929]" name="beforeClass" is-config="true" duration-ms="88007" started-at="2019-03-07T13:49:31Z" finished-at="2019-03-07T13:50:59Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64073}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 53ab1f2e0102985e9540bfe2800a44db]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']' (tried for 30 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64073}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 53ab1f2e0102985e9540bfe2800a44db
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at pages.page_objects.tenminutesmail.PO_10minuteEmail.openEmailFromGoogleCloud(PO_10minuteEmail.java:31)
-at TestClass.testGettingCalculationsOnEmail(TestClass.java:175)
+at pages.page_objects.PO.selectValueFromDropDownMenu(PO.java:40)
+at pages.page_objects.PO.clickMenuAndSelectValue(PO.java:52)
+at pages.page_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:93)
+at TestClass.beforeClass(TestClass.java:67)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
@@ -192,98 +177,239 @@ at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
 at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
 at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']"}
-  (Session info: chrome=72.0.3626.121)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:TestClass@e580929]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:51:00Z" finished-at="2019-03-07T13:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@e580929]" name="testIsFilledFormCorrect" duration-ms="0" started-at="2019-03-07T13:51:00Z" finished-at="2019-03-07T13:51:00Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52083}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: 4071e811eef9b50f6ae223f9d90d9bbf
-*** Element info: {Using=xpath, value=//span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']}
-at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
-at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
-at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 26 more
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64073}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 53ab1f2e0102985e9540bfe2800a44db]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64073}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 53ab1f2e0102985e9540bfe2800a44db
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pages.page_objects.PO.selectValueFromDropDownMenu(PO.java:40)
+at pages.page_objects.PO.clickMenuAndSelectValue(PO.java:52)
+at pages.page_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:93)
+at TestClass.beforeClass(TestClass.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsFilledFormCorrect -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:TestClass@e580929]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:51:00Z" finished-at="2019-03-07T13:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:TestClass@e580929]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:51:00Z" finished-at="2019-03-07T13:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:TestClass@e580929]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:51:00Z" finished-at="2019-03-07T13:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@e580929]" name="testTotalEstimatedCost" duration-ms="0" started-at="2019-03-07T13:51:00Z" finished-at="2019-03-07T13:51:00Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64073}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 53ab1f2e0102985e9540bfe2800a44db]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64073}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 53ab1f2e0102985e9540bfe2800a44db
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pages.page_objects.PO.selectValueFromDropDownMenu(PO.java:40)
+at pages.page_objects.PO.clickMenuAndSelectValue(PO.java:52)
+at pages.page_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:93)
+at TestClass.beforeClass(TestClass.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalEstimatedCost -->
+        <test-method status="SKIP" signature="testGettingCalculationsOnEmail()[pri:3, instance:TestClass@e580929]" name="testGettingCalculationsOnEmail" duration-ms="0" started-at="2019-03-07T13:51:00Z" finished-at="2019-03-07T13:51:00Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64073}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 53ab1f2e0102985e9540bfe2800a44db]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (53ab1f2e0102985e9540bfe2800a44db)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64073}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 53ab1f2e0102985e9540bfe2800a44db
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pages.page_objects.PO.selectValueFromDropDownMenu(PO.java:40)
+at pages.page_objects.PO.clickMenuAndSelectValue(PO.java:52)
+at pages.page_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:93)
+at TestClass.beforeClass(TestClass.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGettingCalculationsOnEmail -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@6b71769e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:36:20Z" finished-at="2019-03-07T08:36:20Z">
+        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:TestClass@e580929]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:51:00Z" finished-at="2019-03-07T13:51:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@6b71769e]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-07T08:36:58Z" finished-at="2019-03-07T08:36:58Z">
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:TestClass@e580929]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:51:00Z" finished-at="2019-03-07T13:51:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@6b71769e]" name="afterClass" is-config="true" duration-ms="995" started-at="2019-03-07T08:36:58Z" finished-at="2019-03-07T08:36:59Z">
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:TestClass@e580929]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-03-07T13:51:00Z" finished-at="2019-03-07T13:51:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestClass -->
     </test> <!-- GoogleCloud-2 -->
-    <test name="GoogleCloud-3" duration-ms="69206" started-at="2019-03-07T08:36:59Z" finished-at="2019-03-07T08:38:08Z">
+    <test name="GoogleCloud-3" duration-ms="91736" started-at="2019-03-07T13:51:00Z" finished-at="2019-03-07T13:52:31Z">
       <class name="TestClass">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@27f674d]" name="beforeClass" is-config="true" duration-ms="30771" started-at="2019-03-07T08:36:59Z" finished-at="2019-03-07T08:37:29Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@48140564]" name="beforeClass" is-config="true" duration-ms="31791" started-at="2019-03-07T13:51:00Z" finished-at="2019-03-07T13:51:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@27f674d]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-07T08:37:29Z" finished-at="2019-03-07T08:37:29Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@48140564]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-07T13:51:31Z" finished-at="2019-03-07T13:51:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@27f674d]" name="testIsFilledFormCorrect" duration-ms="720" started-at="2019-03-07T08:37:29Z" finished-at="2019-03-07T08:37:30Z">
+        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@48140564]" name="testIsFilledFormCorrect" duration-ms="757" started-at="2019-03-07T13:51:31Z" finished-at="2019-03-07T13:51:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsFilledFormCorrect -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@27f674d]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:37:30Z" finished-at="2019-03-07T08:37:30Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@48140564]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:51:32Z" finished-at="2019-03-07T13:51:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@27f674d]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-07T08:37:30Z" finished-at="2019-03-07T08:37:30Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@48140564]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:51:32Z" finished-at="2019-03-07T13:51:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@27f674d]" name="testTotalEstimatedCost" duration-ms="86" started-at="2019-03-07T08:37:30Z" finished-at="2019-03-07T08:37:30Z">
+        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@48140564]" name="testTotalEstimatedCost" duration-ms="88" started-at="2019-03-07T13:51:32Z" finished-at="2019-03-07T13:51:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTotalEstimatedCost -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@27f674d]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-07T08:37:30Z" finished-at="2019-03-07T08:37:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@27f674d]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:37:30Z" finished-at="2019-03-07T08:37:30Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@48140564]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-07T13:51:32Z" finished-at="2019-03-07T13:51:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="testGettingCalculationsOnEmail()[pri:3, instance:TestClass@27f674d]" name="testGettingCalculationsOnEmail" duration-ms="36351" started-at="2019-03-07T08:37:30Z" finished-at="2019-03-07T08:38:07Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@48140564]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:51:32Z" finished-at="2019-03-07T13:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="FAIL" signature="testGettingCalculationsOnEmail()[pri:3, instance:TestClass@48140564]" name="testGettingCalculationsOnEmail" duration-ms="58009" started-at="2019-03-07T13:51:32Z" finished-at="2019-03-07T13:52:30Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']' (tried for 30 second(s) with 500 milliseconds interval)]]>
@@ -293,7 +419,7 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 at pages.page_objects.tenminutesmail.PO_10minuteEmail.openEmailFromGoogleCloud(PO_10minuteEmail.java:31)
-at TestClass.testGettingCalculationsOnEmail(TestClass.java:175)
+at TestClass.testGettingCalculationsOnEmail(TestClass.java:172)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -326,8 +452,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52323}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: 9ab46c6049963a09e23cb69d017aeba4
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64189}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: af626463168a8b62e342a6c056ec8348
 *** Element info: {Using=xpath, value=//span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']}
 at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -361,57 +487,54 @@ at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGettingCalculationsOnEmail -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@27f674d]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:38:07Z" finished-at="2019-03-07T08:38:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@27f674d]" name="afterClass" is-config="true" duration-ms="1257" started-at="2019-03-07T08:38:07Z" finished-at="2019-03-07T08:38:08Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@48140564]" name="afterClass" is-config="true" duration-ms="1081" started-at="2019-03-07T13:52:30Z" finished-at="2019-03-07T13:52:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@48140564]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:52:30Z" finished-at="2019-03-07T13:52:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
       </class> <!-- TestClass -->
     </test> <!-- GoogleCloud-3 -->
-    <test name="GoogleCloud-4" duration-ms="74634" started-at="2019-03-07T08:38:08Z" finished-at="2019-03-07T08:39:23Z">
+    <test name="GoogleCloud-4" duration-ms="78080" started-at="2019-03-07T13:52:31Z" finished-at="2019-03-07T13:53:49Z">
       <class name="TestClass">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@2133c8f8]" name="beforeClass" is-config="true" duration-ms="35826" started-at="2019-03-07T08:38:08Z" finished-at="2019-03-07T08:38:44Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@3ac3fd8b]" name="beforeClass" is-config="true" duration-ms="33564" started-at="2019-03-07T13:52:31Z" finished-at="2019-03-07T13:53:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@2133c8f8]" name="testIsFilledFormCorrect" duration-ms="691" started-at="2019-03-07T08:38:44Z" finished-at="2019-03-07T08:38:44Z">
+        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@3ac3fd8b]" name="testIsFilledFormCorrect" duration-ms="751" started-at="2019-03-07T13:53:05Z" finished-at="2019-03-07T13:53:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsFilledFormCorrect -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@2133c8f8]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:38:44Z" finished-at="2019-03-07T08:38:44Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@3ac3fd8b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:53:05Z" finished-at="2019-03-07T13:53:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@2133c8f8]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-07T08:38:44Z" finished-at="2019-03-07T08:38:44Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@3ac3fd8b]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:53:06Z" finished-at="2019-03-07T13:53:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@2133c8f8]" name="testTotalEstimatedCost" duration-ms="114" started-at="2019-03-07T08:38:44Z" finished-at="2019-03-07T08:38:45Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@3ac3fd8b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:53:06Z" finished-at="2019-03-07T13:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@3ac3fd8b]" name="testTotalEstimatedCost" duration-ms="88" started-at="2019-03-07T13:53:06Z" finished-at="2019-03-07T13:53:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTotalEstimatedCost -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@2133c8f8]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:38:44Z" finished-at="2019-03-07T08:38:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@2133c8f8]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:38:45Z" finished-at="2019-03-07T08:38:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="FAIL" signature="testGettingCalculationsOnEmail()[pri:3, instance:TestClass@2133c8f8]" name="testGettingCalculationsOnEmail" duration-ms="36876" started-at="2019-03-07T08:38:45Z" finished-at="2019-03-07T08:39:21Z">
+        <test-method status="FAIL" signature="testGettingCalculationsOnEmail()[pri:3, instance:TestClass@3ac3fd8b]" name="testGettingCalculationsOnEmail" duration-ms="42622" started-at="2019-03-07T13:53:06Z" finished-at="2019-03-07T13:53:48Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='mailAddress']' (tried for 10 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']' (tried for 30 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='mailAddress']' (tried for 10 second(s) with 500 milliseconds interval)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at pages.page_objects.tenminutesmail.PO_10minuteEmail.openEmailFromGoogleCloud(PO_10minuteEmail.java:31)
-at TestClass.testGettingCalculationsOnEmail(TestClass.java:175)
+at pages.page_objects.PO.waitUntilElementToBeVisible(PO.java:31)
+at pages.page_objects.tenminutesmail.PO_10minuteEmail.getTextFromInputEmailAddress(PO_10minuteEmail.java:26)
+at TestClass.testGettingCalculationsOnEmail(TestClass.java:160)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -436,7 +559,7 @@ at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
 at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
 at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']"}
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='mailAddress']"}
   (Session info: chrome=72.0.3626.121)
   (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -444,9 +567,9 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52495}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: 4f0a8d0bc9dac2f2e8c771187de60187
-*** Element info: {Using=xpath, value=//span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64364}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: a3452f0f00dbc95258cbb01b7c5c57a9
+*** Element info: {Using=xpath, value=//input[@id='mailAddress']}
 at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
@@ -469,75 +592,74 @@ at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedCo
 at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 26 more
+... 27 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGettingCalculationsOnEmail -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@2133c8f8]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:38:45Z" finished-at="2019-03-07T08:38:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@2133c8f8]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-07T08:39:21Z" finished-at="2019-03-07T08:39:21Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@3ac3fd8b]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:53:06Z" finished-at="2019-03-07T13:53:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@2133c8f8]" name="afterClass" is-config="true" duration-ms="1120" started-at="2019-03-07T08:39:21Z" finished-at="2019-03-07T08:39:23Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@3ac3fd8b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:53:06Z" finished-at="2019-03-07T13:53:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@3ac3fd8b]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:53:48Z" finished-at="2019-03-07T13:53:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@3ac3fd8b]" name="afterClass" is-config="true" duration-ms="1049" started-at="2019-03-07T13:53:48Z" finished-at="2019-03-07T13:53:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- TestClass -->
     </test> <!-- GoogleCloud-4 -->
-    <test name="GoogleCloud-5" duration-ms="69362" started-at="2019-03-07T08:39:23Z" finished-at="2019-03-07T08:40:32Z">
+    <test name="GoogleCloud-5" duration-ms="76091" started-at="2019-03-07T13:53:50Z" finished-at="2019-03-07T13:55:06Z">
       <class name="TestClass">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@1e643faf]" name="beforeClass" is-config="true" duration-ms="29311" started-at="2019-03-07T08:39:23Z" finished-at="2019-03-07T08:39:52Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@7a79be86]" name="beforeClass" is-config="true" duration-ms="30373" started-at="2019-03-07T13:53:50Z" finished-at="2019-03-07T13:54:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@1e643faf]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:39:52Z" finished-at="2019-03-07T08:39:52Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@7a79be86]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-07T13:54:20Z" finished-at="2019-03-07T13:54:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@1e643faf]" name="testIsFilledFormCorrect" duration-ms="667" started-at="2019-03-07T08:39:52Z" finished-at="2019-03-07T08:39:53Z">
+        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@7a79be86]" name="testIsFilledFormCorrect" duration-ms="812" started-at="2019-03-07T13:54:20Z" finished-at="2019-03-07T13:54:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsFilledFormCorrect -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@1e643faf]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-07T08:39:53Z" finished-at="2019-03-07T08:39:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@1e643faf]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:39:53Z" finished-at="2019-03-07T08:39:53Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@7a79be86]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:54:21Z" finished-at="2019-03-07T13:54:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@1e643faf]" name="testTotalEstimatedCost" duration-ms="95" started-at="2019-03-07T08:39:53Z" finished-at="2019-03-07T08:39:53Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@7a79be86]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:54:21Z" finished-at="2019-03-07T13:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@7a79be86]" name="testTotalEstimatedCost" duration-ms="89" started-at="2019-03-07T13:54:21Z" finished-at="2019-03-07T13:54:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTotalEstimatedCost -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@1e643faf]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-07T08:39:53Z" finished-at="2019-03-07T08:39:53Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@7a79be86]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-07T13:54:21Z" finished-at="2019-03-07T13:54:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@1e643faf]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:39:53Z" finished-at="2019-03-07T08:39:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="FAIL" signature="testGettingCalculationsOnEmail()[pri:3, instance:TestClass@1e643faf]" name="testGettingCalculationsOnEmail" duration-ms="38141" started-at="2019-03-07T08:39:53Z" finished-at="2019-03-07T08:40:31Z">
+        <test-method status="FAIL" signature="testGettingCalculationsOnEmail()[pri:3, instance:TestClass@7a79be86]" name="testGettingCalculationsOnEmail" duration-ms="43694" started-at="2019-03-07T13:54:21Z" finished-at="2019-03-07T13:55:05Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']' (tried for 30 second(s) with 500 milliseconds interval)]]>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='mailAddress']' (tried for 10 second(s) with 500 milliseconds interval)]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']' (tried for 30 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='mailAddress']' (tried for 10 second(s) with 500 milliseconds interval)
 at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at pages.page_objects.tenminutesmail.PO_10minuteEmail.openEmailFromGoogleCloud(PO_10minuteEmail.java:31)
-at TestClass.testGettingCalculationsOnEmail(TestClass.java:175)
+at pages.page_objects.PO.waitUntilElementToBeVisible(PO.java:31)
+at pages.page_objects.tenminutesmail.PO_10minuteEmail.getTextFromInputEmailAddress(PO_10minuteEmail.java:26)
+at TestClass.testGettingCalculationsOnEmail(TestClass.java:160)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -562,7 +684,7 @@ at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
 at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
 at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']"}
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='mailAddress']"}
   (Session info: chrome=72.0.3626.121)
   (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -570,9 +692,9 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52666}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: a2e5ec776964d437b409a2340764d5ea
-*** Element info: {Using=xpath, value=//span[@class='ui-accordion-header-icon ui-icon ui-icon-triangle-1-e']}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64586}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: a25c270782774f3463f929823f8451ea
+*** Element info: {Using=xpath, value=//input[@id='mailAddress']}
 at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
@@ -595,25 +717,883 @@ at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedCo
 at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
 at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
 at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-... 26 more
+... 27 more
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGettingCalculationsOnEmail -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@1e643faf]" name="afterClass" is-config="true" duration-ms="1139" started-at="2019-03-07T08:40:31Z" finished-at="2019-03-07T08:40:32Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@7a79be86]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:54:21Z" finished-at="2019-03-07T13:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@7a79be86]" name="afterClass" is-config="true" duration-ms="1113" started-at="2019-03-07T13:55:05Z" finished-at="2019-03-07T13:55:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@1e643faf]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T08:40:31Z" finished-at="2019-03-07T08:40:31Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@7a79be86]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:55:05Z" finished-at="2019-03-07T13:55:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- TestClass -->
     </test> <!-- GoogleCloud-5 -->
+    <test name="GoogleCloud-6" duration-ms="79469" started-at="2019-03-07T13:55:06Z" finished-at="2019-03-07T13:56:25Z">
+      <class name="TestClass">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@36d64342]" name="beforeClass" is-config="true" duration-ms="31933" started-at="2019-03-07T13:55:06Z" finished-at="2019-03-07T13:55:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@36d64342]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-07T13:55:38Z" finished-at="2019-03-07T13:55:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@36d64342]" name="testIsFilledFormCorrect" duration-ms="917" started-at="2019-03-07T13:55:38Z" finished-at="2019-03-07T13:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsFilledFormCorrect -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@36d64342]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-07T13:55:39Z" finished-at="2019-03-07T13:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@36d64342]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:55:39Z" finished-at="2019-03-07T13:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@36d64342]" name="testTotalEstimatedCost" duration-ms="77" started-at="2019-03-07T13:55:39Z" finished-at="2019-03-07T13:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalEstimatedCost -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@36d64342]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:55:39Z" finished-at="2019-03-07T13:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="testGettingCalculationsOnEmail()[pri:3, instance:TestClass@36d64342]" name="testGettingCalculationsOnEmail" duration-ms="45495" started-at="2019-03-07T13:55:39Z" finished-at="2019-03-07T13:56:24Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='mailAddress']' (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='mailAddress']' (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pages.page_objects.PO.waitUntilElementToBeVisible(PO.java:31)
+at pages.page_objects.tenminutesmail.PO_10minuteEmail.getTextFromInputEmailAddress(PO_10minuteEmail.java:26)
+at TestClass.testGettingCalculationsOnEmail(TestClass.java:160)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='mailAddress']"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64816}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: d0bf537ff49e17a83b695cc1bd6fa368
+*** Element info: {Using=xpath, value=//input[@id='mailAddress']}
+at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettingCalculationsOnEmail -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@36d64342]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:55:39Z" finished-at="2019-03-07T13:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@36d64342]" name="afterClass" is-config="true" duration-ms="1036" started-at="2019-03-07T13:56:24Z" finished-at="2019-03-07T13:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@36d64342]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:56:24Z" finished-at="2019-03-07T13:56:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestClass -->
+    </test> <!-- GoogleCloud-6 -->
+    <test name="GoogleCloud-7" duration-ms="72758" started-at="2019-03-07T13:56:25Z" finished-at="2019-03-07T13:57:38Z">
+      <class name="TestClass">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@57829d67]" name="beforeClass" is-config="true" duration-ms="33866" started-at="2019-03-07T13:56:25Z" finished-at="2019-03-07T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@57829d67]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-07T13:56:59Z" finished-at="2019-03-07T13:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@57829d67]" name="testIsFilledFormCorrect" duration-ms="897" started-at="2019-03-07T13:56:59Z" finished-at="2019-03-07T13:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsFilledFormCorrect -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@57829d67]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-07T13:57:00Z" finished-at="2019-03-07T13:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@57829d67]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:57:00Z" finished-at="2019-03-07T13:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@57829d67]" name="testTotalEstimatedCost" duration-ms="76" started-at="2019-03-07T13:57:00Z" finished-at="2019-03-07T13:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalEstimatedCost -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@57829d67]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:57:00Z" finished-at="2019-03-07T13:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@57829d67]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-07T13:57:00Z" finished-at="2019-03-07T13:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="testGettingCalculationsOnEmail()[pri:3, instance:TestClass@57829d67]" name="testGettingCalculationsOnEmail" duration-ms="36922" started-at="2019-03-07T13:57:00Z" finished-at="2019-03-07T13:57:37Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='mailAddress']' (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@id='mailAddress']' (tried for 10 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pages.page_objects.PO.waitUntilElementToBeVisible(PO.java:31)
+at pages.page_objects.tenminutesmail.PO_10minuteEmail.getTextFromInputEmailAddress(PO_10minuteEmail.java:26)
+at TestClass.testGettingCalculationsOnEmail(TestClass.java:160)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='mailAddress']"}
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65056}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 0e438e66cdc16898326af0a64b2a6813
+*** Element info: {Using=xpath, value=//input[@id='mailAddress']}
+at sun.reflect.GeneratedConstructorAccessor15.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettingCalculationsOnEmail -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@57829d67]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:57:37Z" finished-at="2019-03-07T13:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@57829d67]" name="afterClass" is-config="true" duration-ms="987" started-at="2019-03-07T13:57:37Z" finished-at="2019-03-07T13:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestClass -->
+    </test> <!-- GoogleCloud-7 -->
+    <test name="GoogleCloud-8" duration-ms="80621" started-at="2019-03-07T13:57:38Z" finished-at="2019-03-07T13:58:59Z">
+      <class name="TestClass">
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:TestClass@7a0ac6e3]" name="beforeClass" is-config="true" duration-ms="80614" started-at="2019-03-07T13:57:38Z" finished-at="2019-03-07T13:58:59Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65215}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: db2a75daa74040e8f736262bcb79c086]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65215}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: db2a75daa74040e8f736262bcb79c086
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pages.page_objects.PO.selectValueFromDropDownMenu(PO.java:40)
+at pages.page_objects.PO.clickMenuAndSelectValue(PO.java:52)
+at pages.page_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:93)
+at TestClass.beforeClass(TestClass.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:TestClass@7a0ac6e3]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:58:59Z" finished-at="2019-03-07T13:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@7a0ac6e3]" name="testIsFilledFormCorrect" duration-ms="0" started-at="2019-03-07T13:58:59Z" finished-at="2019-03-07T13:58:59Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65215}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: db2a75daa74040e8f736262bcb79c086]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65215}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: db2a75daa74040e8f736262bcb79c086
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pages.page_objects.PO.selectValueFromDropDownMenu(PO.java:40)
+at pages.page_objects.PO.clickMenuAndSelectValue(PO.java:52)
+at pages.page_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:93)
+at TestClass.beforeClass(TestClass.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsFilledFormCorrect -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:TestClass@7a0ac6e3]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:58:59Z" finished-at="2019-03-07T13:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@7a0ac6e3]" name="testTotalEstimatedCost" duration-ms="0" started-at="2019-03-07T13:58:59Z" finished-at="2019-03-07T13:58:59Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65215}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: db2a75daa74040e8f736262bcb79c086]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65215}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: db2a75daa74040e8f736262bcb79c086
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pages.page_objects.PO.selectValueFromDropDownMenu(PO.java:40)
+at pages.page_objects.PO.clickMenuAndSelectValue(PO.java:52)
+at pages.page_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:93)
+at TestClass.beforeClass(TestClass.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalEstimatedCost -->
+        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:TestClass@7a0ac6e3]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:58:59Z" finished-at="2019-03-07T13:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:TestClass@7a0ac6e3]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:58:59Z" finished-at="2019-03-07T13:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:TestClass@7a0ac6e3]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:58:59Z" finished-at="2019-03-07T13:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="testGettingCalculationsOnEmail()[pri:3, instance:TestClass@7a0ac6e3]" name="testGettingCalculationsOnEmail" duration-ms="0" started-at="2019-03-07T13:58:59Z" finished-at="2019-03-07T13:58:59Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65215}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: db2a75daa74040e8f736262bcb79c086]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (db2a75daa74040e8f736262bcb79c086)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65215}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: db2a75daa74040e8f736262bcb79c086
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pages.page_objects.PO.selectValueFromDropDownMenu(PO.java:40)
+at pages.page_objects.PO.clickMenuAndSelectValue(PO.java:52)
+at pages.page_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:93)
+at TestClass.beforeClass(TestClass.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettingCalculationsOnEmail -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:TestClass@7a0ac6e3]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T13:58:59Z" finished-at="2019-03-07T13:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:TestClass@7a0ac6e3]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-03-07T13:58:59Z" finished-at="2019-03-07T13:58:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestClass -->
+    </test> <!-- GoogleCloud-8 -->
+    <test name="GoogleCloud-9" duration-ms="76346" started-at="2019-03-07T13:58:59Z" finished-at="2019-03-07T14:00:15Z">
+      <class name="TestClass">
+        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:TestClass@2acf57e3]" name="beforeClass" is-config="true" duration-ms="76340" started-at="2019-03-07T13:58:59Z" finished-at="2019-03-07T14:00:15Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65325}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 733bd432bfcdd1d682c0eb08a94246ee]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65325}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 733bd432bfcdd1d682c0eb08a94246ee
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pages.page_objects.PO.selectValueFromDropDownMenu(PO.java:40)
+at pages.page_objects.PO.clickMenuAndSelectValue(PO.java:52)
+at pages.page_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:93)
+at TestClass.beforeClass(TestClass.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:TestClass@2acf57e3]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T14:00:15Z" finished-at="2019-03-07T14:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@2acf57e3]" name="testIsFilledFormCorrect" duration-ms="0" started-at="2019-03-07T14:00:15Z" finished-at="2019-03-07T14:00:15Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65325}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 733bd432bfcdd1d682c0eb08a94246ee]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65325}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 733bd432bfcdd1d682c0eb08a94246ee
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pages.page_objects.PO.selectValueFromDropDownMenu(PO.java:40)
+at pages.page_objects.PO.clickMenuAndSelectValue(PO.java:52)
+at pages.page_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:93)
+at TestClass.beforeClass(TestClass.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsFilledFormCorrect -->
+        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:TestClass@2acf57e3]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T14:00:15Z" finished-at="2019-03-07T14:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:TestClass@2acf57e3]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T14:00:15Z" finished-at="2019-03-07T14:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="SKIP" signature="testGettingCalculationsOnEmail()[pri:3, instance:TestClass@2acf57e3]" name="testGettingCalculationsOnEmail" duration-ms="0" started-at="2019-03-07T14:00:15Z" finished-at="2019-03-07T14:00:15Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65325}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 733bd432bfcdd1d682c0eb08a94246ee]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65325}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 733bd432bfcdd1d682c0eb08a94246ee
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pages.page_objects.PO.selectValueFromDropDownMenu(PO.java:40)
+at pages.page_objects.PO.clickMenuAndSelectValue(PO.java:52)
+at pages.page_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:93)
+at TestClass.beforeClass(TestClass.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettingCalculationsOnEmail -->
+        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:TestClass@2acf57e3]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T14:00:15Z" finished-at="2019-03-07T14:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@2acf57e3]" name="testTotalEstimatedCost" duration-ms="0" started-at="2019-03-07T14:00:15Z" finished-at="2019-03-07T14:00:15Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65325}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 733bd432bfcdd1d682c0eb08a94246ee]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div], [[ChromeDriver: chrome on XP (733bd432bfcdd1d682c0eb08a94246ee)] -> xpath: //div[@id='select_container_59']//md-option/div]] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65325}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 733bd432bfcdd1d682c0eb08a94246ee
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at pages.page_objects.PO.selectValueFromDropDownMenu(PO.java:40)
+at pages.page_objects.PO.clickMenuAndSelectValue(PO.java:52)
+at pages.page_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:93)
+at TestClass.beforeClass(TestClass.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalEstimatedCost -->
+        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:TestClass@2acf57e3]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T14:00:15Z" finished-at="2019-03-07T14:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="SKIP" signature="afterClass()[pri:0, instance:TestClass@2acf57e3]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-03-07T14:00:15Z" finished-at="2019-03-07T14:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="SKIP" signature="afterTest()[pri:0, instance:TestClass@2acf57e3]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T14:00:15Z" finished-at="2019-03-07T14:00:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestClass -->
+    </test> <!-- GoogleCloud-9 -->
+    <test name="GoogleCloud-10" duration-ms="79657" started-at="2019-03-07T14:00:15Z" finished-at="2019-03-07T14:01:35Z">
+      <class name="TestClass">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@6442b0a6]" name="beforeClass" is-config="true" duration-ms="40970" started-at="2019-03-07T14:00:15Z" finished-at="2019-03-07T14:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@6442b0a6]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-07T14:00:56Z" finished-at="2019-03-07T14:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@6442b0a6]" name="testIsFilledFormCorrect" duration-ms="846" started-at="2019-03-07T14:00:56Z" finished-at="2019-03-07T14:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsFilledFormCorrect -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@6442b0a6]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T14:00:57Z" finished-at="2019-03-07T14:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@6442b0a6]" name="testTotalEstimatedCost" duration-ms="97" started-at="2019-03-07T14:00:57Z" finished-at="2019-03-07T14:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTotalEstimatedCost -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@6442b0a6]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-07T14:00:57Z" finished-at="2019-03-07T14:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@6442b0a6]" name="afterTest" is-config="true" duration-ms="2" started-at="2019-03-07T14:00:57Z" finished-at="2019-03-07T14:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@6442b0a6]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-07T14:00:57Z" finished-at="2019-03-07T14:00:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="testGettingCalculationsOnEmail()[pri:3, instance:TestClass@6442b0a6]" name="testGettingCalculationsOnEmail" duration-ms="36599" started-at="2019-03-07T14:00:57Z" finished-at="2019-03-07T14:01:34Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span> is not clickable at point (342, 854). Other element would receive the click: <p class="cc_message">...</p>
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65429}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 0122ea7327ecf9bca402ee087c014d18]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span> is not clickable at point (342, 854). Other element would receive the click: <p class="cc_message">...</p>
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:65429}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 0122ea7327ecf9bca402ee087c014d18
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy10.click(Unknown Source)
+at pages.page_objects.tenminutesmail.PO_10minuteEmail.openEmailFromGoogleCloud(PO_10minuteEmail.java:32)
+at TestClass.testGettingCalculationsOnEmail(TestClass.java:172)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
+at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGettingCalculationsOnEmail -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@6442b0a6]" name="afterClass" is-config="true" duration-ms="1134" started-at="2019-03-07T14:01:34Z" finished-at="2019-03-07T14:01:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@6442b0a6]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-07T14:01:34Z" finished-at="2019-03-07T14:01:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestClass -->
+    </test> <!-- GoogleCloud-10 -->
   </suite> <!-- Suite1 -->
 </testng-results>
