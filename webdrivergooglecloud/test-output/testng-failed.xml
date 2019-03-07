@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="GoogleCloud-1(failed)">
+    <classes>
+      <class name="TestClass">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="testGettingCalculationsOnEmail"/>
+        </methods>
+      </class> <!-- TestClass -->
+    </classes>
+  </test> <!-- GoogleCloud-1(failed) -->
+  <test thread-count="5" name="GoogleCloud-2(failed)">
+    <classes>
+      <class name="TestClass">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="testGettingCalculationsOnEmail"/>
+        </methods>
+      </class> <!-- TestClass -->
+    </classes>
+  </test> <!-- GoogleCloud-2(failed) -->
+  <test thread-count="5" name="GoogleCloud-3(failed)">
+    <classes>
+      <class name="TestClass">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="testGettingCalculationsOnEmail"/>
+        </methods>
+      </class> <!-- TestClass -->
+    </classes>
+  </test> <!-- GoogleCloud-3(failed) -->
+  <test thread-count="5" name="GoogleCloud-4(failed)">
+    <classes>
+      <class name="TestClass">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="testGettingCalculationsOnEmail"/>
+        </methods>
+      </class> <!-- TestClass -->
+    </classes>
+  </test> <!-- GoogleCloud-4(failed) -->
+  <test thread-count="5" name="GoogleCloud-5(failed)">
+    <classes>
+      <class name="TestClass">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="testGettingCalculationsOnEmail"/>
+        </methods>
+      </class> <!-- TestClass -->
+    </classes>
+  </test> <!-- GoogleCloud-5(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

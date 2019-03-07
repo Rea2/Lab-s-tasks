@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import pages.page_objects.PO;
-
 import java.util.List;
 
 // Это Page Object представляет фрейм на странице "Google Cloud Platform Pricing Calculator"

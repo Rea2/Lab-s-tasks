@@ -10,7 +10,7 @@ import pages.page_objects.tenminutesmail.PO_10minuteEmail;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.concurrent.TimeUnit;
+
 
 public class TestClass {
     private StringBuilder verificationErrors = new StringBuilder("");
@@ -47,16 +47,14 @@ public class TestClass {
         ChromeOptions options = new ChromeOptions();
         options.setCapability("chrome.switches", Arrays.asList("--homepage=about:blank"));
         driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
-        // Выполняем preconditions, п.п. 1-5 задания для уровня Hurt me Plenty
+        // Выполняем preconditions, п.п. 1-5 задания (см. задания уровня Hurt me Plenty)
         driver.get(URL_BASE);
         page = PageFactory.initElements(driver, PO_Cloud.class);
         pageProducts = page.clickExploreAllProducts();
         pagePricing =  pageProducts.clickSeePricing();
         pageCalc = pagePricing.clickCalculators();
-
 
         // Переходим во фрейм с формой для заполнения ввода данных о требуемой конфигурации
         pageCalc.waitUntilFrameVisible();
@@ -97,7 +95,7 @@ public class TestClass {
     }
 
     // Проверяем соответствие данных следующих полей: VM Class, Instance type, Region, local SSD, commitment term
-    @Test
+    @Test (priority = 1)
     public void testIsFilledFormCorrect()  {
         form = PageFactory.initElements(driver, PO_Form.class);
 
@@ -125,7 +123,7 @@ public class TestClass {
     }
 
     //  Проверяем что сумма аренды в месяц совпадает с суммой получаемой при ручном прохождении теста.
-    @Test
+    @Test (priority = 2)
     public void testTotalEstimatedCost()  {
         if (!form.getTextFromTotalEstimatedCost().contains(CURRENCY)) {
             verificationErrors.append("Wrong type of currency. \"" + CURRENCY + "\" expected." );
@@ -140,7 +138,7 @@ public class TestClass {
 
     //  Дождаться письма с рассчетом стоимости и проверить, что Total Estimated Monthly Cost в письме
     // совпадает с тем, что отображается в калькуляторе
-    @Test
+    @Test (priority = 3)
     public void testGettingCalculationsOnEmail() {
         form = PageFactory.initElements(driver, PO_Form.class);
 
@@ -170,7 +168,6 @@ public class TestClass {
         // Вводим email в ранее открыую форму и отправляем
         formEmail.inputEmail(eMail);
         formEmail.submitFormEmail();
-
         driver.switchTo().window(tabs.get(1));
         page10MinuteEmail.openEmailFromGoogleCloud();
         String valueFromEmail = " " + page10MinuteEmail.getTextCostValueFromEmail() + " ";
@@ -184,16 +181,6 @@ public class TestClass {
         driver.switchTo().window(tabs.get(0));
         driver.switchTo().frame("idIframe");
     }
-
-    private String waitAndGetPageTitle(WebDriver driver) {
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        return driver.getTitle();
-    }
-
 }
 
 
