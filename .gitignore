@@ -19,17 +19,17 @@
 hs_err_pid*
 
 # IntelliJ Idea Files
-.idea/
-*.iml
+**/.idea/
+**/*.iml
 *.yml
-out/
-target/
-gen/
-idea-gitignore.jar
-resources/templates.list
-resources/gitignore/*
+**/out/
+**/target/
+**/gen/
+**/idea-gitignore.jar
+**/resources/templates.list
+**/resources/gitignore/*
 
-build.properties
-junit*.properties
-IgnoreLexer.java~
-.gradle
+**/build.properties
+**/junit*.properties
+**/IgnoreLexer.java~
+**/.gradle

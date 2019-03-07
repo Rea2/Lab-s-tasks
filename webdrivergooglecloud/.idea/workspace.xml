@@ -2,64 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7f1631b-d60a-48bf-b3b2-c8313bedcb03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/Suite1/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestClass.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite1/GoogleCloud-1.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite1/GoogleCloud-2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite1/GoogleCloud-3.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite1/GoogleCloud-4.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite1/GoogleCloud-5.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite1/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite1/groups.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite1/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite1/methods-alphabetical.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite1/methods-not-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite1/methods.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite1/reporter-output.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite1/testng.xml.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/Suite1/toc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/page_objects/cloud_google/PO_CloudProductsCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/page_objects/cloud_google/PO_CloudProductsCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/page_objects/cloud_google/PO_Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/page_objects/cloud_google/PO_Frame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/page_objects/PO_Cloud.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/page_objects/PO_CloudPricing.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/page_objects/PO_CloudProducts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/page_objects/PO_CloudProductsCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/page_objects/PO_Form.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/page_objects/PO_FormEmail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/page_objects/PO_Frame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/scratchs/PO_Cloud_old.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/scratchs/PO_Cloud_old.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -339,7 +282,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551951177855" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551952287235" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
