@@ -1,10 +1,10 @@
-package pages.page_objects.cloud_google;
+package pages_objects.cloud_google;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import pages.page_objects.PO;
+import pages_objects.PO;
 
 public class PO_Cloud extends PO {
 
@@ -14,7 +14,7 @@ public class PO_Cloud extends PO {
     public PO_Cloud(WebDriver driver) {
         super(driver);
 
-        // Провекрка того факта, что мы на верной странице.
+        // Проверка того факта, что мы на верной странице.
         checkTitlePage("Google Cloud including GCP & G Suite — Try Free  |  Google Cloud");
     }
 

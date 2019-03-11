@@ -1,9 +1,9 @@
-package pages.page_objects.cloud_google;
+package pages_objects.cloud_google;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import pages.page_objects.PO;
+import pages_objects.PO;
 
 public class PO_FormEmail extends PO {
 

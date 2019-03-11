@@ -1,21 +1,21 @@
-package pages.page_objects.cloud_google;
+package pages_objects.cloud_google;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import pages.page_objects.PO;
+import pages_objects.PO;
 
 import java.util.List;
 
 public class PO_CloudProductsCalculator extends PO {
 
-    @FindBy (xpath = "//*[@id=\"mainForm\"]/*//md-tab-item[1]")
-    private WebElement formComputeEngine;
-
     @FindBy (xpath = "//iframe[@id='idIframe']")
     private WebElement frame;
+
+    @FindBy (xpath = "//iframe[@id='idIframe']")
+    private WebElement form;
 
     public PO_CloudProductsCalculator(WebDriver driver) {
         super(driver);

@@ -5,11 +5,12 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.*;
-import pages.page_objects.cloud_google.*;
-import pages.page_objects.tenminutesmail.PO_10minuteEmail;
+import pages_objects.cloud_google.*;
+import pages_objects.tenminutesmail.PO_10minuteEmail;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.concurrent.TimeUnit;
 
 
 public class TestClass {
@@ -47,6 +48,7 @@ public class TestClass {
         ChromeOptions options = new ChromeOptions();
         options.setCapability("chrome.switches", Arrays.asList("--homepage=about:blank"));
         driver = new ChromeDriver(options);
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
         // Выполняем preconditions, п.п. 1-5 задания (см. задания уровня Hurt me Plenty)

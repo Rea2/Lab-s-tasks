@@ -1,11 +1,11 @@
-package pages.page_objects.tenminutesmail;
+package pages_objects.tenminutesmail;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.page_objects.PO;
+import pages_objects.PO;
 
 public class PO_10minuteEmail extends PO {
 

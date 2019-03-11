@@ -1,6 +1,6 @@
-package pages.page_objects;
+package pages_objects;
 
-import org.openqa.selenium.NoSuchElementException;
+
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -24,11 +24,11 @@ public abstract class PO {
 
     // Универсальный  Explicit wait для ожидания, что веб-элемент webElement кликабельный
     protected WebElement waitUntilElementToBeClickable(WebElement webElement) {
-        return new WebDriverWait(driver,10).until(ExpectedConditions.elementToBeClickable(webElement));
+        return new WebDriverWait(driver,8).until(ExpectedConditions.elementToBeClickable(webElement));
     }
 
     protected WebElement waitUntilElementToBeVisible(WebElement webElement) {
-        return new WebDriverWait(driver,10).until(ExpectedConditions.visibilityOf(webElement));
+        return new WebDriverWait(driver,8).until(ExpectedConditions.visibilityOf(webElement));
     }
 
     protected void clickButtonWhenClickable(WebElement button){
@@ -37,7 +37,7 @@ public abstract class PO {
     }
 
     protected void selectValueFromDropDownMenu(List<WebElement> options, String option){
-        new WebDriverWait(driver,10).until(ExpectedConditions.visibilityOfAllElements(options));
+        new WebDriverWait(driver,7).until(ExpectedConditions.visibilityOfAllElements(options));
         WebElement webElement = options.stream().filter( x -> x.getText().contains(option)).findFirst().get();
         waitUntilElementToBeClickable(webElement);
         webElement.click();
@@ -46,10 +46,18 @@ public abstract class PO {
     protected void clickMenuAndSelectValue(WebElement button, List<WebElement> options, String option ) {
         clickButtonWhenClickable(button);
         try {
-            selectValueFromDropDownMenu(options,option);
+        selectValueFromDropDownMenu(options,option);
         } catch (TimeoutException e) {
+
+            // Повторная попытка выбрать нужный пункт меню, т.к в некоторых случаях, после открытия, его элементы
+            // по неизвестным причинам остаются невидимыми.
             clickButtonWhenClickable(button);
-            selectValueFromDropDownMenu(options,option);
+            try {
+                selectValueFromDropDownMenu(options,option);
+            } catch (Exception e1) {
+                clickButtonWhenClickable(button);
+                selectValueFromDropDownMenu(options,option);
+            }
         }
     }
 }

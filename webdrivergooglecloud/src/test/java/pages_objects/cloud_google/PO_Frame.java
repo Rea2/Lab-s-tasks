@@ -1,10 +1,10 @@
-package pages.page_objects.cloud_google;
+package pages_objects.cloud_google;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import pages.page_objects.PO;
+import pages_objects.PO;
 import java.util.List;
 
 // Это Page Object представляет фрейм на странице "Google Cloud Platform Pricing Calculator"
@@ -15,37 +15,40 @@ public class PO_Frame extends PO {
     @FindBy(xpath = "//md-tabs-canvas//md-tab-item[1]")
     private WebElement buttonComputeEngine;
 
-    @FindBy(xpath = "//input[@id = 'input_46']")
+    @FindBy(id = "input_46")
     private WebElement numberOfInstances;
 
-    @FindBy(xpath = "//input[@id = 'input_47']")
+    @FindBy(xpath = "//form[@name = 'ComputeEngineForm']")
+    private WebElement form;
+
+    @FindBy(id = "select_47")
     private WebElement whatAreTheseInstancesFor;
 
-    @FindBy(xpath = "//md-select[@id = 'select_58']")
+    @FindBy(id = "select_58")
     private WebElement operatingSystem;
 
-    @FindBy(xpath = "//md-select[@id = 'select_62']")
+    @FindBy(id = "select_62")
     private WebElement vmClass;
 
-    @FindBy(xpath = "//md-select[@id = 'select_93']")
+    @FindBy(id = "select_93")
     private WebElement instanceType;
 
     @FindBy(xpath = "//md-checkbox[@aria-label = 'Add GPUs']")
     private WebElement addGPUs;
 
-    @FindBy(xpath = "//md-select-value[@id = 'select_value_label_327']")
+    @FindBy(id = "select_value_label_327")
     private WebElement numberOfGPUs;
 
-    @FindBy(xpath = "//md-select-value[@id ='select_value_label_328']")
+    @FindBy(id = "select_value_label_328")
     private WebElement gPUType;
 
-    @FindBy(xpath = "//md-select-value[@id = 'select_value_label_43']")
+    @FindBy(id = "select_value_label_43")
     private WebElement localSSD;
 
-    @FindBy(xpath = "//md-select-value[@id = 'select_value_label_44']")
+    @FindBy(id = "select_value_label_44")
     private WebElement dataCenterLocation;
 
-    @FindBy(xpath = "//md-select[@id = 'select_102']")
+    @FindBy(id = "select_102")
     private WebElement committedUsage;
 
     @FindBy(xpath = "//form[@name = 'ComputeEngineForm']//button[@aria-label = 'Add to Estimate']")
@@ -86,6 +89,11 @@ public class PO_Frame extends PO {
 
     public PO_Frame inputNumberOfInstances(String number) {
         numberOfInstances.sendKeys(number);
+        return this;
+    }
+
+    public PO_Frame clickOnForm() {
+        clickButtonWhenClickable(form);
         return this;
     }
 
