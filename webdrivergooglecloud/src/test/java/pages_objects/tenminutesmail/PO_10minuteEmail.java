@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pages_objects.PO;
+import pages_objects.PO_Abstract;
 
-public class PO_10minuteEmail extends PO {
+public class PO_10minuteEmail extends PO_Abstract {
 
     @FindBy(xpath = "//input[@id='mailAddress']")
     private WebElement inputEmailAddress;

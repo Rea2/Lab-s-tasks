@@ -4,9 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import pages_objects.PO;
+import pages_objects.PO_Abstract;
 
-public class PO_Form extends PO {
+public class PO_Form extends PO_Abstract {
 
     @FindBy(xpath = "//div[contains(text(), 'VM class')]")
     private WebElement vmClass;

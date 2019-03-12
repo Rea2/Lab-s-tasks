@@ -4,9 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import pages_objects.PO;
+import pages_objects.PO_Abstract;
 
-public class PO_CloudProducts extends PO {
+public class PO_CloudProducts extends PO_Abstract {
 
     @FindBy(xpath = "//a[@track-name='seePricing']")
     private WebElement buttonSeePricing;

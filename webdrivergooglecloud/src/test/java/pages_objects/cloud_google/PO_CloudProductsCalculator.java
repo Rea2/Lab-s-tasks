@@ -5,11 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import pages_objects.PO;
+import pages_objects.PO_Abstract;
 
 import java.util.List;
 
-public class PO_CloudProductsCalculator extends PO {
+public class PO_CloudProductsCalculator extends PO_Abstract {
 
     @FindBy (xpath = "//iframe[@id='idIframe']")
     private WebElement frame;

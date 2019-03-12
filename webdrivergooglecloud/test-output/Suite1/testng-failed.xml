@@ -15,4 +15,46 @@
       </class> <!-- TestClass -->
     </classes>
   </test> <!-- GoogleCloud-1(failed) -->
+  <test thread-count="5" name="GoogleCloud-2(failed)">
+    <classes>
+      <class name="TestClass">
+        <methods>
+          <include name="testTotalEstimatedCost"/>
+          <include name="beforeClass"/>
+          <include name="testIsFilledFormCorrect"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- TestClass -->
+    </classes>
+  </test> <!-- GoogleCloud-2(failed) -->
+  <test thread-count="5" name="GoogleCloud-3(failed)">
+    <classes>
+      <class name="TestClass">
+        <methods>
+          <include name="testTotalEstimatedCost"/>
+          <include name="beforeClass"/>
+          <include name="testIsFilledFormCorrect"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- TestClass -->
+    </classes>
+  </test> <!-- GoogleCloud-3(failed) -->
+  <test thread-count="5" name="GoogleCloud-4(failed)">
+    <classes>
+      <class name="TestClass">
+        <methods>
+          <include name="testTotalEstimatedCost"/>
+          <include name="beforeClass"/>
+          <include name="testIsFilledFormCorrect"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- TestClass -->
+    </classes>
+  </test> <!-- GoogleCloud-4(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

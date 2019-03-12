@@ -4,15 +4,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import pages_objects.PO;
+import pages_objects.PO_Abstract;
 import java.util.List;
 
 // Это Page Object представляет фрейм на странице "Google Cloud Platform Pricing Calculator"
 // после выбора опции "ComputeEngine"
 // адрес страницы https://cloud.google.com/products/calculator/
-public class PO_Frame extends PO {
+public class PO_Frame extends PO_Abstract {
 
-    @FindBy(xpath = "//md-tabs-canvas//md-tab-item[1]")
+    @FindBy(xpath = "//div[@title='Compute Engine']")
     private WebElement buttonComputeEngine;
 
     @FindBy(id = "input_46")
@@ -24,7 +24,7 @@ public class PO_Frame extends PO {
     @FindBy(id = "select_47")
     private WebElement whatAreTheseInstancesFor;
 
-    @FindBy(id = "select_58")
+    @FindBy(id = "select_value_label_40")
     private WebElement operatingSystem;
 
     @FindBy(id = "select_62")
@@ -54,7 +54,7 @@ public class PO_Frame extends PO {
     @FindBy(xpath = "//form[@name = 'ComputeEngineForm']//button[@aria-label = 'Add to Estimate']")
     private WebElement buttonAddToEstimate;
 
-    @FindBy(xpath = "//div[@id='select_container_59']//md-option/div")
+    @FindBy(xpath = "//div[@id='select_container_59']//md-option/div[@class = 'md-text']")
     private List<WebElement> listOptionsOperatingSystem;
 
     @FindBy(xpath = "//div[@id='select_container_63']//md-option/div[@class = 'md-text' ]")

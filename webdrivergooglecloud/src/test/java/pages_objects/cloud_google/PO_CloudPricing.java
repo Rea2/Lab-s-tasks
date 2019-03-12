@@ -4,9 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import pages_objects.PO;
+import pages_objects.PO_Abstract;
 
-public class PO_CloudPricing extends PO {
+public class PO_CloudPricing extends PO_Abstract {
 
     @FindBy(xpath = "//a[text() = 'Calculators']")
     private WebElement buttonCalculators;
