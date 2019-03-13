@@ -2,6 +2,8 @@ package pages_objects;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.List;
@@ -13,15 +15,17 @@ public abstract class PO_Abstract {
 
     public PO_Abstract(WebDriver driver) {
         this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
-
     protected WebElement waitUntilElementToBeClickable(WebElement webElement) {
-        return new WebDriverWait(driver,WAIT_FOR_ELEMENT_TIMEOUT_SECONDS).until(ExpectedConditions.elementToBeClickable(webElement));
+        return new WebDriverWait(driver,WAIT_FOR_ELEMENT_TIMEOUT_SECONDS)
+                .until(ExpectedConditions.elementToBeClickable(webElement));
     }
 
     protected WebElement waitUntilElementToBeVisible(WebElement webElement) {
-        return new WebDriverWait(driver,WAIT_FOR_ELEMENT_TIMEOUT_SECONDS).until(ExpectedConditions.visibilityOf(webElement));
+        return new WebDriverWait(driver,WAIT_FOR_ELEMENT_TIMEOUT_SECONDS)
+                .until(ExpectedConditions.visibilityOf(webElement));
     }
 
     protected void clickButtonWhenClickable(WebElement button){
@@ -30,14 +34,15 @@ public abstract class PO_Abstract {
     }
 
     protected void selectValueFromDropDownMenu(List<WebElement> options, String option){
-        new WebDriverWait(driver,WAIT_FOR_ELEMENT_TIMEOUT_SECONDS).until(ExpectedConditions.visibilityOfAllElements(options));
+        new WebDriverWait(driver,WAIT_FOR_ELEMENT_TIMEOUT_SECONDS).
+                until(ExpectedConditions.visibilityOfAllElements(options));
         WebElement webElement = options.stream().filter( x -> x.getText().contains(option)).findFirst().get();
-        waitUntilElementToBeClickable(webElement);
-        webElement.click();
+        clickButtonWhenClickable(webElement);
     }
 
     protected void clickMenuAndSelectValue(WebElement button, List<WebElement> options, String option ) {
-        clickButtonWhenClickable(button);
+        waitUntilElementToBeClickable(button);
+        new Actions(driver).click(button).build().perform();
         selectValueFromDropDownMenu(options,option);
     }
 }

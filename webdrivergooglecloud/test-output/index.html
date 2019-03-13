@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite1">
-              <span class="suite-name border-passed">Suite1</span>
+              <span class="suite-name border-skipped">Suite1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">20 methods,   20 passed</span>
+                    <span class="method-stats">20 methods,  2 skipped,  18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods skipped suite-Suite1"> (hide)</a> <!-- hide-methods skipped suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods skipped suite-Suite1"> (show)</a> <!-- show-methods skipped suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite1">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="TestClass" hash-for-method="testIsFilledFormCorrect">testIsFilledFormCorrect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="TestClass" hash-for-method="testTotalEstimatedCost">testTotalEstimatedCost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite1 -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -143,16 +162,6 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="TestClass" hash-for-method="testIsFilledFormCorrect">testIsFilledFormCorrect</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="TestClass" hash-for-method="testIsFilledFormCorrect">testIsFilledFormCorrect</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="TestClass" hash-for-method="testTotalEstimatedCost">testTotalEstimatedCost</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -212,6 +221,58 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">TestClass</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIsFilledFormCorrect">
+                  </a> <!-- testIsFilledFormCorrect -->
+                  <span class="method-name">testIsFilledFormCorrect</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]]] (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW7576&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50717}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: d18afbf678044301913879dcd4a1d559
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at pages_objects.PO_Abstract.selectValueFromDropDownMenu(PO_Abstract.java:38)
+	at pages_objects.PO_Abstract.clickMenuAndSelectValue(PO_Abstract.java:48)
+	at pages_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:101)
+	at TestClass.fillCalculatorForm(TestClass.java:173)
+	at TestClass.beforeClass(TestClass.java:57)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTotalEstimatedCost">
+                  </a> <!-- testTotalEstimatedCost -->
+                  <span class="method-name">testTotalEstimatedCost</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -&gt; xpath: //div[@id=&apos;select_container_59&apos;]//md-option/div[@class = &apos;md-text&apos;]]] (tried for 8 second(s) with 500 milliseconds interval)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;EPBYMINW7576&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50717}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: d18afbf678044301913879dcd4a1d559
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at pages_objects.PO_Abstract.selectValueFromDropDownMenu(PO_Abstract.java:38)
+	at pages_objects.PO_Abstract.clickMenuAndSelectValue(PO_Abstract.java:48)
+	at pages_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:101)
+	at TestClass.fillCalculatorForm(TestClass.java:173)
+	at TestClass.beforeClass(TestClass.java:57)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-skipped -->
           <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -279,20 +340,6 @@
                   <a name="testIsFilledFormCorrect">
                   </a> <!-- testIsFilledFormCorrect -->
                   <span class="method-name">testIsFilledFormCorrect</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testIsFilledFormCorrect">
-                  </a> <!-- testIsFilledFormCorrect -->
-                  <span class="method-name">testIsFilledFormCorrect</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testTotalEstimatedCost">
-                  </a> <!-- testTotalEstimatedCost -->
-                  <span class="method-name">testTotalEstimatedCost</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -488,88 +535,88 @@ data.addRows(20);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testIsFilledFormCorrect')
 data.setCell(0, 2, 'TestClass')
-data.setCell(0, 3, 1345);
+data.setCell(0, 3, 1079);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testIsFilledFormCorrect')
 data.setCell(1, 2, 'TestClass')
-data.setCell(1, 3, 1212);
+data.setCell(1, 3, 769);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testIsFilledFormCorrect')
 data.setCell(2, 2, 'TestClass')
-data.setCell(2, 3, 1088);
+data.setCell(2, 3, 754);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testIsFilledFormCorrect')
 data.setCell(3, 2, 'TestClass')
-data.setCell(3, 3, 1082);
+data.setCell(3, 3, 745);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'testIsFilledFormCorrect')
 data.setCell(4, 2, 'TestClass')
-data.setCell(4, 3, 1050);
+data.setCell(4, 3, 736);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'testIsFilledFormCorrect')
 data.setCell(5, 2, 'TestClass')
-data.setCell(5, 3, 960);
+data.setCell(5, 3, 728);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'testIsFilledFormCorrect')
 data.setCell(6, 2, 'TestClass')
-data.setCell(6, 3, 946);
+data.setCell(6, 3, 719);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'testIsFilledFormCorrect')
 data.setCell(7, 2, 'TestClass')
-data.setCell(7, 3, 905);
+data.setCell(7, 3, 705);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'testIsFilledFormCorrect')
 data.setCell(8, 2, 'TestClass')
-data.setCell(8, 3, 842);
+data.setCell(8, 3, 700);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testIsFilledFormCorrect')
+data.setCell(9, 1, 'testTotalEstimatedCost')
 data.setCell(9, 2, 'TestClass')
-data.setCell(9, 3, 823);
+data.setCell(9, 3, 96);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'testTotalEstimatedCost')
 data.setCell(10, 2, 'TestClass')
-data.setCell(10, 3, 118);
+data.setCell(10, 3, 88);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'testTotalEstimatedCost')
 data.setCell(11, 2, 'TestClass')
-data.setCell(11, 3, 115);
+data.setCell(11, 3, 86);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'testTotalEstimatedCost')
 data.setCell(12, 2, 'TestClass')
-data.setCell(12, 3, 114);
+data.setCell(12, 3, 86);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'testTotalEstimatedCost')
 data.setCell(13, 2, 'TestClass')
-data.setCell(13, 3, 111);
+data.setCell(13, 3, 82);
 data.setCell(14, 0, 14)
 data.setCell(14, 1, 'testTotalEstimatedCost')
 data.setCell(14, 2, 'TestClass')
-data.setCell(14, 3, 105);
+data.setCell(14, 3, 80);
 data.setCell(15, 0, 15)
 data.setCell(15, 1, 'testTotalEstimatedCost')
 data.setCell(15, 2, 'TestClass')
-data.setCell(15, 3, 93);
+data.setCell(15, 3, 78);
 data.setCell(16, 0, 16)
 data.setCell(16, 1, 'testTotalEstimatedCost')
 data.setCell(16, 2, 'TestClass')
-data.setCell(16, 3, 87);
+data.setCell(16, 3, 78);
 data.setCell(17, 0, 17)
 data.setCell(17, 1, 'testTotalEstimatedCost')
 data.setCell(17, 2, 'TestClass')
-data.setCell(17, 3, 86);
+data.setCell(17, 3, 73);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'testTotalEstimatedCost')
+data.setCell(18, 1, 'testIsFilledFormCorrect')
 data.setCell(18, 2, 'TestClass')
-data.setCell(18, 3, 85);
+data.setCell(18, 3, 0);
 data.setCell(19, 0, 19)
 data.setCell(19, 1, 'testTotalEstimatedCost')
 data.setCell(19, 2, 'TestClass')
-data.setCell(19, 3, 81);
+data.setCell(19, 3, 0);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 11 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Suite1">
               </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
@@ -621,326 +668,308 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">TestClass</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testIsFilledFormCorrect</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testTotalEstimatedCost</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">85892 ms</span>
+                <span class="method-start">35082 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testIsFilledFormCorrect</span>
-                <span class="method-start">85893 ms</span>
+                <span class="method-start">35083 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">86718 ms</span>
+                <span class="method-start">35812 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">87030 ms</span>
+                <span class="method-start">35815 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testTotalEstimatedCost</span>
-                <span class="method-start">87030 ms</span>
+                <span class="method-start">35815 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">87145 ms</span>
+                <span class="method-start">35902 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">87145 ms</span>
+                <span class="method-start">35902 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">89122 ms</span>
+                <span class="method-start">36809 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">157066 ms</span>
+                <span class="method-start">67117 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testIsFilledFormCorrect</span>
-                <span class="method-start">157067 ms</span>
+                <span class="method-start">67118 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">158155 ms</span>
+                <span class="method-start">67888 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">158156 ms</span>
+                <span class="method-start">67888 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testTotalEstimatedCost</span>
-                <span class="method-start">158157 ms</span>
+                <span class="method-start">67888 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">158244 ms</span>
+                <span class="method-start">67966 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">158245 ms</span>
+                <span class="method-start">67967 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">161338 ms</span>
+                <span class="method-start">69266 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">224847 ms</span>
+                <span class="method-start">103151 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testIsFilledFormCorrect</span>
-                <span class="method-start">224847 ms</span>
+                <span class="method-start">103152 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">225898 ms</span>
+                <span class="method-start">103906 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">225899 ms</span>
+                <span class="method-start">103907 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testTotalEstimatedCost</span>
-                <span class="method-start">225899 ms</span>
+                <span class="method-start">103907 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">226015 ms</span>
+                <span class="method-start">103980 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">226015 ms</span>
+                <span class="method-start">103980 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">227204 ms</span>
+                <span class="method-start">104882 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">291584 ms</span>
+                <span class="method-start">137633 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testIsFilledFormCorrect</span>
-                <span class="method-start">291584 ms</span>
+                <span class="method-start">137633 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">292544 ms</span>
+                <span class="method-start">138334 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">292545 ms</span>
+                <span class="method-start">138334 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testTotalEstimatedCost</span>
-                <span class="method-start">292545 ms</span>
+                <span class="method-start">138334 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">292630 ms</span>
+                <span class="method-start">138412 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">292631 ms</span>
+                <span class="method-start">138412 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">293630 ms</span>
+                <span class="method-start">139282 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">357623 ms</span>
+                <span class="method-start">170269 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testIsFilledFormCorrect</span>
-                <span class="method-start">357623 ms</span>
+                <span class="method-start">170269 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">358528 ms</span>
+                <span class="method-start">171014 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">358529 ms</span>
+                <span class="method-start">171015 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testTotalEstimatedCost</span>
-                <span class="method-start">358529 ms</span>
+                <span class="method-start">171015 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">358611 ms</span>
+                <span class="method-start">171097 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">358611 ms</span>
+                <span class="method-start">171098 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">359866 ms</span>
+                <span class="method-start">171983 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">422854 ms</span>
+                <span class="method-start">215544 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testIsFilledFormCorrect</span>
-                <span class="method-start">422854 ms</span>
+                <span class="method-start">215545 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">424199 ms</span>
+                <span class="method-start">216264 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">424200 ms</span>
+                <span class="method-start">216265 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testTotalEstimatedCost</span>
-                <span class="method-start">424201 ms</span>
+                <span class="method-start">216265 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">424294 ms</span>
+                <span class="method-start">216362 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">424295 ms</span>
+                <span class="method-start">216362 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">425336 ms</span>
+                <span class="method-start">217247 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">484855 ms</span>
+                <span class="method-start">247512 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testIsFilledFormCorrect</span>
-                <span class="method-start">484855 ms</span>
+                <span class="method-start">247512 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">485937 ms</span>
+                <span class="method-start">248248 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">485938 ms</span>
+                <span class="method-start">248249 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testTotalEstimatedCost</span>
-                <span class="method-start">485938 ms</span>
+                <span class="method-start">248249 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">486056 ms</span>
+                <span class="method-start">248329 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">486056 ms</span>
+                <span class="method-start">248330 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">487263 ms</span>
+                <span class="method-start">249286 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">552545 ms</span>
+                <span class="method-start">279321 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testIsFilledFormCorrect</span>
-                <span class="method-start">552545 ms</span>
+                <span class="method-start">279321 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">553757 ms</span>
+                <span class="method-start">280027 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">553758 ms</span>
+                <span class="method-start">280027 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testTotalEstimatedCost</span>
-                <span class="method-start">553759 ms</span>
+                <span class="method-start">280028 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">553865 ms</span>
+                <span class="method-start">280116 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">553866 ms</span>
+                <span class="method-start">280117 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">555271 ms</span>
+                <span class="method-start">281011 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">616214 ms</span>
+                <span class="method-start">312539 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testIsFilledFormCorrect</span>
-                <span class="method-start">616214 ms</span>
+                <span class="method-start">312539 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">617056 ms</span>
+                <span class="method-start">313618 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">617057 ms</span>
+                <span class="method-start">313619 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testTotalEstimatedCost</span>
-                <span class="method-start">617057 ms</span>
+                <span class="method-start">313620 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">617144 ms</span>
+                <span class="method-start">313707 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">617144 ms</span>
+                <span class="method-start">313707 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">618098 ms</span>
+                <span class="method-start">314723 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">673572 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testIsFilledFormCorrect</span>
-                <span class="method-start">673572 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">674519 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">674520 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testTotalEstimatedCost</span>
-                <span class="method-start">674521 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">674632 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">674633 ms</span>
-              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

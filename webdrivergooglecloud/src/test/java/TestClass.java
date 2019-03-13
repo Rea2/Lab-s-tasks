@@ -40,15 +40,15 @@ public class TestClass {
         // Получаем экземляр chromedriver
         driver = WebDriverSingleton.getWebDriverInstance();
 
-        // Выполняем навгацию по страницам CloudGoogle к форме с калькулятором
+        // Выполняем навгацию по страницам CloudGoogle к форме с калькулятором стоимости и ждем появления фрейма
         page = PageFactory.initElements(driver, PO_Cloud.class);
-        page.open();
-        pageProducts = page.clickExploreAllProducts();
-        pagePricing =  pageProducts.clickSeePricing();
-        pageCalc = pagePricing.clickCalculators();
+        page.open()
+                .clickExploreAllProducts()
+                .clickSeePricing()
+                .clickCalculators()
+                .waitUntilFrameVisible();
 
         // Переходим во фрейм с формой для заполнения ввода данных о требуемой конфигурации
-        pageCalc.waitUntilFrameVisible();
         driver.switchTo().frame("idIframe");
         frame = PageFactory.initElements(driver, PO_Frame.class);
         frame.clickComputeEngine();
