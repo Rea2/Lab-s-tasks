@@ -10,12 +10,15 @@ public class PO_Cloud extends PO_Abstract {
 
     @FindBy(xpath = "//div[@class = 'cloud-section-header__link']/a[@href = 'https://cloud.google.com/products/']")
     private WebElement buttonExploreAllProducts;
+    public static final String URL = "https://cloud.google.com/";
+
+    public PO_Cloud open(){
+        driver.get(URL);
+        return this;
+    }
 
     public PO_Cloud(WebDriver driver) {
         super(driver);
-
-        // Проверка того факта, что мы на верной странице.
-        checkTitlePage("Google Cloud including GCP & G Suite — Try Free  |  Google Cloud");
     }
 
     public PO_CloudProducts clickExploreAllProducts(){

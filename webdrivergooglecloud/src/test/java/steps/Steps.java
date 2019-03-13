@@ -1,17 +1,23 @@
+package steps;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.Test;
 import pages_objects.cloud_google.*;
 import pages_objects.tenminutesmail.PO_10minuteEmail;
 import utils.WebDriverSingleton;
+
 import java.util.ArrayList;
 
-public class TestClass {
-
-    public static final String CURRENCY = "USD";  ;
+public class Steps {
+    public static final String CURRENCY = "USD";
+    public static final String URL_BASE = "https://cloud.google.com/";
     private static final String ERROR_MESSAGE = "wrong value in the filled form\n";
     private StringBuilder verificationErrors = new StringBuilder("");
     private WebDriver driver = null;
@@ -34,15 +40,15 @@ public class TestClass {
     private PO_FormEmail formEmail = null;
     private PO_10minuteEmail page10MinuteEmail = null;
 
-    @BeforeClass
-    public void beforeClass() {
+    @Given ("I opened Calculator Engine tab")
+    public void openCalculatorEngineForm() {
 
         // Получаем экземляр chromedriver
         driver = WebDriverSingleton.getWebDriverInstance();
 
-        // Выполняем навгацию по страницам CloudGoogle к форме с калькулятором
+        // Выполняем preconditions, п.п. 1-5 задания (см. задания уровня Hurt me Plenty)
+        driver.get(URL_BASE);
         page = PageFactory.initElements(driver, PO_Cloud.class);
-        page.open();
         pageProducts = page.clickExploreAllProducts();
         pagePricing =  pageProducts.clickSeePricing();
         pageCalc = pagePricing.clickCalculators();
@@ -52,31 +58,28 @@ public class TestClass {
         driver.switchTo().frame("idIframe");
         frame = PageFactory.initElements(driver, PO_Frame.class);
         frame.clickComputeEngine();
-
-        //Заполняем и отправляем форму с данными для расчета стоимости.
-        submitFilledCalculatorForm(fillCalculatorForm());
     }
 
-    @AfterClass
-    public void afterClass() {
-        WebDriverSingleton.kill();
+    @When("I sent submitted Calculator's Engine form")
+    public void submitFilledCalculatorForm() throws TimeoutException{
+        fillCalculatorForm();
+        frame.clickAddToEstimate();
     }
 
-    @BeforeMethod
-    public void beforeTest() {
-        verificationErrors = new StringBuilder();
+    public PO_Frame fillCalculatorForm() throws TimeoutException {
+        return frame.inputNumberOfInstances("4")
+                .selectOperatingSystem("Free: Debian, CentOS, CoreOS, Ubuntu, or other User Provided OS")
+                .selectVmClass("Regular")
+                .selectInstantType("n1-standard-8    (vCPUs: 8, RAM: 30 GB)")
+                .tickAddGPU()
+                .selectNumberOfGPUs("1")
+                .selectGPUsType("NVIDIA Tesla V100")
+                .selectLocalSsd("2x375 GB")
+                .selectDataCenter("Frankfurt (europe-west3)")
+                .selectCommittedUsage("1 Year");
     }
 
-    @AfterMethod
-    public void afterTest() {
-        String verificationErrorString = verificationErrors.toString();
-        if (!"".equals(verificationErrorString)) {
-            Assert.fail(verificationErrorString);
-        }
-    }
-
-    // Проверяем соответствие данных следующих полей: VM Class, Instance type, Region, local SSD, commitment term
-    @Test (priority = 1)
+    @Then("I sent submitted Calculator's Engine form" )
     public void testIsFilledFormCorrect()  {
         form = PageFactory.initElements(driver, PO_Form.class);
 
@@ -101,10 +104,13 @@ public class TestClass {
         if (!form.getTextFromCommittedTerm().contains(commitmentTermExpected)) {
             verificationErrors.append("Commitment term: " + ERROR_MESSAGE);
         }
+
+        String verificationErrorString = verificationErrors.toString();
+        Assert.assertTrue("".equals(verificationErrorString), verificationErrorString);
     }
 
     //  Проверяем что сумма аренды в месяц совпадает с суммой получаемой при ручном прохождении теста.
-    @Test (priority = 2)
+    @Test(priority = 2)
     public void testTotalEstimatedCost()  {
         if (!form.getTextFromTotalEstimatedCost().contains(CURRENCY)) {
             verificationErrors.append("Wrong type of currency. \"" + CURRENCY + "\" expected." );
@@ -155,7 +161,7 @@ public class TestClass {
         String valueFromEmail = " " + page10MinuteEmail.getTextCostValueFromEmail() + " ";
         Assert.assertTrue(estimatedCostFromGoogleWebSite.contains(valueFromEmail),
                 "WebSite: " + estimatedCostFromGoogleWebSite + "\n" +
-                   "Email: " + valueFromEmail);
+                        "Email: " + valueFromEmail);
 
         // Закрываем вкладку  с https://10minutemail.comб вовзращаемся на страницу
         // https://cloud.google.com/products/calculator/# и выполняем переход во фрейм
@@ -164,25 +170,4 @@ public class TestClass {
         driver.switchTo().frame("idIframe");
     }
 
-    private PO_Frame submitFilledCalculatorForm(PO_Frame frame) throws TimeoutException{
-        return  frame.clickAddToEstimate();
-    }
-
-    private PO_Frame fillCalculatorForm()  {
-         return frame.inputNumberOfInstances("4")
-                .selectOperatingSystem("Free: Debian, CentOS, CoreOS, Ubuntu, or other User Provided OS")
-                .selectVmClass("Regular")
-                .selectInstantType("n1-standard-8    (vCPUs: 8, RAM: 30 GB)")
-                .tickAddGPU()
-                .selectNumberOfGPUs("1")
-                .selectGPUsType("NVIDIA Tesla V100")
-                .selectLocalSsd("2x375 GB")
-                .selectDataCenter("Frankfurt (europe-west3)")
-                .selectCommittedUsage("1 Year");
-    }
 }
-
-
-
-
-

@@ -15,13 +15,7 @@ public abstract class PO_Abstract {
         this.driver = driver;
     }
 
-    protected void checkTitlePage(String titleExpected) {
-        if ((!driver.getTitle().equals(titleExpected)) ) {
-            throw new IllegalStateException("Wrong site page!");
-        }
-    }
 
-    // Универсальный  Explicit wait для ожидания, что веб-элемент webElement кликабельный
     protected WebElement waitUntilElementToBeClickable(WebElement webElement) {
         return new WebDriverWait(driver,WAIT_FOR_ELEMENT_TIMEOUT_SECONDS).until(ExpectedConditions.elementToBeClickable(webElement));
     }

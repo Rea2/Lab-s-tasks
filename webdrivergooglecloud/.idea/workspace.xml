@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7f1631b-d60a-48bf-b3b2-c8313bedcb03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/WebDriverSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Steps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/CloudGoogle.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steps.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/PO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages_objects/PO_Abstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/PO_Abstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages_objects/PO_Abstract.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Cloud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Cloud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudPricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudPricing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudProducts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudProductsCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudProductsCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Form.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_FormEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_FormEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Frame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/tenminutesmail/PO_10minuteEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages_objects/tenminutesmail/PO_10minuteEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-2.html" afterDir="false" />
@@ -25,16 +20,6 @@
       <change beforePath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Suite1/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestClass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestClass.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,135 +34,166 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Frame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="136" selection-start-line="136" selection-end-line="136" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Cloud.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudPricing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudProducts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudProductsCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Form.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="184" column="5" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2490#2491#0" expanded="true" />
-                <element signature="e#2596#2597#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/WebDriverSingleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/PO_Abstract.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/tenminutesmail/PO_10minuteEmail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.7625845">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/steps/Steps.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-408">
+                  <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="30" selection-end-column="53" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="212">
+                  <caret line="58" selection-start-line="58" selection-end-line="58" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2445#2446#0" expanded="true" />
+                    <element signature="e#2486#2487#0" expanded="true" />
+                    <element signature="e#2536#2537#0" expanded="true" />
+                    <element signature="e#2592#2593#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/utils/WebDriverSingleton.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="678">
+                  <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/PO_Abstract.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="280">
+                  <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/tenminutesmail/PO_10minuteEmail.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="406">
+                  <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudProducts.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="100">
+                  <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Cloud.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#636#637#0" expanded="true" />
+                    <element signature="e#665#666#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Frame.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="365">
+                  <caret line="140" selection-start-line="140" selection-end-line="140" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_FormEmail.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/By.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1122">
+                  <caret line="53" column="49" lean-forward="true" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#725#726#0" expanded="true" />
+                    <element signature="e#775#776#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="743">
+                  <caret line="182" column="45" selection-start-line="182" selection-start-column="39" selection-end-line="182" selection-end-column="45" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2445#2446#0" expanded="true" />
+                    <element signature="e#2486#2487#0" expanded="true" />
+                    <element signature="e#2536#2537#0" expanded="true" />
+                    <element signature="e#2592#2593#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -190,6 +206,7 @@
       <find>fra</find>
       <find>43</find>
       <find>suse</find>
+      <find>findEle</find>
     </findStrings>
     <replaceStrings>
       <replace>option);</replace>
@@ -231,14 +248,17 @@
         <option value="$PROJECT_DIR$/src/test/java/pages/page_objects/cloud_google/PO_CloudProductsCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/page_objects/PO.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/page_objects/cloud_google/PO_Frame.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pages_objects/PO.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steps.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages_objects/PO_abstract.java" />
         <option value="$PROJECT_DIR$/src/test/java/utils/WebDriverSingleton.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages_objects/PO_Abstract.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Frame.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/Steps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/Steps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/CloudGoogle.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Cloud.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages_objects/PO_Abstract.java" />
       </list>
     </option>
   </component>
@@ -274,10 +294,10 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,7 +337,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="pages_objects" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud_google" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webdrivergooglecloud" type="b2602c69:ProjectViewProjectNode" />
@@ -330,16 +351,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552387051259" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552473852217" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../demo10" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -424,27 +446,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestClass - 2019.03.12 at 11h 45m 07s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass - 2019.03.12 at 12h 04m 15s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Projects_Lab-s-tasks_webdrivergooglecloud_testng_xml - 2019.03.12 at 12h 04m 35s.xml">
-      <configuration name="D:/Projects/Lab-s-tasks/webdrivergooglecloud/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass - 2019.03.12 at 12h 06m 01s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Projects_Lab-s-tasks_webdrivergooglecloud_testng_xml - 2019.03.12 at 12h 06m 26s.xml">
-      <configuration name="D:/Projects/Lab-s-tasks/webdrivergooglecloud/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Projects_Lab-s-tasks_webdrivergooglecloud_testng_xml - 2019.03.12 at 12h 20m 53s.xml">
-      <configuration name="D:/Projects/Lab-s-tasks/webdrivergooglecloud/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Projects_Lab-s-tasks_webdrivergooglecloud_testng_xml - 2019.03.12 at 12h 31m 27s.xml">
-      <configuration name="D:/Projects/Lab-s-tasks/webdrivergooglecloud/testng.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestClass - 2019.03.12 at 12h 43m 34s.xml">
       <configuration name="TestClass" configurationId="TestNG" />
     </history-entry>
@@ -453,6 +454,27 @@
     </history-entry>
     <history-entry file="D__Projects_Lab-s-tasks_webdrivergooglecloud_testng_xml - 2019.03.12 at 12h 57m 23s.xml">
       <configuration name="D:/Projects/Lab-s-tasks/webdrivergooglecloud/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass - 2019.03.13 at 13h 10m 56s.xml">
+      <configuration name="TestClass" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass - 2019.03.13 at 13h 12m 24s.xml">
+      <configuration name="TestClass" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass - 2019.03.13 at 13h 16m 51s.xml">
+      <configuration name="TestClass" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass - 2019.03.13 at 13h 19m 04s.xml">
+      <configuration name="TestClass" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass - 2019.03.13 at 13h 23m 11s.xml">
+      <configuration name="TestClass" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass - 2019.03.13 at 13h 24m 48s.xml">
+      <configuration name="TestClass" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestClass - 2019.03.13 at 13h 28m 12s.xml">
+      <configuration name="TestClass" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -465,10 +487,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3618582" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18643032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -478,7 +499,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49048153" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22956327" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -552,6 +573,12 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/By.class</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Form.java</url>
           <line>42</line>
@@ -600,16 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-567">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,13 +715,6 @@
     <entry file="file://$PROJECT_DIR$/test-output/passed.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="808">
@@ -712,47 +722,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_FormEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Cloud.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudPricing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudProducts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -771,8 +744,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Form.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="59" column="24" selection-start-line="59" selection-start-column="24" selection-end-line="59" selection-end-column="24" />
+        <state relative-caret-position="557">
+          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/CloudGoogle.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utils/WebDriverSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/By.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1122">
+          <caret line="53" column="49" lean-forward="true" selection-start-line="53" selection-start-column="49" selection-end-line="53" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#725#726#0" expanded="true" />
+            <element signature="e#775#776#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="30" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudProducts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_FormEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -781,7 +829,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/tenminutesmail/PO_10minuteEmail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
+        <state relative-caret-position="406">
           <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -789,32 +837,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/WebDriverSingleton.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Cloud.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        <state relative-caret-position="238">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="184" column="5" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2490#2491#0" expanded="true" />
-            <element signature="e#2596#2597#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#665#666#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Frame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="136" selection-start-line="136" selection-end-line="136" />
+        <state relative-caret-position="365">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -823,10 +861,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/PO_Abstract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+        <state relative-caret-position="280">
+          <caret line="28" column="22" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2445#2446#0" expanded="true" />
+            <element signature="e#2486#2487#0" expanded="true" />
+            <element signature="e#2536#2537#0" expanded="true" />
+            <element signature="e#2592#2593#0" expanded="true" />
           </folding>
         </state>
       </provider>

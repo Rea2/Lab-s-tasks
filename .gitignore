@@ -24,6 +24,7 @@ hs_err_pid*
 *.yml
 **/out/
 **/target/
+**/test-output/
 **/gen/
 **/idea-gitignore.jar
 **/resources/templates.list
