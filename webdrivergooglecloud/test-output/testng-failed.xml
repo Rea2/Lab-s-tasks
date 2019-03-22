@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
-  <test thread-count="5" name="GoogleCloud-10(failed)">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="tests">
+  <com.epam.ta.test thread-count="3" name="GoogleCloud-2(failed)" parallel="tests">
+    <parameter name="browser_name" value="edge"/>
     <classes>
-      <class name="TestClass">
+      <class name="com.epam.ta.test.TestClass">
         <methods>
           <include name="testTotalEstimatedCost"/>
           <include name="beforeClass"/>
@@ -12,7 +13,37 @@
           <include name="afterClass"/>
           <include name="beforeTest"/>
         </methods>
-      </class> <!-- TestClass -->
+      </class> <!-- com.epam.ta.test.TestClass -->
     </classes>
-  </test> <!-- GoogleCloud-10(failed) -->
+  </com.epam.ta.test> <!-- GoogleCloud-2(failed) -->
+  <com.epam.ta.test thread-count="3" name="GoogleCloud-3(failed)" parallel="tests">
+    <parameter name="browser_name" value="firefox"/>
+    <classes>
+      <class name="com.epam.ta.test.TestClass">
+        <methods>
+          <include name="testTotalEstimatedCost"/>
+          <include name="beforeClass"/>
+          <include name="testIsFilledFormCorrect"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.epam.ta.test.TestClass -->
+    </classes>
+  </com.epam.ta.test> <!-- GoogleCloud-3(failed) -->
+  <com.epam.ta.test thread-count="3" name="GoogleCloud-1(failed)" parallel="tests">
+    <parameter name="browser_name" value="chrome"/>
+    <classes>
+      <class name="com.epam.ta.test.TestClass">
+        <methods>
+          <include name="testTotalEstimatedCost"/>
+          <include name="beforeClass"/>
+          <include name="testIsFilledFormCorrect"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.epam.ta.test.TestClass -->
+    </classes>
+  </com.epam.ta.test> <!-- GoogleCloud-1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

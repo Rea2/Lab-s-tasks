@@ -1,0 +1,12 @@
+{
+  "description": "Yauheni Raik Examples",
+  "public": true,
+  "files": {
+    "hello_world.txt": {
+      "content": "Hello"
+    },
+    "hello_world2.txt": {
+      "content": "Hello2"
+    }
+  }
+}

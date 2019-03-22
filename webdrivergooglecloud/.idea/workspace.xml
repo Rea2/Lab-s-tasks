@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7f1631b-d60a-48bf-b3b2-c8313bedcb03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/ta/step/StepsDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/epam/ta/util/WebDriverSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng_grid.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/PO_Abstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages_objects/PO_Abstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Frame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utils/WebDriverSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/WebDriverSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/ta/test/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/PO_Abstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/ta/page/AbstractPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Cloud.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/CloudPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudPricing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/CloudPricingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudProducts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/CloudProductsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudProductsCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/CloudProductsCalculatorPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/FormPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_FormEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/FormEmailPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/FramePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages_objects/tenminutesmail/PO_10minuteEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/ta/page/tenminutesmail/TenMinuteEmailPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/epam/ta/test/TestClassGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/WebDriverSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/CloudGoogle.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/CloudGoogle.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite1/GoogleCloud-2.html" afterDir="false" />
@@ -21,13 +35,20 @@
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-TestClass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-TestClass.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/GoogleCloud-1.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/GoogleCloud-1.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/GoogleCloud-2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/GoogleCloud-2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/GoogleCloud-3.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/GoogleCloud-3.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/groups.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/methods-not-run.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/testng.xml.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/Suite1/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite1/toc.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,38 +65,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/Steps.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/test/TestClassGrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="30" selection-end-column="53" />
+            <state relative-caret-position="1231">
+              <caret line="199" column="2" selection-start-line="199" selection-start-column="2" selection-end-line="199" selection-end-column="2" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#8093#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/driver/DriverSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-408">
-              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+            <state relative-caret-position="527">
+              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2445#2446#0" expanded="true" />
-                <element signature="e#2486#2487#0" expanded="true" />
-                <element signature="e#2536#2537#0" expanded="true" />
-                <element signature="e#2592#2593#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/utils/WebDriverSingleton.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/settings.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/test/TestClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1069">
+              <caret line="94" column="35" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,10 +110,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/PO_Abstract.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/FormPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="238">
+              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+                <element signature="e#1171#1172#0" expanded="true" />
+                <element signature="e#1216#1217#0" expanded="true" />
+                <element signature="e#1341#1342#0" expanded="true" />
+                <element signature="e#1382#1383#0" expanded="true" />
+                <element signature="e#1435#1436#0" expanded="true" />
+                <element signature="e#1486#1487#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/FormEmailPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,10 +142,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/tenminutesmail/PO_10minuteEmail.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/CloudPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+            <state relative-caret-position="200">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,9 +154,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudProducts.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/CloudPricingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="204">
               <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -120,24 +166,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Cloud.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/CloudProductsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Frame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-377">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="204">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,24 +178,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Form.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/CloudProductsCalculatorPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1171#1172#0" expanded="true" />
-                <element signature="e#1216#1217#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_FormEmail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="340">
+              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,8 +194,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -191,10 +209,26 @@
       <find>43</find>
       <find>suse</find>
       <find>findEle</find>
+      <find>estima</find>
+      <find>estimatedCostFromGoogleWebSite</find>
+      <find>Hello</find>
+      <find>Give</find>
+      <find>es</find>
+      <find>[|][ ]</find>
+      <find>(&quot;.+&quot;)</find>
+      <find>PO_</find>
+      <find>chrome</find>
+      <find>driver</find>
     </findStrings>
     <replaceStrings>
       <replace>option);</replace>
+      <replace>| |</replace>
+      <replace>)</replace>
+      <replace>Page</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\Projects\Lab-s-tasks\webdrivergooglecloud\src\test\java\com\epam\ta\page</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -202,18 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/pages/PO_DashBoard.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestClass2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/PO_GoogleCloudCalculator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/PO_Frame_old.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/PO_10minuteEmail.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/PO_FormEmail.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/PO_Form.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/PO_GoogleCloud.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/PO_CgCalculatror.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/PO_CgCalculator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/PO.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/PO_CloudCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/PO_CloudProducts.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/PO_CloudCalculators.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/PO_CloudPricing.java" />
@@ -227,22 +249,44 @@
         <option value="$PROJECT_DIR$/src/test/java/pages/page_objects/PO_CloudProductsCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/page_objects/cloud_google/xpath from Pavel" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/Learning" />
-        <option value="$PROJECT_DIR$/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/pages/page_objects/cloud_google/PO_Cloud.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/page_objects/cloud_google/PO_CloudProductsCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/page_objects/PO.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/page_objects/cloud_google/PO_Frame.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages_objects/PO.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages_objects/PO_abstract.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Steps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/Steps.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/CloudGoogle.feature" />
         <option value="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Frame.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pages_objects/PO_Abstract.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Cloud.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RunnerThreads.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/testng_grid.xml" />
         <option value="$PROJECT_DIR$/src/test/java/utils/WebDriverSingleton.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdef/StepsCloudGoogle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/StepsGoogleCloud.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/StepsCloudGoogle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/stepsdef/StepsCloudCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/ScenarionHooks.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/text" />
+        <option value="$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Form.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestClassGrid.java" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/ScenarioHooks.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/CloudGoogle.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/Steps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages_objects/PO_Abstract.java" />
+        <option value="$PROJECT_DIR$/src/test/java/driver/DriverSingleton.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/ta/driver/DriverSingleton.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/PO_CloudProducts.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/CloudProductsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/CloudProductsCalculatorPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/PO_Form.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/FormPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/FormEmailPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/ta/test/TestClassGrid.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/epam/ta/test/TestClass.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/settings.properties" />
       </list>
     </option>
   </component>
@@ -270,8 +314,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="807" />
-    <option name="y" value="1" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="884" />
     <option name="height" value="970" />
   </component>
@@ -313,7 +357,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages_objects" type="462c0819:PsiDirectoryNode" />
+              <item name="ta" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webdrivergooglecloud" type="b2602c69:ProjectViewProjectNode" />
@@ -321,8 +365,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages_objects" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud_google" type="462c0819:PsiDirectoryNode" />
+              <item name="ta" type="462c0819:PsiDirectoryNode" />
+              <item name="driver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webdrivergooglecloud" type="b2602c69:ProjectViewProjectNode" />
@@ -330,7 +374,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="ta" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webdrivergooglecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webdrivergooglecloud" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ta" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webdrivergooglecloud" type="b2602c69:ProjectViewProjectNode" />
@@ -343,23 +397,30 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552489256014" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553265677233" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../demo10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/stepsdef" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pages" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\Lab-s-tasks\webdrivergooglecloud" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="driver" />
+      <recent name="" />
+      <recent name="pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\Lab-s-tasks\webdrivergooglecloud\src\test\java\pages\scratchs" />
@@ -377,19 +438,113 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Projects/Lab-s-tasks/webdrivergooglecloud/testng.xml">
-    <configuration name="D:/Projects/Lab-s-tasks/webdrivergooglecloud/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.TestClass">
+    <configuration name="Feature: CloudGoogle" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CloudGoogle.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="webdriver-google-cloud" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="SUGGESTED_NAME" value="Feature: CloudGoogle" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Giving correct estimate from after submitting data" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CloudGoogle.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="webdriver-google-cloud" />
+      <option name="NAME_FILTER" value="^Giving correct estimate from after submitting data$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^Giving correct estimate from after submitting data$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Giving correct estimate from after submitting data" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: I get total estimate cost on the email" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CloudGoogle.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="webdriver-google-cloud" />
+      <option name="NAME_FILTER" value="^I get total estimate cost on the email$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^I get total estimate cost on the email$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: I get total estimate cost on the email" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: " type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/CloudGoogle.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="webdriver-google-cloud" />
+      <option name="NAME_FILTER" value="^$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter --name &quot;^$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: " />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="webdriver-google-cloud [mvn...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mvn" />
+                <option value="-Dbrowser=chrome" />
+                <option value="clean" />
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="TestClass" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="webdrivergooglecloud" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.ta.test.TestClass" />
       <properties />
       <listeners />
       <method v="2">
@@ -397,9 +552,9 @@
       </method>
     </configuration>
     <configuration name="TestClass" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="webdrivergooglecloud" />
+      <module name="webdriver-google-cloud" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <option name="MAIN_CLASS_NAME" value="com.epam.ta.test.TestClass" />
       <properties />
       <listeners />
       <method v="2">
@@ -407,13 +562,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.D:/Projects/Lab-s-tasks/webdrivergooglecloud/testng.xml" />
+      <item itemvalue="Cucumber java.Scenario: I get total estimate cost on the email" />
+      <item itemvalue="Cucumber java.Feature: CloudGoogle" />
+      <item itemvalue="Cucumber java.Scenario: " />
+      <item itemvalue="Cucumber java.Scenario: Giving correct estimate from after submitting data" />
       <item itemvalue="TestNG.TestClass" />
+      <item itemvalue="TestNG.TestClass (1)" />
+      <item itemvalue="Maven.webdriver-google-cloud [mvn...]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Projects/Lab-s-tasks/webdrivergooglecloud/testng.xml" />
         <item itemvalue="TestNG.TestClass" />
+        <item itemvalue="Cucumber java.Feature: CloudGoogle" />
+        <item itemvalue="Cucumber java.Scenario: " />
+        <item itemvalue="TestNG.TestClass (1)" />
+        <item itemvalue="Cucumber java.Scenario: Giving correct estimate from after submitting data" />
       </list>
     </recent_temporary>
   </component>
@@ -439,38 +602,38 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestClass - 2019.03.13 at 16h 40m 49s.xml">
+    <history-entry file="Feature__CloudGoogle - 2019.03.19 at 15h 03m 03s.xml">
+      <configuration name="Feature: CloudGoogle" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__CloudGoogle - 2019.03.19 at 15h 11m 15s.xml">
+      <configuration name="Feature: CloudGoogle" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__ - 2019.03.19 at 15h 12m 54s.xml">
+      <configuration name="Scenario: " configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__CloudGoogle - 2019.03.19 at 15h 23m 45s.xml">
+      <configuration name="Feature: CloudGoogle" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TestClass - 2019.03.22 at 16h 48m 47s.xml">
       <configuration name="TestClass" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass - 2019.03.13 at 16h 42m 15s.xml">
+    <history-entry file="TestClass - 2019.03.22 at 16h 50m 42s.xml">
       <configuration name="TestClass" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass - 2019.03.13 at 16h 44m 03s.xml">
+    <history-entry file="TestClass - 2019.03.22 at 17h 05m 46s.xml">
       <configuration name="TestClass" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass - 2019.03.13 at 17h 00m 58s.xml">
+    <history-entry file="TestClass - 2019.03.22 at 17h 13m 52s.xml">
       <configuration name="TestClass" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass - 2019.03.13 at 17h 04m 13s.xml">
+    <history-entry file="TestClass - 2019.03.22 at 17h 35m 00s.xml">
       <configuration name="TestClass" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestClass - 2019.03.13 at 17h 06m 07s.xml">
+    <history-entry file="TestClass - 2019.03.22 at 17h 37m 53s.xml">
       <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestClass - 2019.03.13 at 17h 08m 34s.xml">
-      <configuration name="TestClass" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Projects_Lab-s-tasks_webdrivergooglecloud_testng_xml - 2019.03.13 at 17h 20m 45s.xml">
-      <configuration name="D:/Projects/Lab-s-tasks/webdrivergooglecloud/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Projects_Lab-s-tasks_webdrivergooglecloud_testng_xml - 2019.03.13 at 17h 26m 53s.xml">
-      <configuration name="D:/Projects/Lab-s-tasks/webdrivergooglecloud/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Projects_Lab-s-tasks_webdrivergooglecloud_testng_xml - 2019.03.13 at 17h 47m 10s.xml">
-      <configuration name="D:/Projects/Lab-s-tasks/webdrivergooglecloud/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -481,9 +644,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14731051" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20232274" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -493,7 +655,37 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26091826" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24076147" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32922733" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.38297874" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32922733" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32922733" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.2121027" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" x="0" y="0" width="374" height="826" id="Documentation" order="8" side_tool="true" weight="0.3294621" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30339807" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Learn" order="6" weight="0.3288835" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27837515" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -507,36 +699,6 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" weight="0.3294621" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" x="0" y="0" width="374" height="826" id="Documentation" order="8" side_tool="true" weight="0.3294621" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31112468" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" weight="0.3294621" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31354985" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32922733" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -556,13 +718,7 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Form.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pages_objects/tenminutesmail/PO_10minuteEmail.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/tenminutesmail/TenMinuteEmailPage.java</url>
           <line>20</line>
           <properties />
           <option name="timeStamp" value="4" />
@@ -573,58 +729,10 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Form.java</url>
-          <line>42</line>
-          <properties class="pages_objects.cloud_google.PO_Form">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PO_ManageJenkins.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PO_Jenkins.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PO_UsersJenkins.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PO_SignInJenkins.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/JavascriptExecutor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/Select.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebElement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/PO_DashBoard.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/PO_CreateUserJenkins.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/PO_GoogleCloudCalculator.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/Scanner.java">
@@ -641,13 +749,6 @@
           <folding>
             <element signature="e#1378#1379#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
         </state>
       </provider>
     </entry>
@@ -709,51 +810,10 @@
     <entry file="file://$PROJECT_DIR$/test-output/passed.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="54" selection-start-line="13" selection-start-column="12" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudPricing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudProductsCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/WebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/CloudGoogle.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -769,19 +829,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Steps.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/RunnerThreads.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/tenminutesmail/TenMinuteEmailPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="30" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/tenminutesmail/PO_10minuteEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
+        <state relative-caret-position="425">
           <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -789,9 +840,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_CloudProducts.java">
+    <entry file="file://$PROJECT_DIR$/testng_grid.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="85">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/StepsGoogleCloud.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/StepsCloudGoogle.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepsdef/StepsCloudCalculator.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/text" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/4.2.6/cucumber-core-4.2.6.jar!/cucumber/runtime/model/FeatureParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/step/StepsDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/JavascriptExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/FramePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/ScenarioHooks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/AbstractPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/api/cli/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/CloudGoogle.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="689">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/util/WebDriverSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/CloudPricingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -799,19 +964,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Form.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/CloudProductsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        <state relative-caret-position="204">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_FormEmail.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/CloudProductsCalculatorPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/FormEmailPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -821,59 +994,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Frame.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/CloudPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-377">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="200">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/PO_Abstract.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/page/cloud_google/FormPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="238">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1171#1172#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1341#1342#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1435#1436#0" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/test/TestClassGrid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1231">
+          <caret line="199" column="2" selection-start-line="199" selection-start-column="2" selection-end-line="199" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#8093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/test/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="94" column="35" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/ta/driver/DriverSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-408">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        <state relative-caret-position="527">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2445#2446#0" expanded="true" />
-            <element signature="e#2486#2487#0" expanded="true" />
-            <element signature="e#2536#2537#0" expanded="true" />
-            <element signature="e#2592#2593#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages_objects/cloud_google/PO_Cloud.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/settings.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utils/WebDriverSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>

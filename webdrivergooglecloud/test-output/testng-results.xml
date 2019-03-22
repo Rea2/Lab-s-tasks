@@ -1,360 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" ignored="10" total="30" passed="18">
+<testng-results skipped="6" failed="0" ignored="3" total="9" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="356018" started-at="2019-03-13T14:53:01Z" finished-at="2019-03-13T14:58:57Z">
+  <suite name="Suite1" duration-ms="22622" started-at="2019-03-15T13:01:51Z" finished-at="2019-03-15T13:02:14Z">
     <groups>
     </groups>
-    <test name="GoogleCloud-1" duration-ms="36795" started-at="2019-03-13T14:53:01Z" finished-at="2019-03-13T14:53:38Z">
-      <class name="TestClass">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@1134affc]" name="beforeClass" is-config="true" duration-ms="35068" started-at="2019-03-13T14:53:01Z" finished-at="2019-03-13T14:53:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@1134affc]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-13T14:53:36Z" finished-at="2019-03-13T14:53:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@1134affc]" name="testIsFilledFormCorrect" duration-ms="728" started-at="2019-03-13T14:53:36Z" finished-at="2019-03-13T14:53:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsFilledFormCorrect -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@1134affc]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-13T14:53:37Z" finished-at="2019-03-13T14:53:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@1134affc]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:53:37Z" finished-at="2019-03-13T14:53:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@1134affc]" name="testTotalEstimatedCost" duration-ms="86" started-at="2019-03-13T14:53:37Z" finished-at="2019-03-13T14:53:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTotalEstimatedCost -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@1134affc]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:53:37Z" finished-at="2019-03-13T14:53:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@1134affc]" name="afterClass" is-config="true" duration-ms="878" started-at="2019-03-13T14:53:37Z" finished-at="2019-03-13T14:53:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestClass -->
-    </test> <!-- GoogleCloud-1 -->
-    <test name="GoogleCloud-2" duration-ms="32443" started-at="2019-03-13T14:53:38Z" finished-at="2019-03-13T14:54:10Z">
-      <class name="TestClass">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@30c7da1e]" name="beforeClass" is-config="true" duration-ms="30307" started-at="2019-03-13T14:53:38Z" finished-at="2019-03-13T14:54:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@30c7da1e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:54:08Z" finished-at="2019-03-13T14:54:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@30c7da1e]" name="testIsFilledFormCorrect" duration-ms="769" started-at="2019-03-13T14:54:08Z" finished-at="2019-03-13T14:54:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsFilledFormCorrect -->
-        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@30c7da1e]" name="testTotalEstimatedCost" duration-ms="78" started-at="2019-03-13T14:54:09Z" finished-at="2019-03-13T14:54:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTotalEstimatedCost -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@30c7da1e]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:54:09Z" finished-at="2019-03-13T14:54:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@30c7da1e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:54:09Z" finished-at="2019-03-13T14:54:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@30c7da1e]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:54:09Z" finished-at="2019-03-13T14:54:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@30c7da1e]" name="afterClass" is-config="true" duration-ms="1285" started-at="2019-03-13T14:54:09Z" finished-at="2019-03-13T14:54:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestClass -->
-    </test> <!-- GoogleCloud-2 -->
-    <test name="GoogleCloud-3" duration-ms="35604" started-at="2019-03-13T14:54:10Z" finished-at="2019-03-13T14:54:46Z">
-      <class name="TestClass">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@3d24753a]" name="beforeClass" is-config="true" duration-ms="33884" started-at="2019-03-13T14:54:10Z" finished-at="2019-03-13T14:54:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@3d24753a]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:54:44Z" finished-at="2019-03-13T14:54:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@3d24753a]" name="testIsFilledFormCorrect" duration-ms="754" started-at="2019-03-13T14:54:44Z" finished-at="2019-03-13T14:54:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsFilledFormCorrect -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@3d24753a]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:54:45Z" finished-at="2019-03-13T14:54:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@3d24753a]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:54:45Z" finished-at="2019-03-13T14:54:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@3d24753a]" name="testTotalEstimatedCost" duration-ms="73" started-at="2019-03-13T14:54:45Z" finished-at="2019-03-13T14:54:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTotalEstimatedCost -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@3d24753a]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:54:45Z" finished-at="2019-03-13T14:54:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@3d24753a]" name="afterClass" is-config="true" duration-ms="890" started-at="2019-03-13T14:54:45Z" finished-at="2019-03-13T14:54:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestClass -->
-    </test> <!-- GoogleCloud-3 -->
-    <test name="GoogleCloud-4" duration-ms="34389" started-at="2019-03-13T14:54:46Z" finished-at="2019-03-13T14:55:20Z">
-      <class name="TestClass">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@2d6e8792]" name="beforeClass" is-config="true" duration-ms="32750" started-at="2019-03-13T14:54:46Z" finished-at="2019-03-13T14:55:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@2d6e8792]" name="testIsFilledFormCorrect" duration-ms="700" started-at="2019-03-13T14:55:19Z" finished-at="2019-03-13T14:55:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsFilledFormCorrect -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@2d6e8792]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:55:19Z" finished-at="2019-03-13T14:55:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@2d6e8792]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:55:19Z" finished-at="2019-03-13T14:55:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@2d6e8792]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:55:19Z" finished-at="2019-03-13T14:55:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@2d6e8792]" name="testTotalEstimatedCost" duration-ms="78" started-at="2019-03-13T14:55:19Z" finished-at="2019-03-13T14:55:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTotalEstimatedCost -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@2d6e8792]" name="afterClass" is-config="true" duration-ms="859" started-at="2019-03-13T14:55:19Z" finished-at="2019-03-13T14:55:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@2d6e8792]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:55:19Z" finished-at="2019-03-13T14:55:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- TestClass -->
-    </test> <!-- GoogleCloud-4 -->
-    <test name="GoogleCloud-5" duration-ms="32691" started-at="2019-03-13T14:55:20Z" finished-at="2019-03-13T14:55:53Z">
-      <class name="TestClass">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@67b64c45]" name="beforeClass" is-config="true" duration-ms="30986" started-at="2019-03-13T14:55:20Z" finished-at="2019-03-13T14:55:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@67b64c45]" name="testIsFilledFormCorrect" duration-ms="745" started-at="2019-03-13T14:55:51Z" finished-at="2019-03-13T14:55:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsFilledFormCorrect -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@67b64c45]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:55:51Z" finished-at="2019-03-13T14:55:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@67b64c45]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-13T14:55:52Z" finished-at="2019-03-13T14:55:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@67b64c45]" name="testTotalEstimatedCost" duration-ms="82" started-at="2019-03-13T14:55:52Z" finished-at="2019-03-13T14:55:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTotalEstimatedCost -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@67b64c45]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:55:52Z" finished-at="2019-03-13T14:55:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@67b64c45]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-13T14:55:52Z" finished-at="2019-03-13T14:55:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@67b64c45]" name="afterClass" is-config="true" duration-ms="875" started-at="2019-03-13T14:55:52Z" finished-at="2019-03-13T14:55:53Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestClass -->
-    </test> <!-- GoogleCloud-5 -->
-    <test name="GoogleCloud-6" duration-ms="45254" started-at="2019-03-13T14:55:53Z" finished-at="2019-03-13T14:56:38Z">
-      <class name="TestClass">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@edf4efb]" name="beforeClass" is-config="true" duration-ms="43561" started-at="2019-03-13T14:55:53Z" finished-at="2019-03-13T14:56:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@edf4efb]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-13T14:56:37Z" finished-at="2019-03-13T14:56:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@edf4efb]" name="testIsFilledFormCorrect" duration-ms="719" started-at="2019-03-13T14:56:37Z" finished-at="2019-03-13T14:56:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsFilledFormCorrect -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@edf4efb]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:56:37Z" finished-at="2019-03-13T14:56:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@edf4efb]" name="testTotalEstimatedCost" duration-ms="96" started-at="2019-03-13T14:56:37Z" finished-at="2019-03-13T14:56:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTotalEstimatedCost -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@edf4efb]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:56:37Z" finished-at="2019-03-13T14:56:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@edf4efb]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:56:37Z" finished-at="2019-03-13T14:56:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@edf4efb]" name="afterClass" is-config="true" duration-ms="875" started-at="2019-03-13T14:56:37Z" finished-at="2019-03-13T14:56:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestClass -->
-    </test> <!-- GoogleCloud-6 -->
-    <test name="GoogleCloud-7" duration-ms="32029" started-at="2019-03-13T14:56:38Z" finished-at="2019-03-13T14:57:10Z">
-      <class name="TestClass">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@6cd8737]" name="beforeClass" is-config="true" duration-ms="30265" started-at="2019-03-13T14:56:38Z" finished-at="2019-03-13T14:57:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@6cd8737]" name="testIsFilledFormCorrect" duration-ms="736" started-at="2019-03-13T14:57:09Z" finished-at="2019-03-13T14:57:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsFilledFormCorrect -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@6cd8737]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:57:09Z" finished-at="2019-03-13T14:57:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@6cd8737]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-13T14:57:09Z" finished-at="2019-03-13T14:57:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@6cd8737]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:57:09Z" finished-at="2019-03-13T14:57:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@6cd8737]" name="testTotalEstimatedCost" duration-ms="80" started-at="2019-03-13T14:57:09Z" finished-at="2019-03-13T14:57:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTotalEstimatedCost -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@6cd8737]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-13T14:57:09Z" finished-at="2019-03-13T14:57:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@6cd8737]" name="afterClass" is-config="true" duration-ms="946" started-at="2019-03-13T14:57:09Z" finished-at="2019-03-13T14:57:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestClass -->
-    </test> <!-- GoogleCloud-7 -->
-    <test name="GoogleCloud-8" duration-ms="31715" started-at="2019-03-13T14:57:10Z" finished-at="2019-03-13T14:57:42Z">
-      <class name="TestClass">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@3d8c7aca]" name="beforeClass" is-config="true" duration-ms="30034" started-at="2019-03-13T14:57:10Z" finished-at="2019-03-13T14:57:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@3d8c7aca]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:57:40Z" finished-at="2019-03-13T14:57:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@3d8c7aca]" name="testIsFilledFormCorrect" duration-ms="705" started-at="2019-03-13T14:57:40Z" finished-at="2019-03-13T14:57:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsFilledFormCorrect -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@3d8c7aca]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-13T14:57:41Z" finished-at="2019-03-13T14:57:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@3d8c7aca]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:57:41Z" finished-at="2019-03-13T14:57:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@3d8c7aca]" name="testTotalEstimatedCost" duration-ms="88" started-at="2019-03-13T14:57:41Z" finished-at="2019-03-13T14:57:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTotalEstimatedCost -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@3d8c7aca]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-13T14:57:41Z" finished-at="2019-03-13T14:57:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@3d8c7aca]" name="afterClass" is-config="true" duration-ms="884" started-at="2019-03-13T14:57:41Z" finished-at="2019-03-13T14:57:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestClass -->
-    </test> <!-- GoogleCloud-8 -->
-    <test name="GoogleCloud-9" duration-ms="33693" started-at="2019-03-13T14:57:42Z" finished-at="2019-03-13T14:58:16Z">
-      <class name="TestClass">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestClass@7a5d012c]" name="beforeClass" is-config="true" duration-ms="31527" started-at="2019-03-13T14:57:42Z" finished-at="2019-03-13T14:58:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@7a5d012c]" name="testIsFilledFormCorrect" duration-ms="1079" started-at="2019-03-13T14:58:14Z" finished-at="2019-03-13T14:58:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsFilledFormCorrect -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@7a5d012c]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:58:14Z" finished-at="2019-03-13T14:58:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@7a5d012c]" name="afterTest" is-config="true" duration-ms="1" started-at="2019-03-13T14:58:15Z" finished-at="2019-03-13T14:58:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestClass@7a5d012c]" name="beforeTest" is-config="true" duration-ms="1" started-at="2019-03-13T14:58:15Z" finished-at="2019-03-13T14:58:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@7a5d012c]" name="testTotalEstimatedCost" duration-ms="86" started-at="2019-03-13T14:58:15Z" finished-at="2019-03-13T14:58:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTotalEstimatedCost -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestClass@7a5d012c]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:58:15Z" finished-at="2019-03-13T14:58:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestClass@7a5d012c]" name="afterClass" is-config="true" duration-ms="997" started-at="2019-03-13T14:58:15Z" finished-at="2019-03-13T14:58:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestClass -->
-    </test> <!-- GoogleCloud-9 -->
-    <test name="GoogleCloud-10" duration-ms="41281" started-at="2019-03-13T14:58:16Z" finished-at="2019-03-13T14:58:57Z">
-      <class name="TestClass">
-        <test-method status="FAIL" signature="beforeClass()[pri:0, instance:TestClass@2ed94a8b]" name="beforeClass" is-config="true" duration-ms="41242" started-at="2019-03-13T14:58:16Z" finished-at="2019-03-13T14:58:57Z">
-          <exception class="org.openqa.selenium.TimeoutException">
+    <com.epam.ta.test name="GoogleCloud-2" duration-ms="16898" started-at="2019-03-15T13:01:51Z" finished-at="2019-03-15T13:02:08Z">
+      <class name="com.epam.ta.test.TestClass">
+        <com.epam.ta.test-method status="FAIL" signature="beforeClass()[pri:0, instance:com.epam.ta.test.TestClass@57829d67]" name="beforeClass" is-config="true" duration-ms="16857" started-at="2019-03-15T13:01:51Z" finished-at="2019-03-15T13:02:08Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']]] (tried for 8 second(s) with 500 milliseconds interval)
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50717}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: d18afbf678044301913879dcd4a1d559]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53978}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: dab671f340949f84cc891df1c0931d5d
+*** Element info: {Using=xpath, value=//div[@class = 'cloud-section-header__link']/a[@href = 'https://cloud.google.com/products/']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']]] (tried for 8 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50717}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: d18afbf678044301913879dcd4a1d559
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at pages_objects.PO_Abstract.selectValueFromDropDownMenu(PO_Abstract.java:38)
-at pages_objects.PO_Abstract.clickMenuAndSelectValue(PO_Abstract.java:48)
-at pages_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:101)
-at TestClass.fillCalculatorForm(TestClass.java:173)
-at TestClass.beforeClass(TestClass.java:57)
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53978}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: dab671f340949f84cc891df1c0931d5d
+*** Element info: {Using=xpath, value=//div[@class = 'cloud-section-header__link']/a[@href = 'https://cloud.google.com/products/']}
+at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.toString(Unknown Source)
+at java.lang.String.valueOf(String.java:2994)
+at java.lang.StringBuilder.append(StringBuilder.java:131)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:683)
+at java.lang.String.valueOf(String.java:2994)
+at java.lang.StringBuilder.append(StringBuilder.java:131)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:268)
+at com.epam.ta.page.AbstractPage.waitUntilElementToBeClickable(PO_Abstract.java:24)
+at com.epam.ta.page.AbstractPage.clickButtonWhenClickable(PO_Abstract.java:33)
+at com.epam.ta.page.cloud_google.CloudPage.clickExploreAllProducts(PO_Cloud.java:25)
+at com.epam.ta.test.TestClass.beforeClass(com.epam.ta.test.TestClass.java:46)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -369,51 +76,78 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
-at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.com.epam.ta.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:TestClass@2ed94a8b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:58:57Z" finished-at="2019-03-13T14:58:57Z">
+        </com.epam.ta.test-method> <!-- beforeClass -->
+        <com.epam.ta.test-method status="SKIP" signature="beforeTest()[pri:0, instance:com.epam.ta.test.TestClass@57829d67]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-15T13:02:08Z" finished-at="2019-03-15T13:02:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="testIsFilledFormCorrect()[pri:1, instance:TestClass@2ed94a8b]" name="testIsFilledFormCorrect" duration-ms="0" started-at="2019-03-13T14:58:57Z" finished-at="2019-03-13T14:58:57Z">
-          <exception class="org.openqa.selenium.TimeoutException">
+        </com.epam.ta.test-method> <!-- beforeTest -->
+        <com.epam.ta.test-method status="SKIP" signature="testIsFilledFormCorrect()[pri:1, instance:com.epam.ta.test.TestClass@57829d67]" name="testIsFilledFormCorrect" duration-ms="0" started-at="2019-03-15T13:02:08Z" finished-at="2019-03-15T13:02:08Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']]] (tried for 8 second(s) with 500 milliseconds interval)
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50717}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: d18afbf678044301913879dcd4a1d559]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53978}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: dab671f340949f84cc891df1c0931d5d
+*** Element info: {Using=xpath, value=//div[@class = 'cloud-section-header__link']/a[@href = 'https://cloud.google.com/products/']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']]] (tried for 8 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50717}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: d18afbf678044301913879dcd4a1d559
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at pages_objects.PO_Abstract.selectValueFromDropDownMenu(PO_Abstract.java:38)
-at pages_objects.PO_Abstract.clickMenuAndSelectValue(PO_Abstract.java:48)
-at pages_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:101)
-at TestClass.fillCalculatorForm(TestClass.java:173)
-at TestClass.beforeClass(TestClass.java:57)
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53978}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: dab671f340949f84cc891df1c0931d5d
+*** Element info: {Using=xpath, value=//div[@class = 'cloud-section-header__link']/a[@href = 'https://cloud.google.com/products/']}
+at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.toString(Unknown Source)
+at java.lang.String.valueOf(String.java:2994)
+at java.lang.StringBuilder.append(StringBuilder.java:131)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:683)
+at java.lang.String.valueOf(String.java:2994)
+at java.lang.StringBuilder.append(StringBuilder.java:131)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:268)
+at com.epam.ta.page.AbstractPage.waitUntilElementToBeClickable(PO_Abstract.java:24)
+at com.epam.ta.page.AbstractPage.clickButtonWhenClickable(PO_Abstract.java:33)
+at com.epam.ta.page.cloud_google.CloudPage.clickExploreAllProducts(PO_Cloud.java:25)
+at com.epam.ta.test.TestClass.beforeClass(com.epam.ta.test.TestClass.java:46)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -428,59 +162,78 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
-at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.com.epam.ta.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testIsFilledFormCorrect -->
-        <test-method status="SKIP" signature="beforeTest()[pri:0, instance:TestClass@2ed94a8b]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:58:57Z" finished-at="2019-03-13T14:58:57Z">
+        </com.epam.ta.test-method> <!-- testIsFilledFormCorrect -->
+        <com.epam.ta.test-method status="SKIP" signature="afterTest()[pri:0, instance:com.epam.ta.test.TestClass@57829d67]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-15T13:02:08Z" finished-at="2019-03-15T13:02:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:TestClass@2ed94a8b]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:58:57Z" finished-at="2019-03-13T14:58:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="SKIP" signature="afterTest()[pri:0, instance:TestClass@2ed94a8b]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-13T14:58:57Z" finished-at="2019-03-13T14:58:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="SKIP" signature="testTotalEstimatedCost()[pri:2, instance:TestClass@2ed94a8b]" name="testTotalEstimatedCost" duration-ms="0" started-at="2019-03-13T14:58:57Z" finished-at="2019-03-13T14:58:57Z">
-          <exception class="org.openqa.selenium.TimeoutException">
+        </com.epam.ta.test-method> <!-- afterTest -->
+        <com.epam.ta.test-method status="SKIP" signature="testTotalEstimatedCost()[pri:2, instance:com.epam.ta.test.TestClass@57829d67]" name="testTotalEstimatedCost" duration-ms="0" started-at="2019-03-15T13:02:08Z" finished-at="2019-03-15T13:02:08Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']]] (tried for 8 second(s) with 500 milliseconds interval)
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50717}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: d18afbf678044301913879dcd4a1d559]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53978}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: dab671f340949f84cc891df1c0931d5d
+*** Element info: {Using=xpath, value=//div[@class = 'cloud-section-header__link']/a[@href = 'https://cloud.google.com/products/']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of all [[[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']], [[ChromeDriver: chrome on XP (d18afbf678044301913879dcd4a1d559)] -> xpath: //div[@id='select_container_59']//md-option/div[@class = 'md-text']]] (tried for 8 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50717}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
-Session ID: d18afbf678044301913879dcd4a1d559
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-at pages_objects.PO_Abstract.selectValueFromDropDownMenu(PO_Abstract.java:38)
-at pages_objects.PO_Abstract.clickMenuAndSelectValue(PO_Abstract.java:48)
-at pages_objects.cloud_google.PO_Frame.selectOperatingSystem(PO_Frame.java:101)
-at TestClass.fillCalculatorForm(TestClass.java:173)
-at TestClass.beforeClass(TestClass.java:57)
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53978}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: dab671f340949f84cc891df1c0931d5d
+*** Element info: {Using=xpath, value=//div[@class = 'cloud-section-header__link']/a[@href = 'https://cloud.google.com/products/']}
+at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.toString(Unknown Source)
+at java.lang.String.valueOf(String.java:2994)
+at java.lang.StringBuilder.append(StringBuilder.java:131)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:683)
+at java.lang.String.valueOf(String.java:2994)
+at java.lang.StringBuilder.append(StringBuilder.java:131)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:268)
+at com.epam.ta.page.AbstractPage.waitUntilElementToBeClickable(PO_Abstract.java:24)
+at com.epam.ta.page.AbstractPage.clickButtonWhenClickable(PO_Abstract.java:33)
+at com.epam.ta.page.cloud_google.CloudPage.clickExploreAllProducts(PO_Cloud.java:25)
+at com.epam.ta.test.TestClass.beforeClass(com.epam.ta.test.TestClass.java:46)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -495,28 +248,521 @@ at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
 at org.testng.TestRunner.privateRun(TestRunner.java:648)
 at org.testng.TestRunner.run(TestRunner.java:505)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:73)
-at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.com.epam.ta.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTotalEstimatedCost -->
-        <test-method status="SKIP" signature="afterClass()[pri:0, instance:TestClass@2ed94a8b]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-03-13T14:58:57Z" finished-at="2019-03-13T14:58:57Z">
+        </com.epam.ta.test-method> <!-- testTotalEstimatedCost -->
+        <com.epam.ta.test-method status="SKIP" signature="afterClass()[pri:0, instance:com.epam.ta.test.TestClass@57829d67]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-03-15T13:02:08Z" finished-at="2019-03-15T13:02:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestClass -->
-    </test> <!-- GoogleCloud-10 -->
+        </com.epam.ta.test-method> <!-- afterClass -->
+        <com.epam.ta.test-method status="SKIP" signature="afterTest()[pri:0, instance:com.epam.ta.test.TestClass@57829d67]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-15T13:02:08Z" finished-at="2019-03-15T13:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- afterTest -->
+        <com.epam.ta.test-method status="SKIP" signature="beforeTest()[pri:0, instance:com.epam.ta.test.TestClass@57829d67]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-15T13:02:08Z" finished-at="2019-03-15T13:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- beforeTest -->
+      </class> <!-- com.epam.ta.test.TestClass -->
+    </com.epam.ta.test> <!-- GoogleCloud-2 -->
+    <com.epam.ta.test name="GoogleCloud-3" duration-ms="17304" started-at="2019-03-15T13:01:51Z" finished-at="2019-03-15T13:02:09Z">
+      <class name="com.epam.ta.test.TestClass">
+        <com.epam.ta.test-method status="FAIL" signature="beforeClass()[pri:0, instance:com.epam.ta.test.TestClass@7a0ac6e3]" name="beforeClass" is-config="true" duration-ms="17293" started-at="2019-03-15T13:01:51Z" finished-at="2019-03-15T13:02:09Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53975}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 255e3c51c6a4abd23f068e9d7abaea46
+*** Element info: {Using=xpath, value=//div[@class = 'cloud-section-header__link']/a[@href = 'https://cloud.google.com/products/']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53975}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 255e3c51c6a4abd23f068e9d7abaea46
+*** Element info: {Using=xpath, value=//div[@class = 'cloud-section-header__link']/a[@href = 'https://cloud.google.com/products/']}
+at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.toString(Unknown Source)
+at java.lang.String.valueOf(String.java:2994)
+at java.lang.StringBuilder.append(StringBuilder.java:131)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:683)
+at java.lang.String.valueOf(String.java:2994)
+at java.lang.StringBuilder.append(StringBuilder.java:131)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:268)
+at com.epam.ta.page.AbstractPage.waitUntilElementToBeClickable(PO_Abstract.java:24)
+at com.epam.ta.page.AbstractPage.clickButtonWhenClickable(PO_Abstract.java:33)
+at com.epam.ta.page.cloud_google.CloudPage.clickExploreAllProducts(PO_Cloud.java:25)
+at com.epam.ta.test.TestClass.beforeClass(com.epam.ta.test.TestClass.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.com.epam.ta.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- beforeClass -->
+        <com.epam.ta.test-method status="SKIP" signature="beforeTest()[pri:0, instance:com.epam.ta.test.TestClass@7a0ac6e3]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-15T13:02:09Z" finished-at="2019-03-15T13:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- beforeTest -->
+        <com.epam.ta.test-method status="SKIP" signature="testIsFilledFormCorrect()[pri:1, instance:com.epam.ta.test.TestClass@7a0ac6e3]" name="testIsFilledFormCorrect" duration-ms="0" started-at="2019-03-15T13:02:09Z" finished-at="2019-03-15T13:02:09Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53975}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 255e3c51c6a4abd23f068e9d7abaea46
+*** Element info: {Using=xpath, value=//div[@class = 'cloud-section-header__link']/a[@href = 'https://cloud.google.com/products/']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53975}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 255e3c51c6a4abd23f068e9d7abaea46
+*** Element info: {Using=xpath, value=//div[@class = 'cloud-section-header__link']/a[@href = 'https://cloud.google.com/products/']}
+at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.toString(Unknown Source)
+at java.lang.String.valueOf(String.java:2994)
+at java.lang.StringBuilder.append(StringBuilder.java:131)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:683)
+at java.lang.String.valueOf(String.java:2994)
+at java.lang.StringBuilder.append(StringBuilder.java:131)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:268)
+at com.epam.ta.page.AbstractPage.waitUntilElementToBeClickable(PO_Abstract.java:24)
+at com.epam.ta.page.AbstractPage.clickButtonWhenClickable(PO_Abstract.java:33)
+at com.epam.ta.page.cloud_google.CloudPage.clickExploreAllProducts(PO_Cloud.java:25)
+at com.epam.ta.test.TestClass.beforeClass(com.epam.ta.test.TestClass.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.com.epam.ta.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- testIsFilledFormCorrect -->
+        <com.epam.ta.test-method status="SKIP" signature="afterTest()[pri:0, instance:com.epam.ta.test.TestClass@7a0ac6e3]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-15T13:02:09Z" finished-at="2019-03-15T13:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- afterTest -->
+        <com.epam.ta.test-method status="SKIP" signature="beforeTest()[pri:0, instance:com.epam.ta.test.TestClass@7a0ac6e3]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-15T13:02:09Z" finished-at="2019-03-15T13:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- beforeTest -->
+        <com.epam.ta.test-method status="SKIP" signature="afterClass()[pri:0, instance:com.epam.ta.test.TestClass@7a0ac6e3]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-03-15T13:02:09Z" finished-at="2019-03-15T13:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- afterClass -->
+        <com.epam.ta.test-method status="SKIP" signature="testTotalEstimatedCost()[pri:2, instance:com.epam.ta.test.TestClass@7a0ac6e3]" name="testTotalEstimatedCost" duration-ms="0" started-at="2019-03-15T13:02:09Z" finished-at="2019-03-15T13:02:09Z">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53975}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 255e3c51c6a4abd23f068e9d7abaea46
+*** Element info: {Using=xpath, value=//div[@class = 'cloud-section-header__link']/a[@href = 'https://cloud.google.com/products/']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53975}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 255e3c51c6a4abd23f068e9d7abaea46
+*** Element info: {Using=xpath, value=//div[@class = 'cloud-section-header__link']/a[@href = 'https://cloud.google.com/products/']}
+at sun.reflect.GeneratedConstructorAccessor19.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy10.toString(Unknown Source)
+at java.lang.String.valueOf(String.java:2994)
+at java.lang.StringBuilder.append(StringBuilder.java:131)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:683)
+at java.lang.String.valueOf(String.java:2994)
+at java.lang.StringBuilder.append(StringBuilder.java:131)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:268)
+at com.epam.ta.page.AbstractPage.waitUntilElementToBeClickable(PO_Abstract.java:24)
+at com.epam.ta.page.AbstractPage.clickButtonWhenClickable(PO_Abstract.java:33)
+at com.epam.ta.page.cloud_google.CloudPage.clickExploreAllProducts(PO_Cloud.java:25)
+at com.epam.ta.test.TestClass.beforeClass(com.epam.ta.test.TestClass.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.com.epam.ta.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- testTotalEstimatedCost -->
+        <com.epam.ta.test-method status="SKIP" signature="afterTest()[pri:0, instance:com.epam.ta.test.TestClass@7a0ac6e3]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-15T13:02:09Z" finished-at="2019-03-15T13:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- afterTest -->
+      </class> <!-- com.epam.ta.test.TestClass -->
+    </com.epam.ta.test> <!-- GoogleCloud-3 -->
+    <com.epam.ta.test name="GoogleCloud-1" duration-ms="22613" started-at="2019-03-15T13:01:51Z" finished-at="2019-03-15T13:02:14Z">
+      <class name="com.epam.ta.test.TestClass">
+        <com.epam.ta.test-method status="FAIL" signature="beforeClass()[pri:0, instance:com.epam.ta.test.TestClass@129a8472]" name="beforeClass" is-config="true" duration-ms="22600" started-at="2019-03-15T13:01:51Z" finished-at="2019-03-15T13:02:14Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53974}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 4819e5eede3754a7a6f1849d0481a3c8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53974}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 4819e5eede3754a7a6f1849d0481a3c8
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.epam.ta.page.cloud_google.CloudPage.open(PO_Cloud.java:16)
+at com.epam.ta.test.TestClass.beforeClass(com.epam.ta.test.TestClass.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.com.epam.ta.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- beforeClass -->
+        <com.epam.ta.test-method status="SKIP" signature="testIsFilledFormCorrect()[pri:1, instance:com.epam.ta.test.TestClass@129a8472]" name="testIsFilledFormCorrect" duration-ms="0" started-at="2019-03-15T13:02:14Z" finished-at="2019-03-15T13:02:14Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53974}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 4819e5eede3754a7a6f1849d0481a3c8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53974}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 4819e5eede3754a7a6f1849d0481a3c8
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.epam.ta.page.cloud_google.CloudPage.open(PO_Cloud.java:16)
+at com.epam.ta.test.TestClass.beforeClass(com.epam.ta.test.TestClass.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.com.epam.ta.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- testIsFilledFormCorrect -->
+        <com.epam.ta.test-method status="SKIP" signature="beforeTest()[pri:0, instance:com.epam.ta.test.TestClass@129a8472]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-15T13:02:14Z" finished-at="2019-03-15T13:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- beforeTest -->
+        <com.epam.ta.test-method status="SKIP" signature="afterTest()[pri:0, instance:com.epam.ta.test.TestClass@129a8472]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-15T13:02:14Z" finished-at="2019-03-15T13:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- afterTest -->
+        <com.epam.ta.test-method status="SKIP" signature="beforeTest()[pri:0, instance:com.epam.ta.test.TestClass@129a8472]" name="beforeTest" is-config="true" duration-ms="0" started-at="2019-03-15T13:02:14Z" finished-at="2019-03-15T13:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- beforeTest -->
+        <com.epam.ta.test-method status="SKIP" signature="afterClass()[pri:0, instance:com.epam.ta.test.TestClass@129a8472]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-03-15T13:02:14Z" finished-at="2019-03-15T13:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- afterClass -->
+        <com.epam.ta.test-method status="SKIP" signature="afterTest()[pri:0, instance:com.epam.ta.test.TestClass@129a8472]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-03-15T13:02:14Z" finished-at="2019-03-15T13:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- afterTest -->
+        <com.epam.ta.test-method status="SKIP" signature="testTotalEstimatedCost()[pri:2, instance:com.epam.ta.test.TestClass@129a8472]" name="testTotalEstimatedCost" duration-ms="0" started-at="2019-03-15T13:02:14Z" finished-at="2019-03-15T13:02:14Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53974}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 4819e5eede3754a7a6f1849d0481a3c8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=72.0.3626.69 (3c16f8a135abc0d4da2dff33804db79b849a7c38),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EPBYMINW7576', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.69 (3c16f8a135abc..., userDataDir: C:\Users\YAUHEN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:53974}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: 4819e5eede3754a7a6f1849d0481a3c8
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+at com.epam.ta.page.cloud_google.CloudPage.open(PO_Cloud.java:16)
+at com.epam.ta.test.TestClass.beforeClass(com.epam.ta.test.TestClass.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.com.epam.ta.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.com.epam.ta.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </com.epam.ta.test-method> <!-- testTotalEstimatedCost -->
+      </class> <!-- com.epam.ta.test.TestClass -->
+    </com.epam.ta.test> <!-- GoogleCloud-1 -->
   </suite> <!-- Suite1 -->
 </testng-results>
