@@ -562,20 +562,18 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber java.Scenario: I get total estimate cost on the email" />
       <item itemvalue="Cucumber java.Feature: CloudGoogle" />
-      <item itemvalue="Cucumber java.Scenario: " />
       <item itemvalue="Cucumber java.Scenario: Giving correct estimate from after submitting data" />
-      <item itemvalue="TestNG.TestClass" />
-      <item itemvalue="TestNG.TestClass (1)" />
+      <item itemvalue="Cucumber java.Scenario: I get total estimate cost on the email" />
+      <item itemvalue="Cucumber java.Scenario: " />
       <item itemvalue="Maven.webdriver-google-cloud [mvn...]" />
+      <item itemvalue="TestNG.TestClass" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestClass" />
         <item itemvalue="Cucumber java.Feature: CloudGoogle" />
         <item itemvalue="Cucumber java.Scenario: " />
-        <item itemvalue="TestNG.TestClass (1)" />
         <item itemvalue="Cucumber java.Scenario: Giving correct estimate from after submitting data" />
       </list>
     </recent_temporary>
