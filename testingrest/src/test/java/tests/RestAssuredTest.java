@@ -31,10 +31,6 @@ public class RestAssuredTest {
 		
 		String rpContentTypeHeader = reponse.getHeader("Content-Type");
 		Assert.assertEquals(rpContentTypeHeader, "application/json; charset=utf-8");
-
-		// This is extra test step for self-studying needs
-		String rpServerHeader = reponse.getHeader("server");
-		Assert.assertEquals(rpServerHeader, "cloudflare");
 	}
 	
 	@Test
@@ -45,7 +41,6 @@ public class RestAssuredTest {
 		ResponseBody<?> responseBody = reponse.getBody();
 		User[] users = responseBody.as(User[].class);
 		Assert.assertEquals(users.length, 10);
-		
 	}
 	
 }

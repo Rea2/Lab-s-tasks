@@ -7,29 +7,26 @@ import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-import static io.restassured.http.ContentType.JSON;
-
-public class RestAssuredGitTest {
+public class RestAssuredGitTestBonusTask {
     private String idCreatedGist;
-    private final String TOKEN = "Basic cmVhMnR1dEBnbWFpbC5jb206a2lja21lVUIyMg==";
+    private final String TOKEN = ""; // you should set you TOKEN here
 
     @BeforeTest
     public void initTest() {
         RestAssured.baseURI = "https://api.github.com";
     }
 
-    // Creating of the new gists. We use POST method here in the test case
+    // Creating of the new gists. We use POST method
     @Test
     public void testPost() throws IOException {
-       String json = new String(Files.readAllBytes(Paths.get("D:\\Projects\\testingrest\\src\\test\\java\\resources\\gist.json")));
+       String json = new String(Files.readAllBytes(Paths.get("D:\\Projects\\Lab_Single_Tasks\\testingrest\\src\\test\\resources\\gist.json")));
        Response response =  RestAssured.given()
-               .contentType(JSON)
                .header("Authorization", TOKEN)
+               .header("content-type", "application/json;charset=utf-8")
                .body(json)
                .when()
                .post("/gists")
@@ -51,15 +48,9 @@ public class RestAssuredGitTest {
                 .when()
                 .delete("/gists/" + idCreatedGist)
                 .andReturn();
-        printResponse(response);
+
         int statusCode = response.getStatusCode();
         Assert.assertEquals(statusCode, 204);
     }
-
-    // This method is used for debugging and provide extra information into StOut
-    private void printResponse(Response response){
-        System.out.println(response.getStatusLine());
-    }
-
 }
 
