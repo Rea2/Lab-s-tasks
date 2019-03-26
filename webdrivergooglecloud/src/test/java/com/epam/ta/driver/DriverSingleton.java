@@ -10,7 +10,6 @@ public class DriverSingleton {
 
     private static WebDriver driver;
 
-
     private DriverSingleton(){}
 
     public static WebDriver getDriver(){

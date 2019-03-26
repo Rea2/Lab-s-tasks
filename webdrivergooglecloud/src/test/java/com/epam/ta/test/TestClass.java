@@ -135,12 +135,12 @@ public class TestClass {
         String estimatedCostFromGoogleWebSite = form.getTextFromTotalEstimatedCost();
         formEmail  = form.clickEmailEstimate();
 
-        // Создаем  новую вкладку,  переключаемся на нее
+        // Создаем  новую вкладку, переключаемся на нее
         ((JavascriptExecutor)driver).executeScript("window.open()");
         ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
         driver.switchTo().window(tabs.get(1));
 
-        //Открываем страницу   почтовыго сервиса "https://10minutemail.com",
+        //Открываем страницу почтовыго сервиса "https://10minutemail.com",
         // который сразу же создает нам рандомный почтовый ящик.
         driver.get("https://10minutemail.com");
         page10MinuteEmail = PageFactory.initElements(driver, TenMinuteEmailPage.class);
@@ -164,7 +164,7 @@ public class TestClass {
                 "WebSite: " + estimatedCostFromGoogleWebSite + "\n" +
                    "Email: " + valueFromEmail);
 
-        // Закрываем вкладку  с https://10minutemail.comб вовзращаемся на страницу
+        // Закрываем вкладку с https://10minutemail.comб вовзращаемся на страницу
         // https://cloud.google.com/products/calculator/# и выполняем переход во фрейм
         driver.close();
         driver.switchTo().window(tabs.get(0));
@@ -187,5 +187,4 @@ public class TestClass {
                 .selectDataCenter("Frankfurt (europe-west3)")
                 .selectCommittedUsage("1 Year");
     }
-
 }
