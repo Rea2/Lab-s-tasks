@@ -1,13 +1,13 @@
 import model.MilitaryType;
 import plane.MilitaryPlane;
 import plane.PassengerPlane;
-import plane.Plane;
+import plane.AbstractPlane;
 
 import java.util.Arrays;
 import java.util.List;
 
 public class Runner {
-    static List<Plane> planes = Arrays.asList(
+    static List<AbstractPlane> planes = Arrays.asList(
             PassengerPlane.newBuilder()
                     .model("Boeing-737")
                     .maxSpeed(900)
@@ -121,8 +121,18 @@ public class Runner {
     );
 
     public static void main(String[] args) {
+        Airport airport = new Airport(planes);
+        Airport militaryAirport = new Airport(airport.getMilitaryPlanes());
+        Airport passengerAirport = new Airport(airport.getPassengerPlanes());
+        System.out.println("Military airport sorted by max distance: " + militaryAirport
+                .sortByMaxDistance()
+                .toString());
+        System.out.println("Passenger airport sorted by max speed: " + passengerAirport
+                .sortByMaxSpeed()
+                .toString());
+
+        System.out.println("Plane with max passenger capacity: " + passengerAirport.getPassengerPlaneWithMaxPassengersCapacity());
         planes.forEach(x -> System.out.println(x));
-        System.out.println();
     }
 }
 

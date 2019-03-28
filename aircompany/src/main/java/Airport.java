@@ -1,10 +1,13 @@
-import plane.ExperimentalPlane;
 import model.MilitaryType;
+import plane.AbstractPlane;
+import plane.ExperimentalPlane;
 import plane.MilitaryPlane;
 import plane.PassengerPlane;
-import plane.Plane;
 
-import java.util.*;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 import java.util.stream.Collectors;
 
 // version: 1.1
@@ -13,26 +16,28 @@ import java.util.stream.Collectors;
 
 public class Airport {
 
-    private List<? extends Plane> planes;
+    private List<? extends AbstractPlane> planes;
 
-    public Airport(List<? extends Plane> planes) {
+    public Airport(List<? extends AbstractPlane> planes) {
         this.planes = planes;
     }
 
     public List<PassengerPlane> getPassengerPlanes() {
-        List<PassengerPlane> passengerPlanes = new ArrayList<>();
-        for (Plane p : planes) {
-            if (p instanceof PassengerPlane) {
-                passengerPlanes.add((PassengerPlane) p);
-            }
-        }
-        return passengerPlanes;
+        return (List<PassengerPlane>) getDefinedPlanes(PassengerPlane.class);
     }
 
     public List<MilitaryPlane> getMilitaryPlanes() {
+        return (List<MilitaryPlane>) getDefinedPlanes(MilitaryPlane.class);
+    }
+
+    public List<ExperimentalPlane> getExperimentalPlanes() {
+        return (List<ExperimentalPlane>) getDefinedPlanes(ExperimentalPlane.class);
+    }
+
+    private <T extends AbstractPlane> List<? extends AbstractPlane> getDefinedPlanes(Class<T> tClass) {
         return planes.stream()
-                .filter(x -> x instanceof MilitaryPlane)
-                .map(y -> (MilitaryPlane) y)
+                .filter(x -> tClass.isInstance(x))
+                .map(x -> (T) x)
                 .collect(Collectors.toList());
     }
 
@@ -42,47 +47,40 @@ public class Airport {
     }
 
     public List<MilitaryPlane> getTransportMilitaryPlanes() {
-        return getMilitaryPlanes()
-                .stream()
-                .filter(z -> z.getMilitaryType() == MilitaryType.TRANSPORT)
-                .collect(Collectors.toList());
+        return getDefinedMilitaryPlanes(MilitaryType.TRANSPORT);
     }
 
     public List<MilitaryPlane> getBomberMilitaryPlanes() {
+        return getDefinedMilitaryPlanes(MilitaryType.BOMBER);
+    }
+
+    public List<MilitaryPlane> getDefinedMilitaryPlanes(MilitaryType militaryType) {
         return getMilitaryPlanes()
                 .stream()
-                .filter(z -> z.getMilitaryType() == MilitaryType.BOMBER)
+                .filter(z -> z.getMilitaryType() == militaryType)
                 .collect(Collectors.toList());
     }
-
-    public List<ExperimentalPlane> getExperimentalPlanes() {
-        return planes.stream()
-                .filter(x -> x instanceof ExperimentalPlane)
-                .map(x -> (ExperimentalPlane) x)
-                .collect(Collectors.toList());
-    }
-
 
     public Airport sortByMaxDistance() {
-        Collections.sort(planes, Comparator.comparingInt(Plane::getMaxFlightDistance));
+        Collections.sort(planes, Comparator.comparingInt(AbstractPlane::getMaxFlightDistance));
         return this;
     }
 
     public Airport sortByMaxSpeed() {
-        Collections.sort(planes, Comparator.comparingInt(Plane::getMaxSpeed));
+        Collections.sort(planes, Comparator.comparingInt(AbstractPlane::getMaxSpeed));
         return this;
     }
 
     public Airport sortByMaxLoadCapacity() {
-        Collections.sort(planes, Comparator.comparingInt(Plane::getMaxLoadCapacity));
+        Collections.sort(planes, Comparator.comparingInt(AbstractPlane::getMaxLoadCapacity));
         return this;
     }
 
-    public List<? extends Plane> getPlanes() {
+    public List<? extends AbstractPlane> getPlanes() {
         return planes;
     }
 
-    private void printPlanes(Collection<? extends Plane> collection) {
+    private void printPlanes(Collection<? extends AbstractPlane> collection) {
         collection.forEach(x -> System.out.println(x));
     }
 

@@ -2,7 +2,7 @@ package plane;
 
 import java.util.Objects;
 
-public class Plane {
+public class AbstractPlane {
     protected String model;
     private int maxSpeed;
     private int maxFlightDistance;
@@ -33,8 +33,8 @@ public class Plane {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Plane)) return false;
-        Plane plane = (Plane) o;
+        if (!(o instanceof AbstractPlane)) return false;
+        AbstractPlane plane = (AbstractPlane) o;
         return maxSpeed == plane.maxSpeed &&
                 maxFlightDistance == plane.maxFlightDistance &&
                 maxLoadCapacity == plane.maxLoadCapacity &&
@@ -43,7 +43,7 @@ public class Plane {
 
     @Override
     public String toString() {
-        return "Plane{" +
+        return "AbstractPlane{" +
                 "model='" + model + '\'' +
                 ", maxSpeed=" + maxSpeed +
                 ", maxFlightDistance=" + maxFlightDistance +
@@ -51,26 +51,25 @@ public class Plane {
                 '}';
     }
 
-
     public abstract class AbstractBuilder<B extends AbstractBuilder<B>> {
 
         public B model(String model) {
-            Plane.this.model = model;
+            AbstractPlane.this.model = model;
             return self();
         }
 
         public B maxSpeed(int maxSpeed) {
-            Plane.this.maxSpeed = maxSpeed;
+            AbstractPlane.this.maxSpeed = maxSpeed;
             return self();
         }
 
         public B maxFlightDistance(int maxFlightDistance) {
-            Plane.this.maxFlightDistance = maxFlightDistance;
+            AbstractPlane.this.maxFlightDistance = maxFlightDistance;
             return self();
         }
 
         public B maxLoadCapacity(int maxLoadCapacity) {
-            Plane.this.maxLoadCapacity = maxLoadCapacity;
+            AbstractPlane.this.maxLoadCapacity = maxLoadCapacity;
             return self();
         }
 
@@ -79,16 +78,8 @@ public class Plane {
             return (B) this;
         }
 
-        public Plane build() {
-            return Plane.this;
-        }
-    }
-
-    public class Builder extends Plane.AbstractBuilder {
-
-        @Override
-        public Plane build() {
-            return Plane.this;
+        public AbstractPlane build() {
+            return AbstractPlane.this;
         }
     }
 }

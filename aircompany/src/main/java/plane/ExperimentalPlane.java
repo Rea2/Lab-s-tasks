@@ -5,7 +5,7 @@ import model.ExperimentalTypes;
 
 import java.util.Objects;
 
-public class ExperimentalPlane extends Plane {
+public class ExperimentalPlane extends AbstractPlane {
 
     private ExperimentalTypes experimentalType;
     private ClassificationLevel classificationLevel;
@@ -42,7 +42,7 @@ public class ExperimentalPlane extends Plane {
 
     @Override
     public String toString() {
-        return super.toString().replace("Plane{", "ExperimentalPlane{")
+        return super.toString().replace("AbstractPlane{", "ExperimentalPlane{")
                 .replace("}",
                         ", experimentalType=" + experimentalType +
                                 ",  classificationLevel=" + classificationLevel +

@@ -1,18 +1,17 @@
+import plane.AbstractPlane;
 import plane.ExperimentalPlane;
 import model.ClassificationLevel;
-import model.ExperimentalTypes;
 import model.MilitaryType;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import plane.MilitaryPlane;
 import plane.PassengerPlane;
-import plane.Plane;
 
 import java.util.Arrays;
 import java.util.List;
 
 public class AirportTest {
-    private static List<Plane> planes = Arrays.asList(
+    private static List<AbstractPlane> planes = Arrays.asList(
             PassengerPlane.newBuilder()
                     .model("Boeing-737")
                     .maxSpeed(900)
@@ -159,12 +158,12 @@ public class AirportTest {
     public void test3() {
         Airport airport = new Airport(planes);
         airport.sortByMaxLoadCapacity();
-        List<? extends Plane> planesSortedByMaxLoadCapacity = airport.getPlanes();
+        List<? extends AbstractPlane> planesSortedByMaxLoadCapacity = airport.getPlanes();
 
         boolean nextPlaneMaxLoadCapacityIsHigherThanCurrent = true;
         for (int i = 0; i < planesSortedByMaxLoadCapacity.size() - 1; i++) {
-            Plane currentPlane = planesSortedByMaxLoadCapacity.get(i);
-            Plane nextPlane = planesSortedByMaxLoadCapacity.get(i + 1);
+            AbstractPlane currentPlane = planesSortedByMaxLoadCapacity.get(i);
+            AbstractPlane nextPlane = planesSortedByMaxLoadCapacity.get(i + 1);
             if (currentPlane.getMaxLoadCapacity() > nextPlane.getMaxLoadCapacity()) {
                 nextPlaneMaxLoadCapacityIsHigherThanCurrent = false;
                 break;

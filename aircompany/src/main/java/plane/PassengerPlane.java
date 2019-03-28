@@ -3,7 +3,7 @@ package plane;
 
 import java.util.Objects;
 
-public class PassengerPlane extends Plane {
+public class PassengerPlane extends AbstractPlane {
 
     private int passengersCapacity;
 

@@ -4,7 +4,7 @@ import model.MilitaryType;
 
 import java.util.Objects;
 
-public class MilitaryPlane extends Plane {
+public class MilitaryPlane extends AbstractPlane {
 
     private MilitaryType militaryType;
 
@@ -46,7 +46,7 @@ public class MilitaryPlane extends Plane {
             MilitaryPlane.this.militaryType = militaryType;
             return self();
         }
-
+        
         @Override
         public MilitaryPlane build() {
             return MilitaryPlane.this;
