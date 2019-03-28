@@ -1,15 +1,11 @@
 package plane;
 
+
 import java.util.Objects;
 
 public class PassengerPlane extends Plane {
 
     private int passengersCapacity;
-
-    public PassengerPlane(String model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity, int passengersCapacity) {
-        super(model, maxSpeed, maxFlightDistance, maxLoadCapacity);
-        this.passengersCapacity = passengersCapacity;
-    }
 
     public int getPassengersCapacity() {
         return passengersCapacity;
@@ -39,5 +35,20 @@ public class PassengerPlane extends Plane {
                         '}');
     }
 
+    public static BuilderPassenger newBuilder() {
+        return new PassengerPlane().new BuilderPassenger();
+    }
+
+    public class BuilderPassenger extends AbstractBuilder<BuilderPassenger> {
+        public BuilderPassenger passengersCapacity(int passengersCapacity) {
+            PassengerPlane.this.passengersCapacity = passengersCapacity;
+            return self();
+        }
+
+        @Override
+        public PassengerPlane build() {
+            return PassengerPlane.this;
+        }
+    }
 
 }

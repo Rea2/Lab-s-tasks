@@ -8,13 +8,6 @@ public class Plane {
     private int maxFlightDistance;
     private int maxLoadCapacity;
 
-    public Plane(String model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity) {
-        this.model = model;
-        this.maxSpeed = maxSpeed;
-        this.maxFlightDistance = maxFlightDistance;
-        this.maxLoadCapacity = maxLoadCapacity;
-    }
-
     public String getModel() {
         return model;
     }
@@ -56,5 +49,46 @@ public class Plane {
                 ", maxFlightDistance=" + maxFlightDistance +
                 ", maxLoadCapacity=" + maxLoadCapacity +
                 '}';
+    }
+
+
+    public abstract class AbstractBuilder<B extends AbstractBuilder<B>> {
+
+        public B model(String model) {
+            Plane.this.model = model;
+            return self();
+        }
+
+        public B maxSpeed(int maxSpeed) {
+            Plane.this.maxSpeed = maxSpeed;
+            return self();
+        }
+
+        public B maxFlightDistance(int maxFlightDistance) {
+            Plane.this.maxFlightDistance = maxFlightDistance;
+            return self();
+        }
+
+        public B maxLoadCapacity(int maxLoadCapacity) {
+            Plane.this.maxLoadCapacity = maxLoadCapacity;
+            return self();
+        }
+
+        @SuppressWarnings("unchecked")
+        final B self() {
+            return (B) this;
+        }
+
+        public Plane build() {
+            return Plane.this;
+        }
+    }
+
+    public class Builder extends Plane.AbstractBuilder {
+
+        @Override
+        public Plane build() {
+            return Plane.this;
+        }
     }
 }

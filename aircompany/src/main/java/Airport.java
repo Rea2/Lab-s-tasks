@@ -3,6 +3,7 @@ import model.MilitaryType;
 import plane.MilitaryPlane;
 import plane.PassengerPlane;
 import plane.Plane;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -31,34 +32,34 @@ public class Airport {
     public List<MilitaryPlane> getMilitaryPlanes() {
         return planes.stream()
                 .filter(x -> x instanceof MilitaryPlane)
-                .map(y -> (MilitaryPlane)y)
+                .map(y -> (MilitaryPlane) y)
                 .collect(Collectors.toList());
     }
 
     public PassengerPlane getPassengerPlaneWithMaxPassengersCapacity() {
-        return  Collections.max(getPassengerPlanes(),
+        return Collections.max(getPassengerPlanes(),
                 Comparator.comparingInt(PassengerPlane::getPassengersCapacity));
     }
 
     public List<MilitaryPlane> getTransportMilitaryPlanes() {
         return getMilitaryPlanes()
                 .stream()
-                .filter(z -> z.getType() == MilitaryType.TRANSPORT )
+                .filter(z -> z.getMilitaryType() == MilitaryType.TRANSPORT)
                 .collect(Collectors.toList());
     }
 
     public List<MilitaryPlane> getBomberMilitaryPlanes() {
         return getMilitaryPlanes()
                 .stream()
-                .filter(z -> z.getType() == MilitaryType.BOMBER )
+                .filter(z -> z.getMilitaryType() == MilitaryType.BOMBER)
                 .collect(Collectors.toList());
     }
 
     public List<ExperimentalPlane> getExperimentalPlanes() {
-         return planes.stream()
-                 .filter(x -> x instanceof ExperimentalPlane)
-                 .map(x -> (ExperimentalPlane)x)
-                 .collect(Collectors.toList());
+        return planes.stream()
+                .filter(x -> x instanceof ExperimentalPlane)
+                .map(x -> (ExperimentalPlane) x)
+                .collect(Collectors.toList());
     }
 
 
@@ -91,7 +92,4 @@ public class Airport {
                 "plane=" + planes.toString() +
                 '}';
     }
-
-
-
 }

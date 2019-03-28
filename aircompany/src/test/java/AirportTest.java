@@ -7,30 +7,131 @@ import org.testng.annotations.Test;
 import plane.MilitaryPlane;
 import plane.PassengerPlane;
 import plane.Plane;
+
 import java.util.Arrays;
 import java.util.List;
 
 public class AirportTest {
     private static List<Plane> planes = Arrays.asList(
-            new PassengerPlane("Boeing-737", 900, 12000, 60500, 164),
-            new PassengerPlane("Boeing-737-800", 940, 12300, 63870, 192),
-            new PassengerPlane("Boeing-747", 980, 16100, 70500, 242),
-            new PassengerPlane("Airbus A320", 930, 11800, 65500, 188),
-            new PassengerPlane("Airbus A330", 990, 14800, 80500, 222),
-            new PassengerPlane("Embraer 190", 870, 8100, 30800, 64),
-            new PassengerPlane("Sukhoi Superjet 100", 870, 11500, 50500, 140),
-            new PassengerPlane("Bombardier CS300", 920, 11000, 60700, 196),
-            new MilitaryPlane("B-1B Lancer", 1050, 21000, 80000, MilitaryType.BOMBER),
-            new MilitaryPlane("B-2 Spirit", 1030, 22000, 70000, MilitaryType.BOMBER),
-            new MilitaryPlane("B-52 Stratofortress", 1000, 20000, 80000, MilitaryType.BOMBER),
-            new MilitaryPlane("F-15", 1500, 12000, 10000, MilitaryType.FIGHTER),
-            new MilitaryPlane("F-22", 1550, 13000, 11000, MilitaryType.FIGHTER),
-            new MilitaryPlane("C-130 Hercules", 650, 5000, 110000, MilitaryType.TRANSPORT),
-            new ExperimentalPlane("Bell X-14", 277, 482, 500, ExperimentalTypes.HIGH_ALTITUDE, ClassificationLevel.SECRET),
-            new ExperimentalPlane("Ryan X-13 Vertijet", 560, 307, 500, ExperimentalTypes.VTOL, ClassificationLevel.TOP_SECRET)
+            PassengerPlane.newBuilder()
+                    .model("Boeing-737")
+                    .maxSpeed(900)
+                    .maxFlightDistance(12000)
+                    .maxLoadCapacity(60500)
+                    .passengersCapacity(164)
+                    .build(),
+
+            PassengerPlane.newBuilder()
+                    .model("Boeing-737-800")
+                    .maxSpeed(940)
+                    .maxFlightDistance(12300)
+                    .maxLoadCapacity(63870)
+                    .passengersCapacity(192)
+                    .build(),
+
+            PassengerPlane.newBuilder()
+                    .model("Boeing-747")
+                    .maxSpeed(980)
+                    .maxFlightDistance(16100)
+                    .maxLoadCapacity(70500)
+                    .passengersCapacity(242)
+                    .build(),
+
+            PassengerPlane.newBuilder()
+                    .model("Airbus A320")
+                    .maxSpeed(980)
+                    .maxFlightDistance(16100)
+                    .maxLoadCapacity(70500)
+                    .passengersCapacity(242)
+                    .build(),
+
+            PassengerPlane.newBuilder()
+                    .model("Airbus A330")
+                    .maxSpeed(980)
+                    .maxFlightDistance(16100)
+                    .maxLoadCapacity(70500)
+                    .passengersCapacity(242)
+                    .build(),
+
+            PassengerPlane.newBuilder()
+                    .model("Embraer 190")
+                    .maxSpeed(980)
+                    .maxFlightDistance(16100)
+                    .maxLoadCapacity(70500)
+                    .passengersCapacity(242)
+                    .build(),
+
+            PassengerPlane.newBuilder()
+                    .model("Sukhoi Superjet 100")
+                    .maxSpeed(980)
+                    .maxFlightDistance(16100)
+                    .maxLoadCapacity(70500)
+                    .passengersCapacity(242)
+                    .build(),
+
+            PassengerPlane.newBuilder()
+                    .model("Bombardier CS300")
+                    .maxSpeed(980)
+                    .maxFlightDistance(16100)
+                    .maxLoadCapacity(70500)
+                    .passengersCapacity(242)
+                    .build(),
+
+            MilitaryPlane.newBuilder()
+                    .model("B-1B Lancer")
+                    .maxSpeed(980)
+                    .maxFlightDistance(16100)
+                    .maxLoadCapacity(70500)
+                    .classificationLevel(MilitaryType.BOMBER)
+                    .build(),
+
+            MilitaryPlane.newBuilder()
+                    .model("B-2 Spirit")
+                    .maxSpeed(980)
+                    .maxFlightDistance(16100)
+                    .maxLoadCapacity(70500)
+                    .classificationLevel(MilitaryType.BOMBER)
+                    .build(),
+
+            MilitaryPlane.newBuilder()
+                    .model("B-52 Stratofortress")
+                    .maxSpeed(980)
+                    .maxFlightDistance(16100)
+                    .maxLoadCapacity(70500)
+                    .classificationLevel(MilitaryType.BOMBER)
+                    .build(),
+            MilitaryPlane.newBuilder()
+                    .model("F-15")
+                    .maxSpeed(980)
+                    .maxFlightDistance(16100)
+                    .maxLoadCapacity(70500)
+                    .classificationLevel(MilitaryType.FIGHTER)
+                    .build(),
+
+            MilitaryPlane.newBuilder()
+                    .model("F-22")
+                    .maxSpeed(980)
+                    .maxFlightDistance(16100)
+                    .maxLoadCapacity(70500)
+                    .classificationLevel(MilitaryType.FIGHTER)
+                    .build(),
+
+            MilitaryPlane.newBuilder()
+                    .model("C-130 Hercules")
+                    .maxSpeed(980)
+                    .maxFlightDistance(16100)
+                    .maxLoadCapacity(70500)
+                    .classificationLevel(MilitaryType.TRANSPORT)
+                    .build()
     );
 
-    private static PassengerPlane planeWithMaxPassengerCapacity = new PassengerPlane("Boeing-747", 980, 16100, 70500, 242);
+    private static PassengerPlane planeWithMaxPassengerCapacity = PassengerPlane.newBuilder()
+            .model("Boeing-747")
+            .maxSpeed(980)
+            .maxFlightDistance(16100)
+            .maxLoadCapacity(70500)
+            .passengersCapacity(242)
+            .build();
 
     @Test
     public void testGetTransportMilitaryPlanes() {
@@ -38,7 +139,7 @@ public class AirportTest {
         List<MilitaryPlane> transportMilitaryPlanes = airport.getTransportMilitaryPlanes();
         boolean flag = false;
         for (MilitaryPlane militaryPlane : transportMilitaryPlanes) {
-            if ((militaryPlane.getType() == MilitaryType.TRANSPORT)) {
+            if ((militaryPlane.getMilitaryType() == MilitaryType.TRANSPORT)) {
                 flag = true;
                 break;
             }
@@ -78,23 +179,21 @@ public class AirportTest {
         List<MilitaryPlane> bomberMilitaryPlanes = airport.getBomberMilitaryPlanes();
         boolean flag = false;
         for (MilitaryPlane militaryPlane : bomberMilitaryPlanes) {
-            if ((militaryPlane.getType() == MilitaryType.BOMBER)) {
+            if ((militaryPlane.getMilitaryType() == MilitaryType.BOMBER)) {
                 flag = true;
-            }
-            else {
+            } else {
                 Assert.fail("Test failed!");
             }
         }
-        // if not failed
     }
 
     @Test
-    public void testExperimentalPlanesHasClassificationLevelHigherThanUnclassified(){
+    public void testExperimentalPlanesHasClassificationLevelHigherThanUnclassified() {
         Airport airport = new Airport(planes);
         List<ExperimentalPlane> experimentalPlanes = airport.getExperimentalPlanes();
         boolean hasUnclassifiedPlanes = false;
-        for(ExperimentalPlane experimentalPlane : experimentalPlanes){
-            if(experimentalPlane.getClassificationLevel() == ClassificationLevel.UNCLASSIFIED){
+        for (ExperimentalPlane experimentalPlane : experimentalPlanes) {
+            if (experimentalPlane.getClassificationLevel() == ClassificationLevel.UNCLASSIFIED) {
                 hasUnclassifiedPlanes = true;
                 break;
             }

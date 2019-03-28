@@ -1,27 +1,17 @@
 package plane;
 
-import model.*;
+import model.ClassificationLevel;
 import model.ExperimentalTypes;
+
 import java.util.Objects;
 
-public class ExperimentalPlane extends Plane{
+public class ExperimentalPlane extends Plane {
 
     private ExperimentalTypes experimentalType;
     private ClassificationLevel classificationLevel;
 
-    public ExperimentalPlane(String model, int maxSpeed, int maxFlightDistance, int maxLoadCapacity,
-                             ExperimentalTypes experimentalType, ClassificationLevel classificationLevel) {
-        super(model, maxSpeed, maxFlightDistance, maxLoadCapacity);
-        this.experimentalType = experimentalType;
-        this.classificationLevel = classificationLevel;
-    }
-
-    public ClassificationLevel getClassificationLevel(){
+    public ClassificationLevel getClassificationLevel() {
         return classificationLevel;
-    }
-
-    public void setClassificationLevel(ClassificationLevel classificationLevel){
-        this.classificationLevel = classificationLevel;
     }
 
     public ExperimentalTypes getExperimentalType() {
@@ -43,20 +33,43 @@ public class ExperimentalPlane extends Plane{
             return false;
         }
         if (!(o instanceof ExperimentalPlane)) {
-                return false;
+            return false;
         }
-        ExperimentalPlane that = (ExperimentalPlane)o;
+        ExperimentalPlane that = (ExperimentalPlane) o;
         return this.experimentalType == that.getExperimentalType()
-                    && this.classificationLevel == that.getClassificationLevel();
+                && this.classificationLevel == that.getClassificationLevel();
     }
 
     @Override
     public String toString() {
-        return  super.toString().replace("Plane{", "ExperimentalPlane{" )
+        return super.toString().replace("Plane{", "ExperimentalPlane{")
                 .replace("}",
-                ", experimentalType=" + experimentalType +
-                        ",  classificationLevel=" +  classificationLevel +
-                        '}');
+                        ", experimentalType=" + experimentalType +
+                                ",  classificationLevel=" + classificationLevel +
+                                '}');
     }
+
+    public static ExperimentalPlane.BuilderExperimental newBuilder() {
+        return new ExperimentalPlane().new BuilderExperimental();
+    }
+
+    public class BuilderExperimental extends AbstractBuilder<BuilderExperimental> {
+
+        public BuilderExperimental classificationLevel(ClassificationLevel classificationLevel) {
+            ExperimentalPlane.this.classificationLevel = classificationLevel;
+            return self();
+        }
+
+        public BuilderExperimental experimentalType(ExperimentalTypes experimentalType) {
+            ExperimentalPlane.this.experimentalType = experimentalType;
+            return self();
+        }
+
+        @Override
+        public ExperimentalPlane build() {
+            return ExperimentalPlane.this;
+        }
+    }
+
 
 }
