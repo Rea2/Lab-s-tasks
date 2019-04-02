@@ -30,4 +30,10 @@ public class FormEmailPage extends AbstractPage {
         clickButtonWhenClickable(sendEmail);
         return this;
     }
+
+    public FormEmailPage submitFilledFormEmail(String eMailAddress){
+        inputEmail(eMailAddress).submitFormEmail();
+        return this;
+    }
+
 }

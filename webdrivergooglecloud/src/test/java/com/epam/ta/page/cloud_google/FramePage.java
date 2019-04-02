@@ -16,7 +16,7 @@ public class FramePage extends AbstractPage {
     @FindBy(xpath = "//div[@title='Compute Engine']")
     private WebElement buttonComputeEngine;
 
-    @FindBy(id = "input_46")
+    @FindBy(id = "input_48")
     private WebElement numberOfInstances;
 
     @FindBy(xpath = "//form[@name = 'ComputeEngineForm']")
@@ -25,7 +25,7 @@ public class FramePage extends AbstractPage {
     @FindBy(id = "select_47")
     private WebElement whatAreTheseInstancesFor;
 
-    @FindBy(id = "select_value_label_40")
+    @FindBy(id = "select_value_label_42")
     private WebElement operatingSystem;
 
     @FindBy(id = "select_62")
@@ -55,7 +55,7 @@ public class FramePage extends AbstractPage {
     @FindBy(xpath = "//form[@name = 'ComputeEngineForm']//button[@aria-label = 'Add to Estimate']")
     private WebElement buttonAddToEstimate;
 
-    @FindBy(xpath = "//div[@id='select_container_59']//md-option/div[@class = 'md-text']")
+    @FindBy(xpath = "//div[@id='select_container_61']//md-option/div[@class = 'md-text']")
     private List<WebElement> listOptionsOperatingSystem;
 
     @FindBy(xpath = "//div[@id='select_container_63']//md-option/div[@class = 'md-text' ]")

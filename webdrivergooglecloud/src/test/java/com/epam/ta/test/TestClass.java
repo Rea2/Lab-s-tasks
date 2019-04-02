@@ -1,21 +1,26 @@
 package com.epam.ta.test;
 
 import com.epam.ta.driver.DriverSingleton;
+import com.epam.ta.page.cloud_google.CloudPage;
+import com.epam.ta.page.cloud_google.FormEmailPage;
+import com.epam.ta.page.cloud_google.FormPage;
+import com.epam.ta.page.cloud_google.FramePage;
+import com.epam.ta.page.tenminutesmail.TenMinuteEmailPage;
+import com.epam.ta.util.TestListener;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.*;
-import com.epam.ta.page.cloud_google.*;
-import com.epam.ta.page.tenminutesmail.TenMinuteEmailPage;
+
 import java.util.ArrayList;
 
+@Listeners({TestListener.class})
 public class TestClass {
 
     public static final String CURRENCY = "USD";  ;
     private static final String ERROR_MESSAGE = "wrong value in the filled form\n";
-    private StringBuilder verificationErrors = new StringBuilder("");
+
     private WebDriver driver = null;
 
     // Ожидаемые результаты
@@ -28,9 +33,6 @@ public class TestClass {
 
     // Экземпляры Page Objects
     private CloudPage page = null;
-    private CloudProductsPage pageProducts = null;
-    private CloudPricingPage pagePricing = null;
-    private CloudProductsCalculatorPage pageCalc = null;
     private FramePage frame = null;
     private FormPage form = null;
     private FormEmailPage formEmail = null;
@@ -38,9 +40,86 @@ public class TestClass {
 
     @BeforeClass
     public void beforeClass() {
+        driver = initBrowser();
+        frame = openCalculateForm();
 
-        // Получаем экземляр WebDriver
-        driver = DriverSingleton.getDriver();
+        //Заполняем и отправляем форму с данными для расчета стоимости.
+        submitFilledCalculatorForm();
+    }
+
+    @AfterClass
+    public void afterClass() {
+        DriverSingleton.closeDriver();
+    }
+
+    @BeforeMethod
+    public void beforeTest() {
+    }
+
+    @AfterMethod
+    public void afterTest() {
+    }
+
+    // Проверяем соответствие данных следующих полей: VM Class, Instance type, Region, local SSD, commitment term
+    @Test (priority = 1)
+    public void testIsFilledFormCorrect()  {
+        Assert.assertEquals(getErrorsInCloudForm(), "", getErrorsInCloudForm());
+    }
+
+    //  Проверяем что сумма аренды в месяц совпадает с суммой получаемой при ручном прохождении теста.
+    @Test (priority = 2)
+    public void testTotalEstimatedCost()  {
+        Assert.assertEquals(getErrorsInTotalEstimatedCost(), "",
+                getErrorsInTotalEstimatedCost());
+    }
+
+    //  Дождаться письма с рассчетом стоимости и проверить, что Total Estimated Monthly Cost в письме
+    // совпадает с тем, что отображается в калькуляторе
+    @Test (priority = 3, enabled = false)
+    public void testGettingCalculationsOnEmail() {
+        form = PageFactory.initElements(driver, FormPage.class);
+
+        //Считвываем строку со стоимостью из результата заполненной формы, это будет expected results
+        String estimatedCostFromGoogleWebSite = form.getTextFromTotalEstimatedCost();
+        formEmail  = form.clickEmailEstimate();
+
+        // Создаем  новую вкладку, переключаемся на нее
+        ((JavascriptExecutor)driver).executeScript("window.open()");
+        ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+        driver.switchTo().window(tabs.get(1));
+
+        String emailAddress =  getTemporaryEmailAddress();
+
+        // Возвращаемся на предыщую вкладку со страницей cloud google
+        driver.switchTo().window(tabs.get(0));
+
+        // Заходим во фрейм
+        driver.switchTo().frame("idIframe");
+
+        // Вводим email в ранее открыую форму и отправляем
+        formEmail.inputEmail(emailAddress);
+        formEmail.submitFormEmail();
+        driver.switchTo().window(tabs.get(1));
+        page10MinuteEmail.openEmailFromGoogleCloud();
+        String valueFromEmail = " " + page10MinuteEmail.getTextCostValueFromEmail() + " ";
+        Assert.assertTrue(estimatedCostFromGoogleWebSite.contains(valueFromEmail),
+                "WebSite: " + estimatedCostFromGoogleWebSite + "\n" +
+                   "Email: " + valueFromEmail);
+
+        // Закрываем вкладку с https://10minutemail.comб вовзращаемся на страницу
+        // https://cloud.google.com/products/calculator/# и выполняем переход во фрейм
+        driver.close();
+        driver.switchTo().window(tabs.get(0));
+        driver.switchTo().frame("idIframe");
+    }
+
+
+    // Вспомогательные методы
+    public WebDriver  initBrowser(){
+        return DriverSingleton.getDriver();
+    }
+
+    public FramePage openCalculateForm() {
 
         // Выполняем навгацию по страницам Cloud Google к форме с калькулятором стоимости и ждем появления фрейма
         page = PageFactory.initElements(driver, CloudPage.class);
@@ -53,33 +132,17 @@ public class TestClass {
         // Переходим во фрейм с формой для заполнения ввода данных о требуемой конфигурации
         driver.switchTo().frame("idIframe");
         frame = PageFactory.initElements(driver, FramePage.class);
-        frame.clickComputeEngine();
-
-        //Заполняем и отправляем форму с данными для расчета стоимости.
-        submitFilledCalculatorForm(fillCalculatorForm());
-    }
-
-    @AfterClass
-    public void afterClass() {
-        DriverSingleton.closeDriver();
-    }
-
-    @BeforeMethod
-    public void beforeTest() {
-        verificationErrors = new StringBuilder();
-    }
-
-    @AfterMethod
-    public void afterTest() {
+        return frame.clickComputeEngine();
     }
 
     // Проверяем соответствие данных следующих полей: VM Class, Instance type, Region, local SSD, commitment term
-    @Test (priority = 1)
-    public void testIsFilledFormCorrect()  {
+    public String getErrorsInCloudForm()  {
         form = PageFactory.initElements(driver, FormPage.class);
+        StringBuilder verificationErrors = new StringBuilder();
 
-        // Проверяем соотвествие каждого поля. В случае отличия фаткического от ожидаемого
-        // добавляем  информацию об ошибке в сообщение
+        // Проверяем  каждого поле в результирующей форме сегнерированной Google Cloud.
+        // В случае отличия фаткического от ожидаемого результат добавляем  информацию об ошибке
+        // в итоговое сообщение
         if (!form.getTextFromVmClass().contains(vmClassExpected)) {
             verificationErrors.append("VMClass: " + ERROR_MESSAGE);
         }
@@ -99,16 +162,12 @@ public class TestClass {
         if (!form.getTextFromCommittedTerm().contains(commitmentTermExpected)) {
             verificationErrors.append("Commitment term: " + ERROR_MESSAGE);
         }
-
-        String verificationErrorString = verificationErrors.toString();
-        if (!"".equals(verificationErrorString)) {
-            Assert.fail(verificationErrorString);
-        }
+        return verificationErrors.toString();
     }
 
-    //  Проверяем что сумма аренды в месяц совпадает с суммой получаемой при ручном прохождении теста.
-    @Test (priority = 2)
-    public void testTotalEstimatedCost()  {
+    //  Проверка что сумма аренды в месяц совпадает с суммой получаемой при ручном прохождении теста.
+    public String getErrorsInTotalEstimatedCost()  {
+        StringBuilder verificationErrors = new StringBuilder();
         if (!form.getTextFromTotalEstimatedCost().contains(CURRENCY)) {
             verificationErrors.append("Wrong type of currency. \"" + CURRENCY + "\" expected." );
         }
@@ -118,65 +177,17 @@ public class TestClass {
                     "Actual result: " +  form.getTextFromTotalEstimatedCost() +  "\n" +
                     "But it is expected: " + CURRENCY + " " + TOTAL_ESTIMATED_COST_EXPECTED );
         }
-        String verificationErrorString = verificationErrors.toString();
-        if (!"".equals(verificationErrorString)) {
-            Assert.fail(verificationErrorString);
-        }
+
+        return verificationErrors.toString();
     }
 
-    //  Дождаться письма с рассчетом стоимости и проверить, что Total Estimated Monthly Cost в письме
-    // совпадает с тем, что отображается в калькуляторе
-
-    @Test (priority = 3, enabled = false)
-    public void testGettingCalculationsOnEmail() {
-        form = PageFactory.initElements(driver, FormPage.class);
-
-        //Считвываем строку со стоимостью из результата заполненной формы, это будет expected results
-        String estimatedCostFromGoogleWebSite = form.getTextFromTotalEstimatedCost();
-        formEmail  = form.clickEmailEstimate();
-
-        // Создаем  новую вкладку, переключаемся на нее
-        ((JavascriptExecutor)driver).executeScript("window.open()");
-        ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
-        driver.switchTo().window(tabs.get(1));
-
-        //Открываем страницу почтовыго сервиса "https://10minutemail.com",
-        // который сразу же создает нам рандомный почтовый ящик.
-        driver.get("https://10minutemail.com");
-        page10MinuteEmail = PageFactory.initElements(driver, TenMinuteEmailPage.class);
-
-        // Считываем адрес email
-        String eMail = page10MinuteEmail.getTextFromInputEmailAddress();
-
-        // Возвращаемся на предыщую вкладку со страницей cloud google
-        driver.switchTo().window(tabs.get(0));
-
-        // Заходим во фрейм
-        driver.switchTo().frame("idIframe");
-
-        // Вводим email в ранее открыую форму и отправляем
-        formEmail.inputEmail(eMail);
-        formEmail.submitFormEmail();
-        driver.switchTo().window(tabs.get(1));
-        page10MinuteEmail.openEmailFromGoogleCloud();
-        String valueFromEmail = " " + page10MinuteEmail.getTextCostValueFromEmail() + " ";
-        Assert.assertTrue(estimatedCostFromGoogleWebSite.contains(valueFromEmail),
-                "WebSite: " + estimatedCostFromGoogleWebSite + "\n" +
-                   "Email: " + valueFromEmail);
-
-        // Закрываем вкладку с https://10minutemail.comб вовзращаемся на страницу
-        // https://cloud.google.com/products/calculator/# и выполняем переход во фрейм
-        driver.close();
-        driver.switchTo().window(tabs.get(0));
-        driver.switchTo().frame("idIframe");
-    }
-
-    private FramePage submitFilledCalculatorForm(FramePage frame) throws TimeoutException{
-        return  frame.clickAddToEstimate();
+    private FramePage submitFilledCalculatorForm() {
+        fillCalculatorForm();
+        return frame.clickAddToEstimate();
     }
 
     private FramePage fillCalculatorForm()  {
-         return frame.inputNumberOfInstances("4")
+        return frame.inputNumberOfInstances("4")
                 .selectOperatingSystem("Free: Debian, CentOS, CoreOS, Ubuntu, or other User Provided OS")
                 .selectVmClass("Regular")
                 .selectInstantType("n1-standard-8    (vCPUs: 8, RAM: 30 GB)")
@@ -186,5 +197,15 @@ public class TestClass {
                 .selectLocalSsd("2x375 GB")
                 .selectDataCenter("Frankfurt (europe-west3)")
                 .selectCommittedUsage("1 Year");
+    }
+
+    private String getTemporaryEmailAddress() {
+        // Открываем страницу почтового сервиса "https://10minutemail.com",
+        // который сразу же создает нам рандомный почтовый ящик.
+        driver.get("https://10minutemail.com");
+        page10MinuteEmail = PageFactory.initElements(driver, TenMinuteEmailPage.class);
+
+        // Возвращаем  адрес email
+        return page10MinuteEmail.getTextFromInputEmailAddress();
     }
 }

@@ -9,24 +9,31 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class DriverSingleton {
 
     private static WebDriver driver;
-
     private DriverSingleton(){}
 
     public static WebDriver getDriver(){
         if (null == driver){
-            switch (System.getProperty("browser")){
-                case "firefox": {
-                    WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver();
+            try {
+                switch (System.getProperty("browser")){
+                    case "firefox": {
+                        WebDriverManager.firefoxdriver().setup();
+                        driver = new FirefoxDriver();
+                        break;
+                    }
+                    case "edge": {
+                        WebDriverManager.edgedriver().setup();
+                        driver = new EdgeDriver();
+                        break;
+                    }
+                    default: {
+                        WebDriverManager.chromedriver().setup();
+                        driver = new ChromeDriver();
+                        break;
+                    }
                 }
-                case "edge": {
-                    WebDriverManager.edgedriver().setup();
-                    driver = new EdgeDriver();
-                }
-                default: {
-                    WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
-                }
+            } catch (NullPointerException e) {
+                WebDriverManager.chromedriver().setup();
+                driver = new ChromeDriver();
             }
             driver.manage().window().maximize();
         }
